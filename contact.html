@@ -59,12 +59,7 @@ form{display: inline-block;
  <input type="text" name="name" id ="name" required > <br>
  <label for="email"> Email: </label>
  <input type="text" name="_replyto" id ="email" required ><br>
-  <label for="msg_t">Message Type:</label>
-  <select name="_subject" id="msg_t">
-  <option value="new">Let's Start a Project!</option>
-  <option value="feedback">Feedback</option>
-  <option value="q">Question</option>
-</select><br> 
+ <input type="hidden" name="_subject" value="New Submisson">
 <div class="mbox"> 
  <label for="msg">Message:</label>
  <textarea name = 'message' id="msg" maxlength="1000" cols="30" rows="6" required></textarea>
