@@ -247,6 +247,23 @@ list-style-type: none;}
 
   margin-bottom: 10px}
 
+
+
+/*Portfolio Page*/
+.card-p {
+  display: inline-flex;
+   background-color: white;
+   text-align: center;
+   height: 130px;
+   width: 200px;
+   padding: 20px;
+   margin: 20px;
+}
+
+
+.flexbox-container{
+  margin-left: 100px;
+}
 /*
 Css Debug
 * {
