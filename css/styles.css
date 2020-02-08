@@ -294,6 +294,22 @@ list-style-type: none;}
   color: black;
 }
 
+/*MBD*/
+.description{
+	margin-left:40px;
+	margin-right: 40px;
+	float:right;
+	display: block;
+	color:white;
+}
+#mdb-f{
+	display:block;
+	float:left;
+	width: 500px; 
+	height:300px;
+	margin: 50px;
+}
+
 
 /*Css Debug*/
 /** {
