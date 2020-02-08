@@ -264,13 +264,21 @@ list-style-type: none;}
 }
 
 .text-c{
+  z-index: 1;
+  position:absolute;
+  padding: 20px;
+  text-align: center;
+}
+.text-o{
+  color: white;
+  z-index: 3;
   position:absolute;
   padding: 20px;
   text-align: center;
 }
 .overlay {
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   vertical-align: middle; 
   position: absolute;
   height: 130px;
@@ -282,7 +290,9 @@ list-style-type: none;}
 .projects div.overlay:hover {
   opacity: 1;
 }
-
+#project-link{
+  color: black;
+}
 
 
 /*Css Debug*/
