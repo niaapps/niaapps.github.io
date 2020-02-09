@@ -9,7 +9,7 @@ body {
     padding: 0px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   background-image: url('../images/bkg.jpeg');
 /*  Credit: https://www.pexels.com/@oleg-magni*/
   background-position: center; 
@@ -294,7 +294,7 @@ list-style-type: none;}
   color: black;
 }
 
-/*MBD*/
+/*MBD, PYW, Resort, Outline, NOCC*/
 .description{
 	margin-left:40px;
 	margin-right: 40px;
@@ -303,14 +303,37 @@ list-style-type: none;}
 	color:white;
 }
 #mdb-f{
+display:block;
+	float:left;
+	width: 500px; 
+	height:300px;
+	margin:50px;
+}
+
+#pyw, #resort{
 	display:block;
 	float:left;
 	width: 500px; 
 	height:300px;
-	margin: 50px;
+	margin:20px;
+}
+.outline{
+	float: left;
+	width: 500px; 
+	height:300px;
+	margin:10px;
+}
+.mockups{
+	overflow: hidden;
+	margin:10px;
+	width:200px;
+	height: 300px;
 }
 
-
+ #resortVideo{
+ 	width: auto;
+    height: auto;
+}
 /*Css Debug*/
 /** {
   background: #000 !important;
