@@ -287,6 +287,8 @@ list-style-type: none;}
   transition: .5s ease;
   background-color: #5C3957;
 }
+
+
 .projects div.overlay:hover {
   opacity: 1;
 }
@@ -295,48 +297,101 @@ list-style-type: none;}
 }
 
 /*MBD, PYW, Resort, Outline, NOCC*/
-.description{
-	margin-left:40px;
-	margin-right: 40px;
-	float:right;
-	display: block;
-	color:white;
+.project-container{
+  margin-top: 20px;
+  width:700px;
 }
-#mdb-f{
-display:block;
-	float:left;
-	width: 500px; 
-	height:300px;
-	margin:50px;
+.description{
+  padding-left: 40px;
+  width:400px;
+  float:left;
+  color:white;
+  height:300px;
+}
+.img-feedback{
+  padding-left: 40px;
+  float:left;
+  width:300px;
+  height:300px;
+}
+#pyw{
+  float:left;
+  width: 500px; 
+  height:300px;
+  margin:20px;
 }
 
-#pyw, #resort, #nocc{
-	display:block;
-	float:left;
-	width: 500px; 
-	height:300px;
-	margin:20px;
+#nocc{
+  float:left;
+  width: 500px; 
+  height:300px;
+  margin:20px;
+}
+
+#mdb-f{
+  float:left;
+  width: 500px; 
+  height:300px;
+  margin:20px;
+}
+
+#resort{
+  float:left;
+  width: 500px; 
+  height:300px;
+  margin:20px;
+}
+ #resortVideo{
+  width: auto;
+    height: auto;
+}
+
+.project-container-outline{
+  margin-top: 20px;
+  width:100%;
+}
+.description-outline{
+  padding-left: 40px;
+  width:375px;
+  float:left;
+  color:white;
+  height:300px;
+}
+
+.outline-feedback{
+  padding: 10px;
+  float:left;
+  width:200px;
+  height:300px;
+}
+.mockup-one{
+  margin: 10px;
+  float:left;
+  width:150px;
+  height:300px;
+}
+.mockup-two{
+  padding: 10px;
+  float:left;
+  width:150px;
+  height:300px;
 }
 .outline{
 	float: left;
-	width: 500px; 
-	height:300px;
+	width: 450px; 
+	height:250px;
 	margin:10px;
 }
 .mockups{
-	overflow: hidden;
+
 	margin:10px;
-	width:200px;
-	height: 300px;
+	width:150px;
+	height: 250px;
 }
 
- #resortVideo{
- 	width: auto;
-    height: auto;
-}
 /*Css Debug*/
-/** {
+* {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}*/ 
+} 
