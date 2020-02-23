@@ -348,7 +348,7 @@ list-style-type: none;}
 
 .project-container-outline{
   margin-top: 20px;
-  width:100%;
+  width:100%; 
 }
 .description-outline{
   padding-left: 40px;
@@ -364,30 +364,14 @@ list-style-type: none;}
   width:200px;
   height:300px;
 }
-.mockup-one{
-  margin: 10px;
-  float:left;
-  width:150px;
-  height:300px;
-}
-.mockup-two{
-  padding: 10px;
-  float:left;
-  width:150px;
-  height:300px;
-}
 .outline{
 	float: left;
 	width: 450px; 
 	height:250px;
 	margin:10px;
 }
-.mockups{
 
-	margin:10px;
-	width:150px;
-	height: 250px;
-}
+
 
 /*Css Debug*/
 /** {
