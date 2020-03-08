@@ -311,9 +311,23 @@ list-style-type: none;}
 .img-feedback{
   padding-left: 40px;
   float:left;
-  width:300px;
+  width:200px;
   height:300px;
 }
+
+.button-div{
+  margin-left: 1235px;
+  padding-top: 400px;
+  width: 400px;
+  float right;
+
+}
+.button-div a{
+  text-decoration: none;
+}
+.button-div a:hover{   background-color: #a5647c;
+color:white;}
+
 #pyw{
   float:left;
   width: 500px; 
@@ -370,6 +384,22 @@ list-style-type: none;}
 	height:250px;
 	margin:10px;
 }
+
+.p-button{
+  color:white;
+  background-color:#60407F; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
 
 
 
