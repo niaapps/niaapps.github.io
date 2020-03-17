@@ -25,7 +25,7 @@ body {
   background-image: none; 
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
 /*  Different from body because of video-bkg*/
 }
 header {
@@ -400,7 +400,16 @@ color:white;}
 
 }
 
-
+.pricing-container{
+  color:white;
+  padding-left: 100px;
+  width:800px;
+  float:left;
+  height:300px;
+ }
+.pricing-ln{
+  border-color:#7F4D92;
+}
 
 
 /*Css Debug*/
