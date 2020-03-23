@@ -411,6 +411,14 @@ color:white;}
   border-color:#7F4D92;
 }
 
+.wrapper{
+  color: white;
+  max-width: 80%;
+  margin:50px;
+}
+.wrapper h3{
+  margin-left: 100px;
+}
 
 /*Css Debug*/
 /** {
