@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  background-image: url('../images/bkg.jpeg');
+/*  Credit: https://www.pexels.com/@oleg-magni*/
+  background-position: center; 
+  background-repeat: no-repeat;
+/*  background-attachment: fixed;*/
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+}
+.home-bod{
+  margin: 0;
+  background-image: none; 
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+/*  Different from body because of video-bkg*/
+}
+header {
+  max-height:60px;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  /*float:left; works, but next ln is more effective*/
+
+  padding-top: 5px; 
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+/*adjust margin as needed when logo is up */
+  
+}
+
+nav a {
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+color: #fff2b3;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #e6b3ff;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav {
+  float:center;
+}
+
+.page-title{
+  text-align: center; 
+  width: 100%;
+  margin: 0;
+  height: 25px;
+  color: white;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  z-index: -1;
+  /*position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+*/  
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+  position: fixed;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+
+a{color:white;}
+/*a{color:black;}
+.a-home{color:white;}*/
+
+a:hover{color:#fff2b3; text-decoration: none; font-weight: none }
+
+.con-container {
+  text-align: left;
+  color: white;
+  margin-right: 200px;
+  margin-left: 200px; 
+  }
+
+.con-text{
+
+   float: center;
+  text-align: left;
+}
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+input[type=submit]{
+  color:white;
+  background-color:#60407F; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+}
+input[type=submit]:hover{
+   background-color: #a5647c;
+}
+
+
+
+footer {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width:100%;
+    max-height:100px;
+    overflow: hidden;
+
+}
+  
+.footer-links-left{
+    padding-left: 30px;
+    vertical-align: top;
+    font-weight:300;
+    display: inline-block;     
+        width:300px;     
+        height:auto; 
+      
+  }
+  
+.footer-subscribe{
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight:300;
+    float: right;
+    display: inline-block;     
+        width:300px;     
+        height:auto; 
+
+  }
+
+
+footer ul{list-style: none;}
+
+
+.social{
+list-style-type: none;}
+.social li{
+ 
+  display: inline;}
+.social li a { 
+  text-decoration: none;
+   border: 0 !important;}
+
+
+.footer-title{
+  padding-right: 80px;
+  }
+
+.form-subscribe{
+   padding-top: 5px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;}
+
+/*Any paragraph*/
+ .tab { text-indent: 20px; }
+
+.wrapper{
+  color: white;
+  max-width: 900px;
+  margin: auto;
+}
+
+/*Css Debug*/
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
