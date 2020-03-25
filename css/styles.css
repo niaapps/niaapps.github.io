@@ -125,9 +125,10 @@ nav {
   position: fixed;
   margin-top: 150px;
   margin-bottom: 200px;
+  margin-left: 50px;
   background: rgba(0, 0, 0, 0.2);
   color: #f1f1f1;
-  width: 100%;
+  width: 95%;
   padding: 10px;
 }
 
@@ -411,14 +412,6 @@ color:white;}
   border-color:#7F4D92;
 }
 
-.wrapper{
-  color: white;
-  max-width: 80%;
-  margin:50px;
-}
-.wrapper h3{
-  margin-left: 100px;
-}
 
 /*Css Debug*/
 /** {
