@@ -34,7 +34,8 @@
 	
 <div class="wrapper">
 	
-		<h3>title// set pragmatically</h3>
+    <h3>{{ page.title }}</h3> 
+    <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
 		
 {{content}}
 
