@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
     height: 100%;
@@ -12,8 +13,9 @@ body {
   font-size: 19px;
   background-image: url('../images/bkg.jpeg');
 /*  Credit: https://www.pexels.com/@oleg-magni*/
+  background-color: #5C3957;
   background-position: center; 
-  background-repeat: no-repeat;
+  background-repeat:repeat;
 /*  background-attachment: fixed;*/
   background-size: cover;
   overflow-y: scroll;
@@ -125,9 +127,10 @@ nav {
   position: fixed;
   margin-top: 150px;
   margin-bottom: 200px;
+  margin-left: 50px;
   background: rgba(0, 0, 0, 0.2);
   color: #f1f1f1;
-  width: 100%;
+  width: 95%;
   padding: 10px;
 }
 
@@ -319,7 +322,7 @@ list-style-type: none;}
   margin-left: 1235px;
   padding-top: 400px;
   width: 400px;
-  float right;
+  float:   right;
 
 }
 .button-div a{
@@ -411,14 +414,47 @@ color:white;}
   border-color:#7F4D92;
 }
 
+
+
+/*Niaapps Blog CSS*/
+
+
 .wrapper{
-  color: white;
-  max-width: 80%;
-  margin:50px;
+  margin: auto;
+  color:white;
+  max-width: 900px;
 }
-.wrapper h3{
-  margin-left: 100px;
+.wrapper-home{  margin: auto;
+  color:white;
+  max-width: 900px;
+padding-bottom: 100px;}
+
+.footer-post {
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position:static;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width:100%;
+    max-height:100px;
+    overflow: hidden;
 }
+
+.footer-blog-home{
+  height: 100px;
+  overflow: hidden;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position:fixed;
+  left:0px;
+  bottom:0px;
+ 
+}
+
+/*End of Niaapps Blog CSS*/
+
+
 
 /*Css Debug*/
 /** {
