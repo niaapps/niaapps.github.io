@@ -14,7 +14,7 @@ body {
   background-image: url('../images/bkg.jpeg');
 /*  Credit: https://www.pexels.com/@oleg-magni*/
   background-color: #5C3957;
-  background-position: center; 
+  background-position: right bottom; 
   background-repeat:repeat;
 /*  background-attachment: fixed;*/
   background-size: cover;
