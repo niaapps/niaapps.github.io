@@ -451,6 +451,17 @@ padding-bottom: 100px;}
   bottom:0px;
  
 }
+.wrapper-home ul{
+  list-style: none;
+ 
+}
+
+.wrapper-home ul li{
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 200;
+}
+
 
 /*End of Niaapps Blog CSS*/
 
