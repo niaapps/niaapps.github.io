@@ -164,6 +164,7 @@ input[type=submit]{
   border-radius: 4px;
   border: none;
   font-size: 14px;
+  padding: 2px 5px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
