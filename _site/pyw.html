@@ -63,7 +63,8 @@
 
 </html>
 
- <footer class="footer-blog-home" >
+
+ <footer class="footer">
   
     <!-- Footer Links -->
     <div class="footer-links">
@@ -97,17 +98,26 @@
           </ul> 
       </div>
   
-  
       <div class="footer-subscribe">
-        <form class="form-subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post"
-        target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NiaApplications', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-          Subscribe for Updates: <input type="text" name="subscribe">
-          <input type="submit" name="sub_button" value="Sign Up">
-        </form>
+      <form class="form-subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post"
+      target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NiaApplications', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+     
+      <p>Subscribe for Updates:</p>
+      <div class="email"style="overflow: hidden; padding-right: .5em;">
+        <input type="text" style="width:140px;" name="email"/>
       </div>
+      <div class="sub-b">
+        <input type="submit" value="Sign Up"  style="float: right;"/>
+        </div>
+    <input type="hidden" value="NiaApplications" name="uri"/>
+    <input type="hidden" name="loc" value="en_US"/> 
+  
+      </form>
   
   </div>
-  <!--  <div class="footer-copyright"> © 2019 Copyright: Nia Applications
+
+  
+  <!--  <div class="footer-copyright"> © 2020 Copyright: Nia Applications
     </div> -->
   
   

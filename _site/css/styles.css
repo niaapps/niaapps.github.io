@@ -161,15 +161,14 @@ a:hover{color:#fff2b3; text-decoration: none; font-weight: none }
 input[type=submit]{
   color:white;
   background-color:#60407F; 
-  padding: 5px 10px;
   border-radius: 4px;
   border: none;
   font-size: 14px;
-  margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   font-family: 'Work Sans', sans-serif;
+  
 }
 input[type=submit]:hover{
    background-color: #a5647c;
@@ -191,7 +190,7 @@ footer {
     right: 0;
     bottom:0;
     width:100%;
-    max-height:100px;
+    height:100px;
     overflow: hidden;
 }
   
@@ -207,15 +206,14 @@ footer {
   
 .footer-subscribe{
     color: white;
-    padding: 5px;
     font-size: 14px;
     font-weight:300;
     float: right;
-
-        width:300px;     
-        height:auto; 
+    width:300px;     
+    height:auto; 
 
   }
+  
 
 
 footer ul{list-style: none;}
@@ -235,11 +233,19 @@ list-style-type: none;}
   padding-right: 80px;
   }
 
+.email{width: 145px;
+}
+
 .form-subscribe{
-   padding-top: 5px;
+  color:white;
   display: inline-block;
-  width: 200px;
-  text-align: left;}
+  width: 230px;
+  text-align: left;
+}
+.sub-b{
+  padding-top:5px;
+  float: left;
+}
 
 /*Any paragraph*/
  .tab { text-indent: 20px; }
