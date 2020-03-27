@@ -12,11 +12,9 @@ body {
   font-weight: 400;
   font-size: 19px;
   background-image: url('../images/bkg.jpeg');
-/*  Credit: https://www.pexels.com/@oleg-magni*/
   background-color: #5C3957;
   background-position: right bottom; 
   background-repeat:repeat;
-/*  background-attachment: fixed;*/
   background-size: cover;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -30,6 +28,7 @@ body {
   font-size: 19px;
 /*  Different from body because of video-bkg*/
 }
+
 header {
   max-height:60px;
   background: rgba(0, 0, 0, 0.5);
