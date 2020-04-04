@@ -2,9 +2,11 @@
 layout: post
 title: "Testing"
 date: 2020-04-01 16:00:00 -0400
-categories: updates-coding
+categories: updates-personal
 ---
 
 Test to see if page title link will show up in feedburner email correctly.
 Here. Have a photo.
+
 ![alt-text](https://media.giphy.com/media/yZWsMXuXP9e5a/giphy.gif "Gon and Killua")
+
