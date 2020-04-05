@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Testing"
-date: 2020-04-01 16:00:00 -0400
+title: "Testing: The Sequel"
+date: 2020-04-02 16:00:00 -0400
 categories: updates-personal
 ---
 
@@ -10,3 +10,6 @@ Here. Have a photo.
 
 ![alt-text](https://media.giphy.com/media/yZWsMXuXP9e5a/giphy.gif "Gon and Killua")
 
+Please have another:
+
+![alt-text](https://thumbs.gfycat.com/ReadyUnselfishHornet-size_restricted.gif "Baby Sidon")

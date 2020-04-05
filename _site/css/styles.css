@@ -469,10 +469,27 @@ padding-bottom: 100px;}
   font-weight: 200;
 }
 
-
 /*End of Niaapps Blog CSS*/
 
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/*
+ @media only screen and (min-width: 768px) {
+  
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%; padding:15px;}
+  .col-3 {width: 100%;}
+  .col-4 {width: 25%; text-align:center;}
+  .col-5 {width: 0px;}
+
+} 
+*/
 
 /*Css Debug*/
 /* * {

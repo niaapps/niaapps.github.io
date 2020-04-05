@@ -33,10 +33,11 @@
 	</div>
 	
 <div class="wrapper col-2">
-  <h3><a href="{{ post.url }}"> {{ page.title }} </a></h3>
+  <h4>{{ page.title }}</h4>
     <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
-		
-{{content}}
+
+		<a  href="{{ post.url }}"hidden> {{ page.title }} </a>
+    {{content}}
 
 </div>
 <div class="ft-space col-5"></div>
