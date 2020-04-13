@@ -4,7 +4,10 @@ title: "Website Update and COVID-19"
 date: 2020-03-27 16:00:00 -0400
 categories: updates-coding
 ---
-
+<!-- Need to copy/paste to each post: -->
+<div class="feed" markdown="1">
+ [For my email subsribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
+</div>
 Hello readers!
 
 It is your favorite coder coming to you from home in this scary social distancing period. As I am sure you all know, we as a community are facing the pandemic of COVID-19. This post will be my offering to you, to stay logical in these trying times, but first, a coding update.

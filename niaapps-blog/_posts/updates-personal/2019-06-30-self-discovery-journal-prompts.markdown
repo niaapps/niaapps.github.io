@@ -4,6 +4,10 @@ title: Self Discovery Journal Prompts
 date: 2019-06-30 14:00:00 -0400
 categories: updates-personal
 ---
+<!-- Need to copy/paste to each post: -->
+<div class="feed" markdown="1">
+ [For my email subsribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
+</div>
 
 I recently watched a favorite youtuber of mine, [lavendaire](https://www.youtube.com/watch?v=VkDpZatLuIc&t=3s) and she had a video about journaling + self discovery. Here is the reader-friendly version of it. I started these at the beginning of the month, instead of all in one day. This did come from my journal/diary, I have changed names to protect the people in my life’s privacy. This was before developer week, and before/near the growing pains post.
 
