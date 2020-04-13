@@ -468,6 +468,11 @@ padding-bottom: 100px;}
   font-weight: 200;
 }
 
+.feed a{ text-decoration: none;
+  color: transparent;}
+  .feed a:hover{color:white;}
+
+  
 /*End of Niaapps Blog CSS*/
 
 

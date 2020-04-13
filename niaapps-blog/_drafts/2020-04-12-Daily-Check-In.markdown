@@ -1,32 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-03-25 02:39:55 -0400
-categories: jekyll update
+title:  "Daily Check-In"
+date:   2020-04-12 04:00:00 -0400
+categories: updates-personal
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!-- Need to copy/paste to each post: -->
+<div class="feed" markdown="1">
+ [For my email subsribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
+</div>
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
+Hello reader, 
+I have been social distancing for almost a full month now. My classes have been an adjustment, but I have been doing my best given the circumstances. Part of this week was "Spring Break" so I did get some reprieve from the anxiety and stress it all brings. 
+I have been working more on the subscribe function to my website, I want everything to be perfect before I start to promote everything. I haven't gotten the chance to work on comments again, nor the chance to work on making each page responsive to browser window size/ branching to mobile. One step at a time. 
 
 
