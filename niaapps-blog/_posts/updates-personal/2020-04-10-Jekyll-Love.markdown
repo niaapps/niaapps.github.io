@@ -1,10 +1,11 @@
 ---
-layout: post-personal
-title: "Testing Again"
+layout: post
+title: "Jekyll Love"
 date: 2020-04-10 16:00:00 -0400
 categories: updates-personal
 ---
-
+<!-- Need to copy/paste to each post: -->
+For my email subsribers, please click [here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html)
 
 Test to see if page title link will show up in feedburner email correctly.
 Here. Have a photo.
