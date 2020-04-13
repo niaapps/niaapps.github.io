@@ -13,4 +13,6 @@ Hello reader,
 I have been social distancing for almost a full month now. My classes have been an adjustment, but I have been doing my best given the circumstances. Part of this week was "Spring Break" so I did get some reprieve from the anxiety and stress it all brings. 
 I have been working more on the subscribe function to my website, I want everything to be perfect before I start to promote everything. I haven't gotten the chance to work on comments again, nor the chance to work on making each page responsive to browser window size/ branching to mobile. One step at a time. 
 
+On a more personal note, I have been working on my anger, both for my sake and my partner's. 
+
 

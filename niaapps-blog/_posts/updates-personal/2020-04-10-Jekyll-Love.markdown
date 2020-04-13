@@ -17,3 +17,6 @@ Please, have another:
 
 ![alt-text](https://thumbs.gfycat.com/ReadyUnselfishHornet-size_restricted.gif "Baby Sidon")
 
+And one more for good measure:
+
+![alt-text](https://media.giphy.com/media/eIJgJP8L1ycda/giphy.gif "Ashitaka on the battlefield")
