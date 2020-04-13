@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Love"
-date: 2020-04-10 16:00:00 -0400
+date: 2020-04-11 16:00:00 -0400
 categories: updates-personal
 ---
 <!-- Need to copy/paste to each post: -->
