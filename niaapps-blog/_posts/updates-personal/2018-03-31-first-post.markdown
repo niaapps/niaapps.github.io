@@ -11,7 +11,7 @@ categories: updates-personal
 
 Thanks for joining me!
 
-Here is my <a href="https://niaapps.github.io/about.html" target="blank" title="About Page">about</a> page.
+Here is my <a href="https://niaapps.github.io/about.html" target="_blank" title="About Page">about</a> page.
 This is my blog, I am Nia.
 This blog is intended to be a halfway between my coding journey and a personal blog.
 
