@@ -27,16 +27,9 @@ twitter_username: niawillie
 github_username:  niaapps
 
 
-# emptyArray: []
-
-# comments:
-#   receiver: https://{{your-receiver-site}}/api/PostComment}}
-
-
-#   defaults:
-#   -
-#   commenting: open
-#   author: Nia Williams
+  defaults:
+  -
+  author: Nia Williams
 
   
 # Build settings

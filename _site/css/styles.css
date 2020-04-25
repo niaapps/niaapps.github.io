@@ -295,7 +295,6 @@ list-style-type: none;}
   background-color: #5C3957;
 }
 
-
 .projects div.overlay:hover {
   opacity: 1;
 }
@@ -444,7 +443,7 @@ padding-bottom: 100px;}
     overflow: hidden;
 }
 .ft-space{
-   margin-bottom: 200px;
+   margin-bottom: 75px;
 }
 
 .footer-blog-home{
@@ -470,9 +469,18 @@ padding-bottom: 100px;}
 
 .feed a{ text-decoration: none;
   color: transparent;}
-  .feed a:hover{color:white;}
-
   
+.feed a:hover{color:white;
+  }
+  
+
+.comments{
+  opacity:0.8;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+  
+
 /*End of Niaapps Blog CSS*/
 
 
