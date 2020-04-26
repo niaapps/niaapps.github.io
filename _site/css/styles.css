@@ -18,6 +18,16 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   
+  /*
+  The below is to prevent text selection
+  
+  -webkit-user-select: none; 
+  -webkit-touch-callout: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;     */
+
+  
 }
 .home-bod{
   margin: 0;
@@ -115,6 +125,8 @@ nav {
     min-height: 100%;
     width: auto;
     height: auto;
+
+  
 }
 
 
@@ -322,6 +334,7 @@ list-style-type: none;}
   float:left;
   width:200px;
   height:300px;
+ 
 }
 
 .button-div{
@@ -366,6 +379,7 @@ color:white;}
  #resortVideo{
   width: auto;
     height: auto;
+
 }
 
 .description-outline{
@@ -503,6 +517,10 @@ padding-bottom: 100px;}
   .col-5 {width: 0px;}
 
 } 
+
+
+
+
 
 
 /*Css Debug*/
