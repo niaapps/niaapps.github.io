@@ -192,6 +192,13 @@ input[type=submit]:hover{
   }
 .abt-txt{width: 75%;}
 
+.about-img{
+   width:437px; 
+   height: 370px;
+   float: left; 
+   margin-left: 30px;
+    margin-right: 20px;
+}
 
 footer {
   display: block;
@@ -493,30 +500,83 @@ padding-bottom: 100px;}
   margin-right: 400px;
   margin-left: 400px;
 }
+
+
   
 
 /*End of Niaapps Blog CSS*/
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+    padding: 20px;
   }
+
+  header{max-height:100px;}
+  nav li{ margin: 5px;}
+
+  .body{position: relative;}
+  .about-img{
+    width:30%;
+     height: auto;}
+
+   .abt-container{
+     width: 100%;
+    overflow-y: visible;
+    margin-bottom: 150px;
+  
+  }  
+   .con-container{
+      margin:0;
+      margin-bottom: 100px;
+      width: 100%;
+     }
+    .pricing-container{
+      width:100%;
+      margin:0;
+      padding:20px;
+      margin-bottom: 350px;
+    }
+     .footer{
+     bottom:0px;
+     overflow-y: visible;
+     position: fixed;
+     }
+
+     .footer-post{ overflow-y: scroll;}
+
+     .footer-blog-home{ overflow-y: scroll;}
+
+     .wrapper-home{margin-bottom: 150px;}
+
+     .comments{margin:0;}
+
+     .footer-links-left{ 
+       padding-left:0;
+       padding-right: 5px;
+       width: 50%;}
+     .footer-subscribe{ 
+       top:0;
+       padding-left:20px;
+       width: 50%;}
+
 }
 
 
- @media only screen and (min-width: 50%) {
+ /* @media only screen and (min-width: 50%) {
   .body{margin: 50px; overflow: hidden;}
   .home-bod{margin: 10px; overflow: hidden;}
-  .header{}
+
   .col-1 {width: 100%;}
   .col-2 {width: 100%; padding:15px;}
   .col-3 {width: 100%; }
   .col-4 {width: 100%;}
   .col-5 {width: 0px;}
 
-} 
+
+}  */
 
 
 
