@@ -601,8 +601,6 @@ padding-bottom: 100px;}
    width: 100%;
    margin:20px;
    padding-right: 35px;
-   overflow-y: scroll;
-   padding-bottom: 800px;
   }
 
   .home-title{
@@ -703,6 +701,8 @@ padding-bottom: 100px;}
 @media only screen and (max-width: 768px) {
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
+  overflow-y: scroll;
+  padding-bottom: 800px;
 }
 #myVideo{display: none;}
 
