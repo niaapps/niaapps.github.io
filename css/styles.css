@@ -703,10 +703,10 @@ padding-bottom: 100px;}
   background-image: url('../images/bkg-gif.gif');
 }
 .index-ft{
-  margin-top: 200px;
+  position: relative;
 }
 .index-desc{padding-right: 15px;
-margin-bottom: auto;}
+margin-bottom: 150px;}
 #myVideo{display: none;}
 
 }
