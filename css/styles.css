@@ -701,12 +701,15 @@ padding-bottom: 100px;}
 @media only screen and (max-width: 768px) {
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
+  
 }
 .index-ft{
   position: relative;
 }
-.index-desc{padding-right: 15px;
-margin-bottom: 150px;}
+.index-desc{
+padding-right: 15px;
+margin-bottom: 150px;
+position: relative;}
 #myVideo{display: none;}
 
 }
