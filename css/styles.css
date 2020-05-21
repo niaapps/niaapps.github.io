@@ -244,9 +244,13 @@ list-style-type: none;}
   display: inline;}
 .social li a { 
   text-decoration: none;
-   border: 0 !important;}
+   border: 0 !important;
+  }
 
-
+.social img:hover{
+    transform: scale(1.5);
+  
+}
 .footer-title{
   padding-right: 80px;
   }
@@ -520,6 +524,8 @@ padding-bottom: 100px;}
     padding: 20px;
   }
 
+  .col-2{overflow-x: hidden; }
+
   header{max-height:100px;}
  
   nav li{ margin: 5px;}
@@ -616,7 +622,6 @@ padding-bottom: 100px;}
     margin: 0px;
     width:100%;
     padding: 0;
-   overflow-x: hidden;
 
   }  
   
