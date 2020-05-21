@@ -705,7 +705,8 @@ padding-bottom: 100px;}
 .index-ft{
   margin-top: 200px;
 }
-.index-desc{padding-right: 15px;}
+.index-desc{padding-right: 15px;
+margin-bottom: auto;}
 #myVideo{display: none;}
 
 }
