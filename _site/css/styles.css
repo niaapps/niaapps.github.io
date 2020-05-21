@@ -677,9 +677,8 @@ padding-bottom: 100px;}
   margin:0;
 }
 
-.pyw-rep{
-  margin-bottom: 200px;
-}
+.mdb-rep{margin-bottom: 100px;}
+.pyw-rep{ margin-bottom: 250px;}
 
 #outline{
   float:left;
@@ -688,31 +687,11 @@ padding-bottom: 100px;}
   margin:0;
 }
 
-.outline-rep{
-  margin-bottom: 50px;
-}      
+.outline-rep{margin-bottom: 100px;}      
 
 
 }
 /* End of resize code */
-
-
- /* @media only screen and (min-width: 50%) {
-  .body{margin: 50px; overflow: hidden;}
-  .home-bod{margin: 10px; overflow: hidden;}
-
-  .col-1 {width: 100%;}
-  .col-2 {width: 100%; padding:15px;}
-  .col-3 {width: 100%; }
-  .col-4 {width: 100%;}
-  .col-5 {width: 0px;}
-
-
-}  */
-
-
-
-
 
 
 /*Css Debug*/
