@@ -524,7 +524,8 @@ padding-bottom: 100px;}
     padding: 20px;
   }
 
-  .col-2{overflow-x: hidden; }
+  .col-2
+  {overflow-x: hidden;}
 
   header{max-height:100px;}
  
@@ -595,7 +596,9 @@ padding-bottom: 100px;}
   }
 
 
-  .home-bod{ margin-bottom: 150px;}
+  .home-bod{ margin-bottom: 250px;
+    background-image: url('../images/bkg-gif.gif');
+  }
 
   .content{
    top:60px;
