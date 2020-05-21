@@ -596,15 +596,13 @@ padding-bottom: 100px;}
   }
 
 
-  .home-bod{ margin-bottom: 200px;
-  
-  }
-
   .content{
    top:60px;
    width: 100%;
    margin:20px;
    padding-right: 35px;
+   overflow-y: scroll;
+   margin-bottom: 400px;
   }
 
   .home-title{
@@ -704,8 +702,6 @@ padding-bottom: 100px;}
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
 .home-bod{
-  overflow-y: scroll;
-  margin-bottom: 400px;
   background-image: url('../images/bkg-gif.gif');
 }
 
