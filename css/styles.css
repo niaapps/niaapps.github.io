@@ -678,7 +678,9 @@ padding-bottom: 100px;}
 }
 
 .mdb-rep{margin-bottom: 100px;}
-.pyw-rep{ margin-bottom: 250px;}
+.pyw-rep{
+  margin-bottom: 250px;
+}
 
 #outline{
   float:left;
@@ -687,7 +689,9 @@ padding-bottom: 100px;}
   margin:0;
 }
 
-.outline-rep{margin-bottom: 100px;}      
+.outline-rep{
+  margin-bottom: 100px;
+}      
 
 
 }
