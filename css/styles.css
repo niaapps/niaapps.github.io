@@ -702,6 +702,9 @@ padding-bottom: 100px;}
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
 }
+.index-ft{
+  margin-top: 100px;
+}
 .index-desc{padding-right: 15px;}
 #myVideo{display: none;}
 
