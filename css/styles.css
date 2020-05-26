@@ -599,7 +599,7 @@ padding-bottom: 100px;}
    top:60px;
    width: 100%;
    margin:20px;
-   padding-right: 35px;
+  
   } */
 
   .home-title{
@@ -701,6 +701,7 @@ padding-bottom: 100px;}
 @media only screen and (max-width: 768px) {
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
+  width: 100%;
 }
 
 .content{
@@ -708,6 +709,7 @@ top:0;
 width: 100%;
 margin: 20px;
 overflow-x: hidden ;
+padding-right: 35px;
 padding-left: 0;
 padding-top:0;
 padding-bottom:0;
