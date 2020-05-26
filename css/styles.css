@@ -569,8 +569,10 @@ padding-bottom: 100px;}
    margin-bottom: 350px;
   }
 
+  .footer-links{
+    left: 0;
+  }
   .footer{
-  left:0;
    bottom:0px;
    overflow-y: visible;
    position: fixed;
@@ -592,7 +594,7 @@ padding-bottom: 100px;}
 
   .footer-subscribe{ 
    top:0;
-   padding-left:20px;
+   padding-left:10px;
    width: 50%;
   }
 
