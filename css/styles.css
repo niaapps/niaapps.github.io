@@ -590,7 +590,6 @@ padding-bottom: 100px;}
 
   .footer-subscribe{ 
    top:0;
-   float:left;
    width: 50%;
   }
 
@@ -695,6 +694,7 @@ padding-bottom: 100px;}
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
   width: 100%;
+  overflow-x: hidden;
 }
 .index-desc{padding-right: 5px;}
 .content{
