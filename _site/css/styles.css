@@ -234,7 +234,11 @@ footer {
   
 
 
-footer ul{list-style: none;}
+footer ul{
+list-style: none;
+margin-left: 15px;
+margin-top:30px;
+padding:0}
 
 
 .social{
@@ -348,13 +352,6 @@ list-style-type: none;}
   height:300px;
 }
 
-/* .outline-feedback{
-  padding: 10px;
-  float:left;
-  width:200px;
-  height:300px;
-} */
-
 .img-feedback:hover{
   transform: scale(1.7);
 }
@@ -405,6 +402,7 @@ margin:20px;
   height:300px;
   margin:20px;
 }
+
  #resortVideo{
   width: auto;
     height: auto;
@@ -465,7 +463,6 @@ padding-bottom: 100px;}
 .footer-post {
   display: block;
   background: rgba(0, 0, 0, 0.8);
- 
   position:static;
     left: 0;
     right: 0;
@@ -517,7 +514,7 @@ padding-bottom: 100px;}
 
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -570,10 +567,12 @@ padding-bottom: 100px;}
   }
 
   .footer{
+   margin: 0;
    bottom:0px;
    overflow-y: visible;
    position: fixed;
   }
+
 
   .footer-post{ overflow-y: scroll;}
 
@@ -591,17 +590,17 @@ padding-bottom: 100px;}
 
   .footer-subscribe{ 
    top:0;
-   padding-left:20px;
+   padding-left:10px;
    width: 50%;
   }
 
 
-  .content{
+  /* .content{
    top:60px;
    width: 100%;
    margin:20px;
    padding-right: 35px;
-  }
+  } */
 
   .home-title{
    font-size: 30px;
@@ -677,6 +676,7 @@ padding-bottom: 100px;}
 }
 
 .mdb-rep{margin-bottom: 100px;}
+
 .pyw-rep{
   margin-bottom: 250px;
 }
@@ -698,15 +698,19 @@ padding-bottom: 100px;}
 
 
 /* Mobile only resize */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
 }
 
 .content{
+top:0;
 width: 100%;
-margin-left: 15px;
-padding: 0;
+margin: 20px;
+overflow-x: hidden ;
+padding-left: 0;
+padding-top:0;
+padding-bottom:0;
 margin-top: 0;
 margin-bottom: 200px;
 position: relative;
@@ -719,8 +723,8 @@ position: relative;
 
 
 /*Css Debug*/
-* {
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+} */
