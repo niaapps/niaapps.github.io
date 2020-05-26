@@ -569,9 +569,6 @@ padding-bottom: 100px;}
    margin-bottom: 350px;
   }
 
-  .footer-links{
-    margin-left: 0;
-  }
   .footer{
    bottom:0px;
    overflow-y: visible;
@@ -587,7 +584,7 @@ padding-bottom: 100px;}
   .comments{margin:0;}
 
   .footer-links-left{ 
-   padding-left:0;
+   margin: 0;
    padding-right: 5px;
    width: 50%;
   }
