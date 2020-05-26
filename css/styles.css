@@ -570,6 +570,7 @@ padding-bottom: 100px;}
   }
 
   .footer{
+   margin: 0;
    bottom:0px;
    overflow-y: visible;
    position: fixed;
@@ -584,7 +585,7 @@ padding-bottom: 100px;}
   .comments{margin:0;}
 
   .footer-links-left{ 
-   margin: 0;
+   padding-left:0;
    padding-right: 5px;
    width: 50%;
   }
