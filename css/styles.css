@@ -576,6 +576,8 @@ padding-bottom: 100px;}
    position: fixed;
   }
 
+  .footer ul{ margin-left:0}
+
   .footer-post{ overflow-y: scroll;}
 
   .footer-blog-home{ overflow-y: scroll;}
