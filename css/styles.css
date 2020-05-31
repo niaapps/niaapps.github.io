@@ -697,9 +697,11 @@ padding-bottom: 100px;}
 }
 .index-desc{padding-right: 5px;}
 .content{
+  position: relative;
   margin: 0px;
   width:100%;
   padding: 0;
+  margin-bottom: 200px;
 }
 
 #myVideo{display: none;}
