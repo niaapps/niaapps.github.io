@@ -580,7 +580,10 @@ padding-bottom: 100px;}
 
   .wrapper-home{margin-bottom: 150px;}
 
-  .comments{margin:0;}
+  .comments{
+  margin:0;
+  padding:10px;
+  }
 
   .footer-links-left{ 
    padding-left:0;
