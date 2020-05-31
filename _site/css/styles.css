@@ -580,11 +580,18 @@ padding-bottom: 100px;}
 
   .wrapper-home{margin-bottom: 150px;}
 
-  .comments{margin:0;}
+  .comments{
+  margin:0;
+  padding:10px;
+  }
+
+  .blog-recent{ 
+    margin-left:30px;
+    text-size-adjust: 60%;
+    }
 
   .footer-links-left{ 
    padding-left:0;
-   padding-right: 5px;
    width: 50%;
   }
 
@@ -680,10 +687,18 @@ padding-bottom: 100px;}
   margin:0;
 }
 
-.outline-rep{
-  margin-bottom: 100px;
-}      
+.outline-rep{margin-bottom: 100px;}      
 
+.content{
+  position: relative;
+  margin: 0px;
+  width:100%;
+  padding: 0;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
 
 }
 /* End of resize code */
@@ -694,21 +709,7 @@ padding-bottom: 100px;}
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
   width: 100%;
-}
-
-.content{
-top:0;
-width: 100%;
-margin: 20px;
-overflow-x: hidden ;
-padding-right: 35px;
-padding-left: 0;
-padding-top:0;
-padding-bottom:0;
-margin-top: 0;
-margin-bottom: 200px;
-position: relative;
-
+  position: relative;
 }
 
 #myVideo{display: none;}
@@ -716,8 +717,8 @@ position: relative;
 }
 
 
-/*Css Debug*/
-/* * {
+/* Css Debug
+* {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
