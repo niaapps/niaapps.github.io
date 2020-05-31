@@ -585,10 +585,12 @@ padding-bottom: 100px;}
   padding:10px;
   }
 
-  .blog-recent{ 
+.blog-recent{ 
     margin-left:40px;
     font-size: 23px;
     }
+
+.blog-posts-title{font-size: 20px;}
 
   .footer-links-left{ 
    padding-left:0;
