@@ -35,9 +35,9 @@
       
           <h2 class="blog-recent">Recent Posts</h2>
           
-          <ul class="blog-posts-title">
+          <ul>
             {% for post in site.posts %}
-              <li>
+              <li  class="blog-posts-title">
                 <a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
               </li>
             {% endfor %}
