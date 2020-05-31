@@ -585,7 +585,10 @@ padding-bottom: 100px;}
   padding:10px;
   }
 
-  .blog-recent{ padding:20px;}
+  .blog-recent{ 
+    margin-left:20px;
+    text-size-adjust: 80%;
+    }
 
   .footer-links-left{ 
    padding-left:0;
