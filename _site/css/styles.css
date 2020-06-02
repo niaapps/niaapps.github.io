@@ -527,10 +527,10 @@ padding-bottom: 100px;}
   header{max-height:100px;}
  
   nav li{ margin: 5px;}
-
+/* Need to fix scroll issue and img magnify. could be transform 1.5 causing? */
   .body{
     position: relative;
-    background-size: contain;
+    background-size: cover;
   }
   
   .about-img{
@@ -585,9 +585,10 @@ padding-bottom: 100px;}
   padding:10px;
   }
 
-  .blog-recent{ 
-    margin-left:30px;
-    text-size-adjust: 60%;
+.blog-recent{ 
+    padding-top: 20px;
+    margin-left:40px;
+    font-size: 25px;
     }
 
   .footer-links-left{ 

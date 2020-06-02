@@ -1,0 +1,11 @@
+I"p<!-- Need to copy/paste to each post: -->
+<div class="feed">
+  <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/11/Template.html" title="Link to this post">For my email subscribers, please click here</a></p>
+</div>
+
+<!-- Link example (opens new tab) -->
+<p><a href="" target="blank" title="">Link Text</a></p>
+
+<!-- Indent -->
+<p>   </p>
+:ET
