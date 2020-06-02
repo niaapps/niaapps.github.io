@@ -26,6 +26,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/nxbrxth/status/1266239760248393735" target="blank" title="">Safety Tips for Protesters</a>.
 
+<a href="https://blacklivesmatter.com/" target="blank" title="">Black Lives Matter Org</a>.
+
 <a href="https://twitter.com/kiwiscigarettes/status/1265767579739512833" target="blank" title="">Thread of Petitions</a>. 
 
 <a href="https://blacklivesmatters.carrd.co/" target="blank" title="">Website called "Ways To Help".</a> Petitions and more.
@@ -34,7 +36,7 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://docs.google.com/document/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub" target="blank" title="">Document of multiple resources.</a> Petitions, places to donate, call and email.
 
-<a href="https://twitter.com/AM1R4HSCAVE/status/1267202201132265472" target="blank" title="">Thread of Varius Resources.</a>
+<a href="https://twitter.com/AM1R4HSCAVE/status/1267202201132265472" target="blank" title="">Thread of Various Resources.</a>
 
 <a href="https://twitter.com/niawillie/status/1266771198777724932" target="blank" title="">Thread I made of bailout funds</a> for protesters. Some content is NYC specific.
 
