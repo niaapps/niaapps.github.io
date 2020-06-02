@@ -1,37 +1,4 @@
-<head><link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet"> 	
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-
-  <title>Blog-Nia Applications</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Stop here for mobile app software and website development. I am a freelancer running her own business. My titles are coder and developer. You'll find my blog touches on a range of topics: technology, love, music, politics, android development, and website design. ">
-</head>
-
-<header class="col-1">
-  <div class="nav-container">
-  <!-- 	<img src="images/logo.png" alt="logo" class="logo"> -->
-  <nav>
-    <ul>
-   <li><a href="https://niaapps.github.io/index.html">Home</a></li>
-      <li><a href="https://niaapps.github.io/about.html">About</a></li>
-      <li><a href="https://niaapps.github.io/niaapps-blog/">Blog</a></li>
-      <li><a href="https://niaapps.github.io/contact.html">Contact</a></li>
-      <li><a href="https://niaapps.github.io/pricing.html">Pricing</a></li>
-      <li><a href="https://niaapps.github.io/portfolio.html">Portfolio</a></li>
-    </ul>    
-  </nav>
-  </div>
-  </header>
-  <div class="page-title col-4">
-
-		<p><h2>Nia's Blog</h2></p>
-	</div>
-	
-<div class="wrapper col-2">
-  <h3>Black Lives Matter</h3>
-  <h3>May 31, 2020</h3>
-  <div class="feed">
+I"�'<div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
 
@@ -41,11 +8,11 @@
 
 <p>   When I was a teenager my dad had a close friend who lost his father. His father was a Black Vietnam War Veteran. He fell asleep on his life alert, an honest mistake. When he woke up, he called to let them know what had happened. Dispatch sent word, telling these cops that their services were no longer necessary at the scene. These white cops did not listen. They took matters into their own hands. After exchanging harsh words with our Veteran, who rightfully refused to let them into his home, they called him the n-word with hard r, entered the apartment, and tased and shot him, ultimately ending his life. I say his name, <a href="https://en.wikipedia.org/wiki/Shooting_of_Kenneth_Chamberlain_Sr" target="_blank" title="Wiki Page on Chamberlain"><strong>Kenneth</strong> </a><a href="https://www.bleausa.org/report-blasts-review-of-wppd-calls-justification-of-chamberlain-shooting-chilling/" target="_blank" title="Article about the incident"><strong>Chamberlain</strong> </a><a href="https://www.justice.gov/usao-sdny/prus-attorney-s-office-closes-investigation-death-kenneth-chamberlain" target="_blank" title="Closing Chamberlain's Investigation"><strong>Sr.</strong></a> just as I say the three I mentioned earlier because this senseless killing must stop. Officers must be held accountable. The Police lied on reports, saying Chamberlain was armed, and failed to include the exchange where they called him the n-word. We later got <a href="https://www.nydailynews.com/new-york/westchester-man-killed-cops-not-knife-lawyers-article-1.2850274" target="_blank" title=""><em>DNA Proof</em></a> that Chamberlain was unarmed and after many battles in court got audio released to us, which is how we know the incident was racially charged. In 2012 a Grand Jury decided no criminal charges would be made against these officers. Police brutatlity is law-sanctioned murder. They claim they fear for their lives when in reality they are megalomaniacs who instigate and provoke to justify unecessary use of violence. Mr. Chamberlain’s life was taken from us because of  ignorance, negligence of value for human life, racism and white supremacy. Kenneth Chamberlain Sr. deserves justice. Anthony Carelli and Steven Hart are still free walking around, and most likely still on the force. Carelli was involved in another federal case <a href="https://www.nydailynews.com/new-york/sources-identify-white-plains-anthony-carelli-triggerman-fatal-shooting-retired-marine-article-1.1056394" target="_blank">3 years earlier</a> for brutally beating two twin brothers while working on a disordlerly-conduct arrest. Too often these officers who kill people  have a track record. When I still lived in my hometown I went to protests for Mr. Chamberlian, I attended his candle vigil each year held in front of the White Plains Department of Safety, and I went to court battles to show support. I speak up about these issues because I cannot bear to see any more Black lives taken in vain. We have a problem in this country and it needs to be addressed and fixed.</p>
 
-<p>   This plight for justice has always been something I have cared about. I am biracial, and I know we have a bad rap sometimes because some of us don’t know how to act yet (I’m looking at you <a href="https://twitter.com/lucky_Shanghai/status/1217664668434604032?s=20)" target="_blank" title="Beware, this is some clown shit.">Jeanie Reuter</a>). I am Black and Chinese. The thing is, I have privilege as a light-skinned white-passing person. I am doing my community a disservice if I don’t use it to uplift Black voices— which are too often brushed off, ignored, or crushed.</p>
+<p>   This plight for justice has always been something I have cared about. I am biracial, and I know we have a bad rap sometimes because some of us don’t know how to act yet (I’m looking at you <a href="https://twitter.com/lucky_Shanghai/status/1217664668434604032?s=20)" target="_blank" title="Beware, this is some clown shit.">Jeanie Reuter</a>). I am Black and I am Chinese. The thing is, I have privilege as a light-skinned white-passing person. I am doing my community a disservice if I don’t use it to uplift Black voices— which are too often brushed off, ignored, or crushed.</p>
 
 <p>I do not care if you are tired of hearing it: BLACK LIVES MATTER.</p>
 
-<p>   All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. I am of the belief that this starts with defunding law enforcement. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue <a href="https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline" target="blank" title="">it was created to keep them oppressed</a>. We need to start over where everyone is truly equal.</p>
+<p>   All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue <a href="https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline" target="blank" title="">it was created to keep them oppressed</a>. We need to start over where everyone is truly equal. I am of the belief that this starts with defunding law enforcement.</p>
 
 <p>Thank you for reading, until next time.</p>
 
@@ -83,79 +50,4 @@
 
 <p><a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="blank" title="">My Aunt Donna’s GoFundMe</a>.</p>
 
-
-
-</div>
-<div class="ft-space col-5"></div>
-
-<div class = "comments col-6">
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 521; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: false,
-        id: false
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
-</div>
-
-<footer class="footer-post" >
-  <!-- test to see if on mobile removing col-3 straigthens socials -->
-  <!-- Footer Links -->
-
-
-
-    
-    <div class="footer-links-left">
-
-    
-      <ul class ="social">
-          <li>
-            <a href="https://www.facebook.com/niaapplications/" target="_blank">
-          <img src="/images/fb.png" alt="fb-link" style="width: 32px; height:32px">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/niawillie" target="_blank">
-          <img src="/images/twitter.png" alt="twi-link" style="width: 28px; height:28px">
-            </a>
-          </li>
-          <li>
-           <a href="https://www.linkedin.com/in/niaapps" target="_blank">
-            <img src="/images/li.png" alt="li-link" style="width: 32px; height:32px">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/niaapps" target="_blank">
-          <img src="/images/git.png" alt="git-link" style="width: 32px; height:32px ">
-            </a>
-          </li>
-        </ul> 
-    </div>
-
-    <div class="footer-subscribe">
-      <form class="form-subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post"
-      target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NiaApplications', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-     
-      <p>Subscribe for Updates:</p>
-      <div class="email"style="overflow: hidden; padding-right: .5em;">
-        <input type="text" style="width:140px;" name="email"/>
-      </div>
-      <div class="sub-b">
-        <input type="submit" value="Sign Up"  style="float: right;"/>
-        </div>
-    <input type="hidden" value="NiaApplications" name="uri"/>
-    <input type="hidden" name="loc" value="en_US"/> 
-  
-      </form>
-  
-
-<!--  <div class="footer-copyright"> © 2020 Copyright: Nia Applications
-  </div> -->
-
-
-  <!-- Footer Links -->
-
-</footer>
+:ET
