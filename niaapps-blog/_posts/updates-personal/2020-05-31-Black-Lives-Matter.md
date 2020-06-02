@@ -22,7 +22,7 @@ I do not care if you are tired of hearing it: BLACK LIVES MATTER.
 
 Thank you for reading, until next time.
 
-That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those need to talk these traumatic emotions out, and resources for white allies to educate themselves as well.I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
+That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
 
 <a href="https://twitter.com/TatiannaTarot/status/1267511432394035200" target="blank" title="">Thread for Therapists offering services</a>. I believe priority is being taken for Black Youth. 
