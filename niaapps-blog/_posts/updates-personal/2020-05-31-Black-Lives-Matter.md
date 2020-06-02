@@ -24,6 +24,11 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those need to talk these traumatic emotions out, and resources for white allies to educate themselves as well.I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
+
+<a href="https://twitter.com/TatiannaTarot/status/1267511432394035200" target="blank" title="">Thread for Therapists offering services</a>. I believe priority is being taken for Black Youth. 
+
+<a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="blank" title="">An Additional Therapy Thread</a>. 
+
 <a href="https://twitter.com/nxbrxth/status/1266239760248393735" target="blank" title="">Safety Tips for Protesters</a>.
 
 <a href="https://blacklivesmatter.com/" target="blank" title="">Black Lives Matter Org</a>.
@@ -46,11 +51,13 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://docs.google.com/document/u/0/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic" target="blank" title="">Anti Racism Resources for White people</a>.
 
-<a href="https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit" target="blank" title="">More Anti-Racism Reaources</a>.
+<a href="https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit" target="blank" title="">More Anti-Racism Resources</a>.
 
 <a href="https://twitter.com/dj_diabeatic/status/1266563804437110787" target="blank" title="">Informative Anti-Racism Graphic</a>.
 
 <a href="https://padlet.com/nicolethelibrarian/nbasekqoazt336co" target="blank" title="">Anti-Racism Resources for all ages</a>.
+
+<a href="https://www.gofundme.com/f/a-fund-for-blackled-mental-health-supports?utm_source=customer&utm_medium=copy_link&utm_campaign=m_pd+share-sheet" target="blank" title="">A Fund for Black-led Mental Health Supports</a>.
 
 <a href="https://twitter.com/starstrickenSF/status/1267307734744985601" target="blank" title="">Thread of where to donate, petitions to sign and Anti-Racism resources</a>.
 
