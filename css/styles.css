@@ -509,6 +509,9 @@ padding-bottom: 100px;}
   margin-left: 400px;
 }
 
+.thumbnail{
+  display: none;
+}
 /*End of Niaapps Blog CSS*/
 
 

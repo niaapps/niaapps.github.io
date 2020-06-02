@@ -56,3 +56,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="blank" title="">My Aunt Donna's GoFundMe</a>.
 
+<div class="thumbnail">
+  <img id="vigil" src="/../../images/vigil.jpg" alt="Me at a Candle Lighting Vigil for Kenneth Chamberlain Sr. in 2014." onContextMenu="alert('Please don\'t download this photo of me!');return false;">
+  </a>
+  
+</div>
