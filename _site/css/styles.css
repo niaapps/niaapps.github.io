@@ -190,14 +190,15 @@ input[type=submit]:hover{
   text-align: left;
   color: white;
   }
-.abt-txt{width: 75%;}
+.abt-txt{width: 80%;}
 
 .about-img{
    widows: 314px;
    height: 415px;
    float: left; 
    margin-left: 30px;
-    margin-right: 20px;
+   margin-right: 20px;
+   margin-bottom: 10px;
 }
 
 footer {
@@ -531,27 +532,25 @@ padding-bottom: 100px;}
  
   nav li{ margin: 5px;}
 /* Need to fix scroll issue and img magnify. could be transform 1.5 causing? */
-  .body{
-    position: relative;
-    background-size: cover;
-  }
+  
   
   .about-img{
     width:30%;
      height: auto;
     }
-
-  img{
+ 
+  .scale-img img{
     width: 50%;
     height:auto;  
 
   } 
-  img:hover{
+ .scale-img img:hover{
     transform: scale(1.5);
   } 
   
   .abt-container{
-     width: 100%;
+    text-align: initial;
+    width: 100%;
     overflow-y: visible;
     margin-bottom: 150px;
     }  
@@ -710,15 +709,20 @@ padding-bottom: 100px;}
 
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
+
+  .pricing-container{  margin-bottom: 500px;}
+
 .home-bod{
   background-image: url('../images/bkg-gif.gif');
   width: 100%;
   position: relative;
 }
 
+
 #myVideo{display: none;}
 
-}
+} 
+/* End of mobile resize */
 
 
 /* Css Debug

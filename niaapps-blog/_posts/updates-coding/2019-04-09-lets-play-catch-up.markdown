@@ -19,7 +19,9 @@ School is taking a huge toll on me. I am doing terribly in one class, borderline
 
 ### Coding Wise:
 
+<div class="scale-img">
 ![alt text](/images/blog-1.png "website screenshot") 
+</div>
 
 Right now I am coding my own website from scratch. Brushing back up on HTML because my partner might try to get their company to hire me!! I want to do my very best because they are sticking their neck out for me, and I appreciate it. Still working on my client’s project, but I am bound by an NDA so my lips are sealed. I scrapped the PAPP (women targeted app I mentioned in the last post) but instead, this summer will try to work on my first idea for an app ever, so stay tuned!
 

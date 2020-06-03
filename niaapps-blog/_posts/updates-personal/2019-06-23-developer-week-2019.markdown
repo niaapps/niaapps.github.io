@@ -15,7 +15,10 @@ Earlier this week I attended an event called “Developer Week NY”. I got an i
 
 Here are some photos from the conference:
 
+<div class="scale-img">
+
 ![alt-text](/images/dw.gif "My badge") | ![alt-text](/images/dw2.jpg "Misty Robotics display") | ![alt-text](/images/dw3.jpg "Main Stage")
+</div>
 
 I recently just finished a book that has me feeling better, it was : 101 secrets for your twenties by Paul Angone. It was a little religiously leaning, but besides that I enjoyed it. I recently celebrated my birthday (June 5th if anyone is my birthday twin?) so I am now 22. The summer is here (Solstice was yesterday) and I am taking things one day at a time. I will find the right job. I will pay rent. I will thrive. I will do work I love. I will live to the fullest. I will laugh, I will dance, I will rejoice because life will turn out alright. I am reaching out to friends (now that I can sort of afford to hang a little more) and it makes me feel better to not be so isolated.
 

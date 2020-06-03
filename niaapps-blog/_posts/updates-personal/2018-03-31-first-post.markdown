@@ -19,6 +19,8 @@ Here’s one of my favorite quotes, from my favorite movie:
 ### "To see with eyes unclouded by hate."
 #### ---Hayao Miyazaki, Mononoke Hime
 
+<div class="scale-img">
 ![alt text](https://media0.giphy.com/media/bCso2YhdHY6XK/giphy.gif "San putting her mask on")
+</div>
 
 I have my game face on.
