@@ -572,14 +572,10 @@ padding-bottom: 100px;}
   .footer{
    margin: 0;
    bottom:0px;
-   overflow-y: visible;
+   overflow-y: hidden;
    position: fixed;
   }
 
-
-  .footer-post{ overflow-y: scroll;}
-
-  .footer-blog-home{ overflow-y: scroll;}
 
   .wrapper-home{margin-bottom: 150px;}
 
@@ -771,14 +767,9 @@ nav li{ margin: 5px;}
 .footer{
  margin: 0;
  bottom:0px;
- overflow-y: visible;
+ overflow-y: hidden;
  position: fixed;
 }
-
-
-.footer-post{ overflow-y: scroll;}
-
-.footer-blog-home{ overflow-y: scroll;}
 
 .wrapper-home{margin-bottom: 150px;}
 
