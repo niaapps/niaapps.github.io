@@ -718,7 +718,6 @@ padding-bottom: 100px;}
   position: relative;
 }
 
-
 #myVideo{display: none;}
 
 [class*="col-"] {
@@ -732,7 +731,6 @@ padding-bottom: 100px;}
 header{max-height:100px;}
 
 nav li{ margin: 5px;}
-/* Need to fix scroll issue and img magnify. could be transform 1.5 causing? */
 
 
 .about-img{
