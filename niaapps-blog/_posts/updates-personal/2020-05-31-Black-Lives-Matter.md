@@ -45,11 +45,15 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/niawillie/status/1266771198777724932" target="blank" title="">Thread I made of bailout funds</a> for protesters. Some content is NYC specific.
 
+<a href="https://bailfunds.github.io/" target="blank" title="">An additional list of bail funds</a>.
+
 <a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="blank" title="">Thread of Places to Donate</a>.
 
 <a href="bit.ly/BlackLivesAction " target="blank" title="">Resources for Accountability and Action for Black Lives</a>.
 
 <a href="https://docs.google.com/document/u/0/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic" target="blank" title="">Anti Racism Resources for White people</a>.
+
+<a href="https://www.facebook.com/melridge22?__tn__=%2CdCH-R-R&eid=ARBoG41UXRBhb4Z2Dxk1A-9ywgkWTQyiNgZuoOMHhjyK6lv8VavBfHpGhG_bfAJfbtle1WAmAkNA6C9O&hc_ref=ARTKxkKh364bAv8FtEH_aNbIqMHk1NGps3_bVrD_8J0NERN0b_ZKwzd_bMOyx7YnSbk&fref=nf" target="blank" title="">Graphic about Covert White Supremacy</a>. 
 
 <a href="https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit" target="blank" title="">More Anti-Racism Resources</a>.
 
@@ -61,9 +65,23 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/starstrickenSF/status/1267307734744985601" target="blank" title="">Thread of where to donate, petitions to sign and Anti-Racism resources</a>.
 
+<a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="blank" title="">Thread of more places to donate</a>.
+
 <a href="https://www.change.org/p/louisville-mayor-greg-fischer-justice-for-david-mcatee?recruiter=862253145&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&recruited_by_id=ca6cbd70-2414-11e8-ab29-25fa8a73a71b" target="blank" title="">Petition for David McAtee a protester who was murdered</a>.
 
+<a href="https://twitter.com/i/lists/1198727909525131264" target="blank" title="">Black owned Business you can support</a>.
+
+<a href="https://www.buyfromablackwoman.org/" target="blank" title="">Buy From A Black Woman</a>. Nonprofit Org that raises awareness to Black Women owned Business.
+
+<a href="https://webuyblack.com/" target="blank" title="">Largest Market place for Black owned Business</a>.
+
+<a href="https://twitter.com/milkyapron/status/1267881192306561025" target="blank" title="">Thread of Black Owned Clothing/Fashion stores</a>.
+
+<a href="https://themadmommy.com/black-owned-etsy-shops/" target="blank" title="">Black Owned Etsy Shops</a>.
+
 <a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="blank" title="">My Aunt Donna's GoFundMe</a>.
+
+
 
 <div class="thumbnail">
   <img id="vigil" src="/../../images/vigil.jpg" alt="Me at a Candle Lighting Vigil for Kenneth Chamberlain Sr. in 2014." onContextMenu="alert('Please don\'t download this photo of me!');return false;">
