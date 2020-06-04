@@ -36,6 +36,7 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 <div class="scale-img">
 
  ![alt-text](/images/w4.jpg "Blog post")
+ 
 </div>
 
 
