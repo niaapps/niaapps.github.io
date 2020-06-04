@@ -1,4 +1,4 @@
-I"<!-- Need to copy/paste to each post: -->
+I"^<!-- Need to copy/paste to each post: -->
 <div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-coding/2020/03/27/website-update.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
@@ -12,22 +12,20 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 <div class="scale-img">
 
 ![alt-text](/images/w1.gif "Home Page") 
+<img src="/../../images/w1.gif" alt="Blog post" />
+
 </div>
 
 <div class="scale-img">
-
- ![alt-text](/images/w2.jpg "Blog")
+ <img src="/../../images/w2.jpg" alt="Blog" />
 </div>
 
 <div class="scale-img">
-
-![alt-text](/images/w3.gif "Portfolio Page")
+<img src="/../../images/w3.gif" alt="Portfolio Page" />
 </div>
 
 <div class="scale-img">
-
- ![alt-text](/images/w4.jpg "Blog post")
- 
+<img src="/../../images/w4.jpg" alt="Blog post" />
 </div>
 
 <h3 id="lets-talk-about-covid-19">Let’s talk about COVID-19</h3>

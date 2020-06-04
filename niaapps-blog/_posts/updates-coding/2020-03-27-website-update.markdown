@@ -18,25 +18,23 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 <div class="scale-img">
 
 ![alt-text](/images/w1.gif "Home Page") 
+<img id="" src="/../../images/w1.gif" alt="Blog post">
+
 </div>
 
 
 <div class="scale-img">
-
- ![alt-text](/images/w2.jpg "Blog")
+ <img id="" src="/../../images/w2.jpg" alt="Blog">
 </div>
 
 
 <div class="scale-img">
-
-![alt-text](/images/w3.gif "Portfolio Page")
+<img id="" src="/../../images/w3.gif" alt="Portfolio Page">
 </div>
 
 
 <div class="scale-img">
-
- ![alt-text](/images/w4.jpg "Blog post")
- 
+<img id="" src="/../../images/w4.jpg" alt="Blog post">
 </div>
 
 
