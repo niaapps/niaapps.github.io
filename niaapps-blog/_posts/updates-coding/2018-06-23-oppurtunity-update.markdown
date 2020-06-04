@@ -30,3 +30,9 @@ I’m thinking I need to clean up the color a little bit and I may add some anim
 So as I mentioned before. I actually not only have an internship now but a new job in general. I was unemployed when my last waitressing job was laying people off but now I’m back on track with 2!! The internship is a dream. It’s at this tech company called OpenX and I get to work on a phone app!! Which is exactly what I want to do in the field so it’s Grade A experience. On a personal note, things in my life are just coming together, and I’m ready to put my best foot forward.
 
 Till Next Time!
+
+
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2018/06/08/art-update.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>

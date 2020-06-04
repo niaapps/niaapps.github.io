@@ -26,3 +26,7 @@ Here’s one of my favorite quotes, from my favorite movie:
 </div>
 
 I have my game face on.
+
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2018/06/08/art-update.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>

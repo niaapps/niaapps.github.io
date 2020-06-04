@@ -178,3 +178,9 @@ I think my pain comes from me. Specifically Emotions, Depression, anxiety and se
  
 
 And well that’s all for this post. Thanks for reading!
+
+
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2020/03/27/website-update.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>

@@ -1,4 +1,4 @@
-I"‹<!-- Need to copy/paste to each post: -->
+I"Ü<!-- Need to copy/paste to each post: -->
 <div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
@@ -7,4 +7,9 @@
 <div class="scale-img">
 <img src="/../../images/website.gif" alt="gif of my site" />
 </div>
+
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>
 :ET

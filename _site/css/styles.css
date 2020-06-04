@@ -451,6 +451,17 @@ margin:20px;
 
 /*Niaapps Blog CSS*/
 
+.button-post{
+  padding-top: 30px;
+
+  
+  }
+  .button-post a{
+    text-decoration: none;
+  }
+  .button-post a:hover{  
+  background-color: #a5647c;
+  color:white;}
 
 .wrapper{
   margin: auto;

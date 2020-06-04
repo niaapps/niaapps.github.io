@@ -1,4 +1,4 @@
-I"Á<!-- Need to copy/paste to each post: -->
+I"#<!-- Need to copy/paste to each post: -->
 <div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
@@ -10,7 +10,9 @@
 <p>Here are some photos from the conference:</p>
 
 <div class="scale-img">
-<img src="/../../images/dw.gif" alt="My bdage" /><img src="/../../images/dw2.jpg" alt="Misty Robotics display" /><img src="/../../images/dw3.jpg" alt="Main Stage" />
+<img src="/../../images/dw.gif" alt="My bdage" /> <img src="/../../images/dw2.jpg" alt="Misty Robotics display" /> 
+
+<img src="/../../images/dw3.jpg" alt="Main Stage" />
 </div>
 
 <p>I recently just finished a book that has me feeling better, it was : 101 secrets for your twenties by Paul Angone. It was a little religiously leaning, but besides that I enjoyed it. I recently celebrated my birthday (June 5th if anyone is my birthday twin?) so I am now 22. The summer is here (Solstice was yesterday) and I am taking things one day at a time. I will find the right job. I will pay rent. I will thrive. I will do work I love. I will live to the fullest. I will laugh, I will dance, I will rejoice because life will turn out alright. I am reaching out to friends (now that I can sort of afford to hang a little more) and it makes me feel better to not be so isolated.</p>
@@ -35,4 +37,9 @@
 <p>Anyways, thanks for reading this update. When I get that notification it warms my heart that my words are sometimes read/heard.</p>
 
 <p>Till next time.</p>
+
+<div class="button-div">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>
 :ET

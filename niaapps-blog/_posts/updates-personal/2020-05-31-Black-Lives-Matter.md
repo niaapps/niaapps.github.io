@@ -82,6 +82,10 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="blank" title="">My Aunt Donna's GoFundMe</a>.
 
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" class="p-button" id="button-nxt">Previous Post</a>
+
+  </div>
 
 
 <div class="thumbnail">

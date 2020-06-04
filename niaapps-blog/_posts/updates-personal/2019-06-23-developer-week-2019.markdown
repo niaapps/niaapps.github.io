@@ -36,3 +36,8 @@ I am still working on my website. I am considering migrating to blogger or wix. 
 Anyways, thanks for reading this update. When I get that notification it warms my heart that my words are sometimes read/heard. 
 
 Till next time.
+
+<div class="button-div">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>

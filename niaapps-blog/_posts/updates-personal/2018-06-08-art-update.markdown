@@ -21,3 +21,7 @@ It’s definitely a bit aways from being finished, an d I was trying to do somet
 
 Thanks for stopping by my blog!
 
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2018/03/31/first-post.html" class="p-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2018/06/23/oppurtunity-update.html" class="p-button" id="button-nxt">Next Post</a>
+  </div>
