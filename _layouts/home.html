@@ -32,9 +32,15 @@
       </div>
       
   <div class="wrapper-home col-2">
-      
+      <!-- var x = document.createElement("SELECT"); Need to write JS to change post type when selected. These changes aren't pushed yet. -->
           <h2 class="blog-recent">Recent Posts</h2>
-          
+          <div>
+            <select name="post-type">
+              <option value="posts">All Posts</option>
+              <option value="updates-coding">Coding Posts</option>
+              <option value="updates-personal">Personal Posts </option>
+              </select>
+          </div>
           <ul>
             {% for post in site.posts %}
               <li>
