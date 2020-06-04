@@ -16,21 +16,25 @@ If you are here, you are on my site, which is nearly finished! Every page on her
 tinkering away. If there are any issues please reach out to me! I have just set up my website's newsletter, which will provide you an update when I post here on my blog, so please scroll down and subscribe with the form in my footer! Next I will be working on comments for blog posts. Communication is key for any aspiring business. I also just generally enjoy talking with people, and with being stuck inside for the health of everyone, the internet is such a gift, why not use it? On my site most of the pages are in HTML/CSS, but for the blog I have been using <a href="https://jekyllrb.com/" target="_blank" title="">jekyll</a>. I have to pick up a few things to work in .markdown files, but it is going pretty well. Jekyll was suggested for github pages, where I host, because the pages are static. This means that my content is built exactly as is, everytime there is a request. It communicates directly with the server. As opposed to dynamic webpages that can generate different HTML for each request, most of it being built on the fly. Using jekyll I don't need a CMS or anything. It is sort of perfect for what I want to achieve. For the sake of preserving my website (because in the future I may redesign it) below are some screenshots. I am very proud of myself for the work I have done. I do want to shout out <a href="https://www.pexels.com/@oleg-magni" target="_blank" title="">Oleg Magni</a>, who took the photo of the sky that I use for my background on this site. I actually copied the photo in paint and flipped it horizontally after rotating 180 degrees and appended it to the original, so when my background repeats (when my webpage extends past the viewport) the image isn't choppy, but rather flows like an endless sky.
 
 <div class="scale-img">
+
 ![alt-text](/images/w1.gif "Home Page") 
 </div>
 
 
 <div class="scale-img">
+
  ![alt-text](/images/w2.jpg "Blog")
 </div>
 
 
 <div class="scale-img">
+
 ![alt-text](/images/w3.gif "Portfolio Page")
 </div>
 
 
 <div class="scale-img">
+
  ![alt-text](/images/w4.jpg "Blog post")
 </div>
 
