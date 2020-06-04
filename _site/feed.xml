@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-04T16:18:47-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">Black Lives Matter</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" rel="alternate" type="text/html" title="Black Lives Matter" /><published>2020-05-31T16:00:00-04:00</published><updated>2020-05-31T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html">&lt;div class=&quot;feed&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-04T16:25:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">Black Lives Matter</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" rel="alternate" type="text/html" title="Black Lives Matter" /><published>2020-05-31T16:00:00-04:00</published><updated>2020-05-31T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html">&lt;div class=&quot;feed&quot;&gt;
   &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
@@ -356,7 +356,7 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 &lt;p&gt;So I’m working on revamping my website, as I may be doing more HTML work this summer and want to have something to show for it. Below is a gif of my Nav Bar with a hover effect I just finished. The extra space on the left will be for my new logo, which I’m in the process of designing. I know it’s incredibly simple, but it’s 12 am and I’m damn proud. More to come, definitely. What goes on a home page, I am beginning to ask myself. Know any good example sites? Comment them! Have any feedback? Get at me! I’m lonely at this hour.&lt;/p&gt;
 
 &lt;div class=&quot;scale-img&quot;&gt;
-![alt text](/images/website.gif &quot;gif of my site&quot;)
+&lt;img src=&quot;/../../images/website.gif&quot; alt=&quot;gif of my site&quot; /&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here So I’m working on revamping my website, as I may be doing more HTML work this summer and want to have something to show for it. Below is a gif of my Nav Bar with a hover effect I just finished. The extra space on the left will be for my new logo, which I’m in the process of designing. I know it’s incredibly simple, but it’s 12 am and I’m damn proud. More to come, definitely. What goes on a home page, I am beginning to ask myself. Know any good example sites? Comment them! Have any feedback? Get at me! I’m lonely at this hour.</summary></entry><entry><title type="html">Let’s Play Catch Up!</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" rel="alternate" type="text/html" title="Let's Play Catch Up!" /><published>2019-04-09T14:00:00-04:00</published><updated>2019-04-09T14:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html">&lt;!-- Need to copy/paste to each post: --&gt;
 &lt;div class=&quot;feed&quot;&gt;
   &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
@@ -373,7 +373,7 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 &lt;h3 id=&quot;coding-wise&quot;&gt;Coding Wise:&lt;/h3&gt;
 
 &lt;div class=&quot;scale-img&quot;&gt;
-![alt text](/images/blog-1.png &quot;website screenshot&quot;) 
+&lt;img src=&quot;/../../images/blog-1.png&quot; alt=&quot;website screenshot&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Right now I am coding my own website from scratch. Brushing back up on HTML because my partner might try to get their company to hire me!! I want to do my very best because they are sticking their neck out for me, and I appreciate it. Still working on my client’s project, but I am bound by an NDA so my lips are sealed. I scrapped the PAPP (women targeted app I mentioned in the last post) but instead, this summer will try to work on my first idea for an app ever, so stay tuned!&lt;/p&gt;
@@ -393,13 +393,13 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 &lt;p&gt;I super glued foam like cut-outs to the back of it and covered with this cute fabric:&lt;/p&gt;
 
 &lt;div class=&quot;scale-img&quot;&gt;
-![alt text](/images/lp2.jpg &quot;back of my lapdesk&quot;) 
+&lt;img src=&quot;/../../images/lp2.jpg&quot; alt=&quot;back of my lapdesk&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;And then I also worked on the painting again on the opposite side before I had to get ready for my new internship, which I’ll tell you about in a bit.&lt;/p&gt;
 
 &lt;div class=&quot;scale-img&quot;&gt;
-![alt text](/images/lp3.jpg &quot;paint progress of my lapdesk&quot;) 
+&lt;img src=&quot;/../../images/lp3.jpg&quot; alt=&quot;paint progress of my lapdesk&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I’m thinking I need to clean up the color a little bit and I may add some animal on the right cliff. But rn it already seems to have come together well. I’m really pleased with it.&lt;/p&gt;
@@ -416,7 +416,7 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 &lt;p&gt;Lately I’ve been getting back to doing art, which I don’t always have time for because of work and school. I really needed the outlet after the Spring semester and some family drama going on. I compromised on my outlet and creativity. I noticed I do A LOT of work in bed and it can become uncomfortable with my laptop on my knees. I am currently painting a lapdesk that will make my life easier and I get to paint again and cherish in creating something artistic!! Here’s a picture of what I’ve done so far:&lt;/p&gt;
 
 &lt;div class=&quot;scale-img&quot;&gt;
-![alt text](/images/lp1-1.jpg &quot;Progress of my lapdesk&quot;) 
+&lt;img src=&quot;/../../images/lp1-1.jpg&quot; alt=&quot;Progress of my lapdesk&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;It’s definitely a bit aways from being finished, an d I was trying to do something with characoal on the upper right side. I’m doing basecoats for the valley as blue and will add in greens and orange later, while keeping up with shading from the moon, but stay tuned for how it turns out!!&lt;/p&gt;

@@ -20,7 +20,9 @@ Here’s one of my favorite quotes, from my favorite movie:
 #### ---Hayao Miyazaki, Mononoke Hime
 
 <div class="scale-img">
-![alt text](https://media0.giphy.com/media/bCso2YhdHY6XK/giphy.gif "San putting her mask on")
+
+<img id="" src="https://media0.giphy.com/media/bCso2YhdHY6XK/giphy.gif" alt="San putting her mask on">
+
 </div>
 
 I have my game face on.

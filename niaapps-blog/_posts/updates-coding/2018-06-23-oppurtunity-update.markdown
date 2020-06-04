@@ -16,13 +16,13 @@ I am nearly finished with my lapdesk.
 I super glued foam like cut-outs to the back of it and covered with this cute fabric:
 
 <div class="scale-img">
-![alt text](/images/lp2.jpg "back of my lapdesk") 
+<img id="" src="/../../images/lp2.jpg" alt="back of my lapdesk">
 </div>
 
 And then I also worked on the painting again on the opposite side before I had to get ready for my new internship, which I’ll tell you about in a bit.
 
 <div class="scale-img">
-![alt text](/images/lp3.jpg "paint progress of my lapdesk") 
+<img id="" src="/../../images/lp3.jpg" alt="paint progress of my lapdesk">
 </div>
 
 I’m thinking I need to clean up the color a little bit and I may add some animal on the right cliff. But rn it already seems to have come together well. I’m really pleased with it.
