@@ -4,6 +4,7 @@ title: "Black Lives Matter"
 date: 2020-05-31 16:00:00 -0400
 categories: updates-personal
 ---
+
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
@@ -21,6 +22,8 @@ I do not care if you are tired of hearing it: BLACK LIVES MATTER.
 &nbsp;&nbsp;&nbsp;All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. I am of the belief that this starts with defunding law enforcement. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue <a href="https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline" target="blank" title="">it was created to keep them oppressed</a>. We need to start over where everyone is truly equal. 
 
 Thank you for reading, until next time.
+
+&nbsp;&nbsp;&nbsp;  
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
@@ -84,7 +87,7 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" class="post-button" id="button-nxt">Previous Post</a>
-
+     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
 
