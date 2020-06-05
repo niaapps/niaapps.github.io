@@ -49,5 +49,5 @@ Below are resources to either help Ms. Taylor's family or to put pressure on the
 
 
   <div class="thumbnail">
-  <img id="bre" src="/../../images/breonna.jpg" alt="Breonna Taylor">
+  <img id="bre" src="/../../images/breonna2.jpg" alt="Breonna Taylor">
   </div>
