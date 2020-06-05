@@ -24,8 +24,8 @@ Sending love. Thanks for reading.
 
 
 <div class="button-div">
-    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2020/03/27/website-update.html" class="p-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="p-button" id="button-nxt">Next Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2020/03/27/website-update.html" class="post-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
 

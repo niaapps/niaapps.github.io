@@ -32,6 +32,6 @@ The above is actually the first steps I took in bringing together the very websi
 
 
 <div class="button-post">
-    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2018/06/23/oppurtunity-update.html" class="p-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" class="p-button" id="button-nxt">Next Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2018/06/23/oppurtunity-update.html" class="post-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" class="post-button" id="button-nxt">Next Post</a>
   </div>

@@ -45,6 +45,6 @@ Take a deep breath in, filling your belly. Hold it for a few seconds. Then let i
 Thanks for reading.
 
 <div class="button-post">
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" class="p-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" class="p-button" id="button-nxt">Next Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" class="post-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" class="post-button" id="button-nxt">Next Post</a>
   </div>

@@ -463,6 +463,21 @@ margin:20px;
   background-color: #a5647c;
   color:white;}
 
+  .post-button{
+    color:white;
+    background-color:#60407F; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+  
+  }
+
 .wrapper{
   margin: auto;
   color:white;

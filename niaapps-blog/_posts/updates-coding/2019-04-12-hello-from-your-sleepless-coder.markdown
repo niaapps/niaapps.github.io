@@ -15,6 +15,6 @@ So I’m working on revamping my website, as I may be doing more HTML work this 
 </div>
 
 <div class="button-post">
-    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" class="p-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="p-button" id="button-nxt">Next Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" class="post-button" id="button-nxt">Previous Post</a>
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
