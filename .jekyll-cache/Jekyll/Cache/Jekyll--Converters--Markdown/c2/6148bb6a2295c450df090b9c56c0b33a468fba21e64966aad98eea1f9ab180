@@ -1,4 +1,4 @@
-I"C<div class="feed">
+I"­<div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
 
@@ -38,5 +38,9 @@
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="post-button" id="button-nxt">Previous Post</a>
 
+  </div>
+
+<div class="thumbnail">
+  <img id="bre" src="/../../images/breonna.jpg" alt="Breonna Taylor" />
   </div>
 :ET

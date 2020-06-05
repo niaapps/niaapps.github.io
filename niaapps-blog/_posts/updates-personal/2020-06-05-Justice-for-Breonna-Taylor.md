@@ -46,3 +46,8 @@ Below are resources to either help Ms. Taylor's family or to put pressure on the
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="post-button" id="button-nxt">Previous Post</a>
 
   </div>
+
+
+  <div class="thumbnail">
+  <img id="bre" src="/../../images/breonna.jpg" alt="Breonna Taylor">
+  </div>
