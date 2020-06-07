@@ -13,7 +13,7 @@ Hello readers!
 Today's post is about how I have been coping with all the craziness of the pandemic, racism, police brutality and overall bad news. In addition to talking with your loved ones and those you seek out for support, music can also be a form of relief. I listen to music both to come to terms with reality and to feel better. That's how this playlist is set up. It moves from a place of anger to  emotions in between to a place of hope.
 
 
-First up we have <a href="" target="_blank" title=""> </a>
+First up we have <a href="https://www.youtube.com/watch?v=VHhND-BkWdk" target="_blank" title="">All Alone </a>by Gorillaz featuring Roots Manuva. During this time it can easily feel like you're all alone. Please, text or call your family and friends, you are never really alone, but people cannot read your mind. No one will know you need support if you don't ask for it. This song is rumored to be about Manuva's outlook on the world. THe pacing of the beginning really makes you feel the sadness, the dissapointment the plea to again be alright.  
 <a href="" target="_blank" title="">Link Text</a>
 <a href="" target="_blank" title="">Link Text</a>
 <a href="" target="_blank" title="">Link Text</a>

@@ -27,7 +27,7 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
- 
+ This list was last updated: 6/7/2020 
 
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
@@ -53,7 +53,7 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="_blank" title="">Thread of Places to Donate</a>.
 
-<a href="bit.ly/BlackLivesAction " target="_blank" title="">Resources for Accountability and Action for Black Lives</a>.
+<a href="https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/mobilebasic?urp=gmail_link" target="_blank" title="">Resources for Accountability and Action for Black Lives</a>.
 
 <a href="https://docs.google.com/document/u/0/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic" target="_blank" title="">Anti Racism Resources for White people</a>.
 
