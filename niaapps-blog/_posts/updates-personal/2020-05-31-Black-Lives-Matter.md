@@ -57,7 +57,7 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://docs.google.com/document/u/0/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic" target="_blank" title="">Anti Racism Resources for White people</a>.
 
-<a href="https://www.facebook.com/melridge22?__tn__=%2CdCH-R-R&eid=ARBoG41UXRBhb4Z2Dxk1A-9ywgkWTQyiNgZuoOMHhjyK6lv8VavBfHpGhG_bfAJfbtle1WAmAkNA6C9O&hc_ref=ARTKxkKh364bAv8FtEH_aNbIqMHk1NGps3_bVrD_8J0NERN0b_ZKwzd_bMOyx7YnSbk&fref=nf" target="_blank" title="">Graphic about Covert White Supremacy</a>. 
+<a href="https://www.facebook.com/photo.php?fbid=1118672045179268&set=pb.100011094495325.-2207520000..&type=3&theater" target="_blank" title="">Graphic about Covert White Supremacy</a>. 
 
 <a href="https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit" target="_blank" title="">More Anti-Racism Resources</a>.
 
