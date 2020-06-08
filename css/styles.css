@@ -486,7 +486,11 @@ margin:20px;
 .wrapper-home{  margin: auto;
   color:white;
   max-width: 900px;
-padding-bottom: 100px;}
+  padding-bottom: 150px;
+  margin-bottom: 50px;
+/* margin-bottom was added so footer doesn't cover First post,
+ may need to explore footer always being pushed down by content */
+}
 
 .footer-post {
   display: block;

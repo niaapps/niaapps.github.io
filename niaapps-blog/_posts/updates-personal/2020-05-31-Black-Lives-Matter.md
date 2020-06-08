@@ -19,7 +19,7 @@ This plight for justice has always been something I have cared about. I am birac
 
 I do not care if you are tired of hearing it: BLACK LIVES MATTER.
 
-&nbsp;&nbsp;&nbsp;All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. I am of the belief that this starts with defunding law enforcement. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue <a href="https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline" target="_blank" title="">it was created to keep them oppressed</a>. We need to start over where everyone is truly equal. 
+All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. I am of the belief that this starts with defunding law enforcement. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue <a href="https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline" target="_blank" title="">it was created to keep them oppressed</a>. We need to start over where everyone is truly equal. 
 
 Thank you for reading, until next time.
 
@@ -27,7 +27,7 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
- This list was last updated: 6/7/2020 
+ This list was last updated: 6/8/2020 
 
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
@@ -71,6 +71,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="_blank" title="">Thread of more places to donate</a>.
 
+<a href="https://www.gofundme.com/f/homeless-black-trans-women-fund" target="_blank" title="">Fund for Homeless Black Trans Women</a>
+
 <a href="https://www.change.org/p/louisville-mayor-greg-fischer-justice-for-david-mcatee?recruiter=862253145&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&recruited_by_id=ca6cbd70-2414-11e8-ab29-25fa8a73a71b" target="_blank" title="">Petition for David McAtee a protester who was murdered</a>.
 
 <a href="https://twitter.com/i/lists/1198727909525131264" target="_blank" title="">Black owned Business you can support</a>.
@@ -81,9 +83,17 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://twitter.com/milkyapron/status/1267881192306561025" target="_blank" title="">Thread of Black Owned Clothing/Fashion stores</a>.
 
+<a href="https://stephano.me/fashion/blog/black-owned-goth-brands-list" target="_blank" title="">List of Black Owned Punk/Goth Brands</a>.
+
 <a href="https://themadmommy.com/black-owned-etsy-shops/" target="_blank" title="">Black Owned Etsy Shops</a>.
 
-<a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="_blank" title="">My Aunt Donna's GoFundMe</a>.
+<a href="https://www.facebook.com/couturedymond/posts/10207861202685044" target="_blank" title="">Black Owned Restaurants in NYC</a> split up by bourough.
+
+<a href="https://docs.google.com/document/d/1Zk06JtFXxIHs05jRCRQ5nmUVYdVi2BgF2S6tMGdqJv0/edit" target="_blank" title="">Eye Witness accounts of Police Brutality</a>. Open Google Document.
+
+
+<a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="_blank" title="">My Aunt Donna's 
+GoFundMe</a>.
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" class="post-button" id="button-nxt">Previous Post</a>
