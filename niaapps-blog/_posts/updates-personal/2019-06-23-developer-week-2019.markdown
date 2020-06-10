@@ -16,8 +16,8 @@ Earlier this week I attended an event called “Developer Week NY”. I got an i
 Here are some photos from the conference:
 
 <div class="scale-img">
-<img id="" src="/../../images/dw.gif" alt="My bdage"> <img id="" src="/../../images/dw2.jpg" alt="Misty Robotics display"> 
-
+<img id="" src="/../../images/dw.gif" alt="My bdage"> &nbsp;&nbsp;&nbsp; 
+ <img id="" src="/../../images/dw2.jpg" alt="Misty Robotics display"> &nbsp;&nbsp;&nbsp; 
 <img id="" src="/../../images/dw3.jpg" alt="Main Stage">
 </div>
 
@@ -27,7 +27,12 @@ Now, some short work updates. On my current work project I am flustered. I am fa
 
 I have been painting, here are the start of two I’ve done so far:
 
-![alt-text](/images/tree.jpg "Swamp and Tree painting base") | ![alt-text](/images/lighthouse.jpg "Lighthouse Painting")
+
+<div class="scale-img">
+<img id="" src="/../../images/tree.jpg" alt="Swamp and Tree painting base">
+&nbsp;&nbsp;&nbsp;
+<img id="lighthouse" src="/../../images/lighthouse.jpg" alt="Lighthouse Painting">
+ </div>
 
 For my birthday, I received new brushes and paints, so I started the lighthouse painting, but will come back to the tree one.
 

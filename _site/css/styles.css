@@ -544,6 +544,8 @@ margin:20px;
 .thumbnail{
   display: none;
 }
+
+
 /*End of Niaapps Blog CSS*/
 
 
@@ -578,7 +580,7 @@ margin:20px;
  .scale-img img:hover{
     transform: scale(1.5);
   } 
-  
+
   .abt-container{
     text-align: initial;
     width: 100%;
