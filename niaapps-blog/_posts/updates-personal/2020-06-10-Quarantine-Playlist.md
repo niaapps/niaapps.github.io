@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quarantine Playlist"
-date: 2020-06-09 00:00:01 -0400
+date: 2020-06-10 00:00:01 -0400
 categories: updates-personal
 ---
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
@@ -152,7 +152,7 @@ _Livin' life in phases_
 
 _Another season changes_
 
-_And still my days are shapeless_
+_And still my days are shapeless"_
 
 When quarantine began, the weather was still chilly. I still had to wear the lighter of my two winter coats. We have seen the change of the end of winter, to spring and now we have the summer solstice coming up on June 21st. I still had structure from school, but once the semester ended I have been feeling my days are a bit shapeless. To be fair to myself, this website was only 50% done when quarantine began, and now I am writing to you daily on this blog. Patience is also a virtue I have been struggling with, but am trying to have more with myself and others. I have been doing a ton of self discovery during this time, which is why the first and third lyrics resonate with me deeply. I’m taking things one day at a time, but cannot deny the transition I’ve been going through. The same can be said about the political unrest we are seeing in the air. All the anger and trauma are being transmuted into malleable changes. Police Departments across the country are having resources rerouted back into communities.
 
@@ -178,7 +178,7 @@ _Nobody's nothing_
 
 _That's right_
 
-The first two lines are said to be Chance acknowledging the beauty of seeing another year, but flipping off Uncle Sam is a criticism of our government. Chance has not been all talk, he has put an enormous amount of his resources back into Chicago’s community and government.The next two lines are debated about whether he means death is weighting the dice in its favor for Chicago’s youth. Or if the youth are weighting them escaping death another year. In addition echoing back to what I was saying with The Pretender and depression, this is looking at it from the other side. “Cause they help me beat my demon’s ass”. No one should have to fight their demons alone. You matter to someone; at the very least one person in your life, even if that person happens to be yourself, or someone you haven’t even met yet.
+The first two lines are said to be Chance acknowledging the beauty of seeing another year, but flipping off Uncle Sam is a criticism of our government. Chance has not been all talk, he has put an enormous amount of his resources back into Chicago’s community and government. The next two lines are debated about whether he means death is weighting the dice in its favor for Chicago’s youth. Or if the youth are weighting them escaping death another year. In addition echoing back to what I was saying with The Pretender and depression, this is looking at it from the other side. “Cause they help me beat my demon’s ass”. No one should have to fight their demons alone. You matter to someone; at the very least one person in your life, even if that person happens to be yourself, or someone you haven’t even met yet.
 
 Nearing the end, we come to <a href="https://www.youtube.com/watch?v=HSivlaSVk1k&list=PLvZucUeG2u9D5EwEgVTFEpfpgK4FOaaTo&index=17" target="_blank" title="">We Got The Power</a> by Gorillaz. I was trying to not repeat artists on this playlist, but this song is exactly what this playlist needs. At the end of the day through all the terrible things happening in the world, we have power. The chorus goes:
 
@@ -200,10 +200,17 @@ Lastly, we have <a href="https://www.youtube.com/watch?v=kzQWCeguH30" target="_b
 
 _"Crystal Clear, I won't give into the fear."_
 
-In these troubling times it is important to look at the situation without fear, but rather objectivity. Giving into fear will only make your decisions erratic and possibly dangerous. Seeing things in new light can be incredibly liberating. The second I started looking at Quarantine as a detriment I lost all power in the situation. I now see this just is, and I need to make the best of it and have been attempting to do so. 
+In these troubling times it is important to look at the situation without fear, but rather objectivity. Giving into fear will only make your decisions erratic and possibly dangerous. Seeing things in new light can be incredibly liberating. The second I started looking at quarantine as a detriment I lost all power in the situation. I now see this just is, and I need to make the best of it and have been attempting to do so.
+
+Thank you for reading, let me know what songs you are using to cope with in the comments below!
+Lastly I found this artist while searching for songs, while I don't know any of them well enough to put them on this playlist, Yves Tumor, an upcoming Black Non-Binary artist deserves your time, so please lend your ear:
+
+<a href="https://youtu.be/N0c7lVHMyaY" target="_blank" title="">Kerosene!</a>
+
+<a href="https://youtu.be/LJ4o9ppV4yg" target="_blank" title="">Romanticist/Dream Palette</a>
 
 
- 
+ See you next time and stay safe!
 
 <div class="button-post">
 <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" class="post-button" id="button-nxt">Previous Post</a>
