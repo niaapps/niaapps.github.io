@@ -4,6 +4,7 @@ title: "Quarantine Playlist"
 date: 2020-06-10 00:00:01 -0400
 categories: updates-personal
 ---
+ <meta name="description" content="Music Post. What songs have been getting you through civil unrest and quarantine? ">
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
