@@ -72,6 +72,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://padlet.com/nicolethelibrarian/nbasekqoazt336co" target="_blank" title="">Anti-Racism Resources for all ages</a>.
 
+<a href="https://thebolditalic.com/where-do-i-donate-why-is-the-uprising-violent-should-i-go-protest-5cefeac37ef9" target="_blank"> Common FAQ's answered for White People about Black Lives Matter</a>.
+
 <a href="https://www.welcometostratagem.com/post/10-habits-of-someone-who-doesn-t-know-they-re-anti-black" target="_blank" title="">Article about recognizing Anti-Black habits</a>.
 
 <a href="https://www.gofundme.com/f/a-fund-for-blackled-mental-health-supports?utm_source=customer&utm_medium=copy_link&utm_campaign=m_pd+share-sheet" target="_blank" title="">A Fund for Black-led Mental Health Supports</a>.
