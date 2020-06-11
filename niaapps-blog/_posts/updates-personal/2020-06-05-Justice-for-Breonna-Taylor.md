@@ -4,7 +4,7 @@ title: "Justice for Breonna Taylor"
 date: 2020-06-05 00:01:00 -0400
 categories: updates-personal
 ---
-
+ <meta name="description" content="Today is my birthday. It is also Breonna Taylor's. Instead of talking about me I would like to talk about her story.">
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>

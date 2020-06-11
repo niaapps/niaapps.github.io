@@ -217,3 +217,8 @@ Lastly I found this artist while searching for songs, while I don't know any of 
 <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" class="post-button" id="button-nxt">Previous Post</a>
 
  </div>
+
+<div class="thumbnail">
+  <img id="img-id" src="/../../images/yt.png" alt="alt text" onContextMenu="alert('Please don\'t download this photo!');return false;">
+  </a>
+</div>
