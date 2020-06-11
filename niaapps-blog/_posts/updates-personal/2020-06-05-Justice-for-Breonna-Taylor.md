@@ -28,7 +28,7 @@ Thanks for reading.
 
 Below are resources to either help Ms. Taylor's family or to put pressure on the LMPD to hold officers accountable for taking Breonna's life. If you have any additional resources either contact me through my contact page or email them. I will add them to the post.
 
-This List was last updated: 6/08/2020
+This List was last updated: 6/11/2020
 
 <a href="https://justiceforbreonna.org/" target="_blank" title="">Website called Justice for Breonna, resources on how to take action.</a>
 
@@ -43,6 +43,8 @@ This List was last updated: 6/08/2020
 <a href="https://www.gofundme.com/f/r3w76-raising-money-for-breonna-taylor-and-david-macatee" target="_blank" title="">A second GoFundMe for both Breonna and David McAtee</a>. You can read more about McAtee <a href="https://www.cnn.com/2020/06/02/us/david-mcatee-louisville-what-we-know-trnd/index.html" target="_blank" title="">here.</a>
 
 <a href="https://actionnetwork.org/fundraising/louisville-community-bail-fund" target="_blank" title="">Louisville Bail Fund for protesters</a>
+
+<a href="https://twitter.com/BerniceKing/status/1269636063632527360/photo/2" target="_blank" title="">Call/Email demanding Justice for Breonna Taylor</a>.
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="post-button" id="button-nxt">Previous Post</a>

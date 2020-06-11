@@ -28,13 +28,15 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
- This list was last updated: 6/8/2020 
+ This list was last updated: 6/11/2020 
 
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
 <a href="https://twitter.com/TatiannaTarot/status/1267511432394035200" target="_blank" title="">Thread for Energy work, healing</a>. I believe priority is being taken for Black Youth.
 
 <a href="https://twitter.com/nxbrxth/status/1266239760248393735" target="_blank" title="">Safety Tips for Protesters</a>.
+
+<a href="https://www.hdenae.com/blm" target="_blank" title="">General Resource and Education site</a>.
 
 <a href="https://blacklivesmatter.com/" target="_blank" title="">Black Lives Matter Org</a>.
 
@@ -43,6 +45,10 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://blacklivesmatters.carrd.co/" target="_blank" title="">Website called "Ways To Help".</a> Petitions and more.
 
 <a href="https://www.change.org/p/us-senate-hands-up-act?recruiter=186170836&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&utm_term=psf_combo_share_initial&recruited_by_id=535372c0-733b-11e4-abc5-176b86b32b70" target="_blank" title="">Hands Up Act</a> Petition.
+
+<a href="https://sign.moveon.org/petitions/nonewyouthjails" target="_blank" title="">Petiton for No new Youth Jail</a>.
+
+<a href="https://www.change.org/p/williamson-county-pd-justice-for-javier-ambler?recruiter=771678484&recruited_by_id=3da05e60-8ebe-11e7-a7e6-55007d82a2ca" target="_blank" title="">Petition for Javier Ambler</a>.
 
 <a href="https://docs.google.com/document/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub" target="_blank" title="">Document of multiple resources.</a> Petitions, places to donate, call and email.
 
@@ -65,6 +71,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://twitter.com/dj_diabeatic/status/1266563804437110787" target="_blank" title="">Informative Anti-Racism Graphic</a>.
 
 <a href="https://padlet.com/nicolethelibrarian/nbasekqoazt336co" target="_blank" title="">Anti-Racism Resources for all ages</a>.
+
+<a href="https://www.welcometostratagem.com/post/10-habits-of-someone-who-doesn-t-know-they-re-anti-black" target="_blank" title="">Article about recognizing Anti-Black habits</a>.
 
 <a href="https://www.gofundme.com/f/a-fund-for-blackled-mental-health-supports?utm_source=customer&utm_medium=copy_link&utm_campaign=m_pd+share-sheet" target="_blank" title="">A Fund for Black-led Mental Health Supports</a>.
 
@@ -90,8 +98,11 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://www.facebook.com/couturedymond/posts/10207861202685044" target="_blank" title="">Black Owned Restaurants in NYC</a> split up by bourough.
 
+<a href="https://docs.google.com/document/u/0/d/12iRz-DAMLiwGrMmWlhMZRKZKQJf6lP1IE1-uJuXwvYc/mobilebasic" target="_blank" title="">Website to help support Black Content Creators</a>.
+
 <a href="https://docs.google.com/document/d/1Zk06JtFXxIHs05jRCRQ5nmUVYdVi2BgF2S6tMGdqJv0/edit" target="_blank" title="">Eye Witness accounts of Police Brutality</a>. Open Google Document.
 
+<a href="https://twitter.com/BerniceKing/status/1269636063632527360/photo/2" target="_blank" title="">Call/Email demanding Justice for Breonna Taylor</a>.
 
 <a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="_blank" title="">My Aunt Donna's 
 GoFundMe</a>.
