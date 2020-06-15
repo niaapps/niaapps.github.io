@@ -28,17 +28,22 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
- This list was last updated: 6/11/2020 
+ This list was last updated: 6/14/2020 
+
 
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
 <a href="https://twitter.com/TatiannaTarot/status/1267511432394035200" target="_blank" title="">Thread for Energy work, healing</a>. I believe priority is being taken for Black Youth.
+
+<a href="https://www.self.com/story/black-mental-health-resources" target="_blank" title="">Mental Health Resources</a>.
 
 <a href="https://twitter.com/nxbrxth/status/1266239760248393735" target="_blank" title="">Safety Tips for Protesters</a>.
 
 <a href="https://www.hdenae.com/blm" target="_blank" title="">General Resource and Education site</a>.
 
 <a href="https://blacklivesmatter.com/" target="_blank" title="">Black Lives Matter Org</a>.
+
+<a href="https://www.joincampaignzero.org/#vision" target="_blank" title="">Campaign Zero's website</a>.
 
 <a href="https://twitter.com/kiwiscigarettes/status/1265767579739512833" target="_blank" title="">Thread of Petitions</a>. 
 
@@ -50,6 +55,14 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://www.change.org/p/williamson-county-pd-justice-for-javier-ambler?recruiter=771678484&recruited_by_id=3da05e60-8ebe-11e7-a7e6-55007d82a2ca" target="_blank" title="">Petition for Javier Ambler</a>.
 
+<a href="https://twitter.com/_courttnneeyy/status/1271125322080022528" target="_blank" title="">Thread of petitions that are short on signatures</a>.
+
+<a href="https://www.change.org/p/allow-california-s-prisoner-firefighters-to-work-professionally-after-release?signed=true" target="_blank" title="">Petiton: Allow California's Prisoner Firefighters to Work Professionally After Release</a>.
+
+<a href="https://twitter.com/meItedhearts/status/1270212402827669507" target="_blank" title="">Another thread of petitions to sign</a>.
+
+<a href="https://pendingpetition.carrd.co/" target="_blank" title="">Pending Petitions</a>.
+
 <a href="https://docs.google.com/document/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub" target="_blank" title="">Document of multiple resources.</a> Petitions, places to donate, call and email.
 
 <a href="https://twitter.com/AM1R4HSCAVE/status/1267202201132265472" target="_blank" title="">Thread of Various Resources.</a>
@@ -59,6 +72,14 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://bailfunds.github.io/" target="_blank" title="">An additional list of bail funds</a>.
 
 <a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="_blank" title="">Thread of Places to Donate</a>.
+
+<a href="https://itch.io/b/520/bundle-for-racial-justice-and-equality" target="_blank" title="">Bundle for Racial Equality</a>.
+
+<a href="https://twitter.com/iconickbeauty/status/1271584309221167104" target="_blank" title="">Crowfunding thread for Black Trans people</a>.
+
+<a href="https://twitter.com/poesrogue/status/1269303523490971649" target="_blank" title="">Organizations to donate to that help Black Trans People</a>.
+
+<a href="https://bothamjeanfoundation.org/donate/" target="_blank" title="">Donate to the Botham Jean Foundation</a>.
 
 <a href="https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/mobilebasic?urp=gmail_link" target="_blank" title="">Resources for Accountability and Action for Black Lives</a>.
 
@@ -100,13 +121,21 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
 <a href="https://www.facebook.com/couturedymond/posts/10207861202685044" target="_blank" title="">Black Owned Restaurants in NYC</a> split up by bourough.
 
+<a href="https://twitter.com/NitaTyndall/status/1269702757352701952" target="_blank" title="">Thread of books by Trans people for children sold at Black owned bookstores</a>.
+
+<a href="https://twitter.com/AriLennox/status/1271173707185127425" target="_blank" title="">Thread of Black owned Businesses</a>.
+
+<a href="https://stylishcurves.com/black-owned-plus-size-clothing-brands/" target="_blank" title="">List of Black owned plus size brands</a>.
+
+<a href="https://shoppeblack.us/2020/05/black-owned-tea-brands-you-can-purchase-online/" target="_blank" title="">List of Black owned Tea brands</a>.
+
 <a href="https://docs.google.com/document/u/0/d/12iRz-DAMLiwGrMmWlhMZRKZKQJf6lP1IE1-uJuXwvYc/mobilebasic" target="_blank" title="">Website to help support Black Content Creators</a>.
 
 <a href="https://docs.google.com/document/d/1Zk06JtFXxIHs05jRCRQ5nmUVYdVi2BgF2S6tMGdqJv0/edit" target="_blank" title="">Eye Witness accounts of Police Brutality</a>. Open Google Document.
 
 <a href="https://twitter.com/BerniceKing/status/1269636063632527360/photo/2" target="_blank" title="">Call/Email demanding Justice for Breonna Taylor</a>.
 
-<a href="https://www.gofundme.com/manage/help-donna-find-a-home" target="_blank" title="">My Aunt Donna's 
+<a href="https://www.gofundme.com/f/help-donna-find-a-home" target="_blank" title="">My Aunt Donna's 
 GoFundMe</a>.
 
 <div class="button-post">
