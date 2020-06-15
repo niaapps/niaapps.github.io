@@ -30,16 +30,17 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 
  This list was last updated: 6/14/2020 
 
-
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
 <a href="https://twitter.com/TatiannaTarot/status/1267511432394035200" target="_blank" title="">Thread for Energy work, healing</a>. I believe priority is being taken for Black Youth.
 
-<a href="https://www.self.com/story/black-mental-health-resources" target="_blank" title="">Mental Health Resources</a>.
+<a href="https://www.self.com/story/black-mental-health-resources" target="_blank" title="">Mental Health Resources for Black People</a>.
 
 <a href="https://twitter.com/nxbrxth/status/1266239760248393735" target="_blank" title="">Safety Tips for Protesters</a>.
 
 <a href="https://www.hdenae.com/blm" target="_blank" title="">General Resource and Education site</a>.
+
+<a href="https://www.blacklivesmatter.space/" target="_blank" title="">Resource masterpost</a>.
 
 <a href="https://blacklivesmatter.com/" target="_blank" title="">Black Lives Matter Org</a>.
 
@@ -106,6 +107,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://www.gofundme.com/f/homeless-black-trans-women-fund" target="_blank" title="">Fund for Homeless Black Trans Women</a>
 
 <a href="https://www.change.org/p/louisville-mayor-greg-fischer-justice-for-david-mcatee?recruiter=862253145&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&recruited_by_id=ca6cbd70-2414-11e8-ab29-25fa8a73a71b" target="_blank" title="">Petition for David McAtee a protester who was murdered</a>.
+
+<a href="https://officialblackwallstreet.com/directory/" target="_blank" title="">Offical Black Wall Street</a>.
 
 <a href="https://twitter.com/i/lists/1198727909525131264" target="_blank" title="">Black owned Business you can support</a>.
 
