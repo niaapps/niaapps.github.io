@@ -28,7 +28,8 @@ Thank you for reading, until next time.
 
 That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme's for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.
 
- This list was last updated: 6/14/2020 
+ This list was last updated: 6/18/2020 
+
 
 <a href="https://twitter.com/mayarichardsun/status/1265676677549559809" target="_blank" title=""> Therapy Thread</a>. 
 
@@ -49,6 +50,10 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://twitter.com/kiwiscigarettes/status/1265767579739512833" target="_blank" title="">Thread of Petitions</a>. 
 
 <a href="https://blacklivesmatters.carrd.co/" target="_blank" title="">Website called "Ways To Help".</a> Petitions and more.
+
+<a href=" https://signatures.carrd.co/ " target="_blank" title="">Petiton masterpost</a>
+
+<a href="https://saytheirnames.carrd.co/" target="_blank" title="">How To Help Website</a>. Petitions/Places to Donate/ Text/Call Actions.
 
 <a href="https://www.change.org/p/us-senate-hands-up-act?recruiter=186170836&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&utm_term=psf_combo_share_initial&recruited_by_id=535372c0-733b-11e4-abc5-176b86b32b70" target="_blank" title="">Hands Up Act</a> Petition.
 
@@ -75,6 +80,8 @@ That is the end of this post. Below are some resources, threads of petitions, ba
 <a href="https://twitter.com/sorrybythway/status/1267469168300998656" target="_blank" title="">Thread of Places to Donate</a>.
 
 <a href="https://itch.io/b/520/bundle-for-racial-justice-and-equality" target="_blank" title="">Bundle for Racial Equality</a>.
+
+<a href="https://www.humblebundle.com/fight-for-racial-justice-bundle" target="_blank" title="">Racial Justice Bundle</a>
 
 <a href="https://twitter.com/iconickbeauty/status/1271584309221167104" target="_blank" title="">Crowfunding thread for Black Trans people</a>.
 
