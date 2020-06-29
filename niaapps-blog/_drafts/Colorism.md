@@ -9,4 +9,64 @@ categories: updates-personal
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 
-Hey Peou! I hope you have been doing well since the last time I saw you, and amidst all the craziness of the world right now. I am reaching out because I am writing a blog post on Colorism. I was planning to quote one of your poems from Khmer Girl, "Bleaching My Skin". I am writing both to ask your permission and to see if you had anything to say about the topic/your experience with Colorism. I am interested in the parallels between your experience as a darker skinned Asian person to darker skinned Black people. I have been seeing conversations online about it a lot and wanted to delve deeper, I plan to write about how Colorism hurts melanated people and in a way gives lighter toned people a bit of privilege. It is my belief that it is a self hatred and the societal hatred of darker skin that becomes internalized in our communities. If you have any insight about why you think it is so prevalent, what drove you to feel the need to bleach your skin, what you think the answer or solution to this issue is(I am of the belief it is self love as well as normalizing dark skin through representation, many feel lighter skinned people act superior because of their tone.The only solution I can think of is educating about why dark skin is seen as undesirable when it is something people have no control over.) I would love to hear your thoughts and quote you in my post if you are willing.
+In digital spaces across the internet amid all the rallies for racial justice there has been a sub conversation surronding colorism. Colorism is defined as prehudice of skin color typically within the same race. It is prevalent not only in African American culture, but Asian cultures, South Asian cultures, Carribean cultures and more. In each of these the conversation revolves around the same thing: anti-blackness and the idolization of lighter skin. The bias that darker skinned people face within their own communities is an enigmatic burden to bear that can and should be dismantled. The act of challenging your own anti-black ideals subconcious or not is an act of decolonization that in my opinion is necessary if you call yourself an ally.
+
+It is without doubt that you have witnessed colorism at work before. Colorism is adults telling young children to avoid the sun for fear of "being too dark". Colorism is favoring one child over another for having lighter skin. Colorism is "They are pretty for a dark skinned person.". The distinction between colorism and racism is again that this happens within respective communities and not from someone outside of the community. Colorism is prevalent in everything, from hiring practices (favoring lighter skinned candidates) to the skin lightening industry becoming a $23 billion dollar business. Darker skinned persons are made to feel shame in something they cannot control. There are extensive first person accounts out there, but I'd like to highlight someone who has both talked and written about her experience.
+
+Peou Tuy is an author and spoken word poet, she has survived through the Khmer Rogue as an infant and came to America as a refugee, living her life as a Khmer American. She is a darker skinned Asian woman and has faced colorism her entire life in the Khmer community. Here is a poem she wrote from her book, <a href="https://www.amazon.com/Khmer-Girl-Peuo-Tuy/dp/097796230X" target="_blank" title="">Khmer Girl</a> titled "Bleaching My Skin".
+
+<div class = "no-select">
+<p><em>I hate her even in my sleep</em></p>
+<p><em>dream I sharply slice her off</em></p>
+<p><em>new fresh layers of white skin grow</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>I am forced to live with her</em></p>
+<p><em>the sight of her makes me vomit</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>I consistently tell her she is too dark to be on me</em></p>
+<p><em>but she insists it is not her fault</em></p>
+<p><em>this color-haterism thing is biologically inherent</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>I buy</em></p>
+<p><em>lightening cream</em></p>
+<p><em>whiten her off my face</em></p>
+<p><em>praying it will dry her out</em></p>
+<p><em>shedding off layers after layers after layers</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>In showers</em></p>
+<p><em>I turn the dial to boiling hot</em></p>
+<p><em>in order to burn her to death</em></p>
+<p><em>from my face to my neckarmscheststomachbackbuttocksthighslegsfeet</em></p>
+<p><em>I harshly scrub her off with a coarse cloth</em></p>
+<p><em>dipped in sodium lauryl sulfate</em></p>
+<p><em>burning her firey red</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>I hate her!</em></p>
+<p><em>I hate her!</em></p>
+<p><em>I hate her!</em></p>
+&nbsp;&nbsp;&nbsp; 
+<p><em>Bitch! You desrve it!</em></p>
+</div>
+
+Peou also speaks of her experience <a href="https://nearyheng.com/podcasts/skin-lighteners-you-can-bleach-your-skin-but-you-cannot-bleach-your-true-you-identity-peuo-tuy-p2of2/" target="_blank" title="">here.</a> She says:
+
+_I felt horrible, I was told constantly by Khmer communities and people on the street "Oh she's so dark!"
+
+
+ Her own parents telling her to wear long sleeve clothing to hide her skin, told to scrub the dirtyness away, and favoring her sisters who were ligher. In addition she describes how her brothers also dark skinned never got the same talks, adding on to the intersectionality of the colorism issue. 
+
+Colorism hurts melanated people 
+It can give lighter toned people a bit of an implicit advantage. 
+
+Colorism can be internalized due to the societal hatred of darker skin that becomes normalized in our communities. 
+ 
+
+Once you acknowledge the existence of this colorism issue, what can be done? Well to start, educating yourself and others further about why dark skin is percieved as undesirable and acknowledging it is something people have no control over. Educate yourself on implicit bias you may have and actively work to fix them.
+
+
+
+
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html" class="post-button" id="button-nxt">Previous Post</a>
+
+  </div>

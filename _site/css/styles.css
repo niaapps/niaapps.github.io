@@ -19,17 +19,8 @@ body {
  overflow-y: scroll;
  overflow-x: hidden;
   
-  /*
-  The below is to prevent text selection
-  
-  -webkit-user-select: none; 
-  -webkit-touch-callout: none; 
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  user-select: none;     */
-
-  
 }
+
 .home-bod{
   margin: 0;
   background-image: none; 
@@ -290,13 +281,48 @@ list-style-type: none;}
   margin-left: 150px;
   z-index: -1;
   display: inline-flex; 
-  
+  padding:5px;
 }
+
+/* Chrome and Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  
+.projects{ 
+  padding-left: 0;
+  margin-left: 0;
+  }
+
+  
+.card-p{
+  transform: scale(.80);
+  margin:15px;}
+}
+
+/* Firefox */
+@-moz-document url-prefix() { 
+
+  .projects{
+    margin-left: 150px;
+    z-index: -1;
+    display: inline-flex; 
+    padding:5px;
+  }
+
+  .card-p {
+    transform: none;
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 20px;
+  }  
+
+}
+
 .card-p {
-   background-color: white;
-   height: 130px;
-   width: 200px;
-   margin: 20px;
+ background-color: white;
+ height: 130px;
+ width: 200px;
+ margin: 20px;
 }
 
 .text-c{
@@ -317,7 +343,7 @@ list-style-type: none;}
   z-index: 4;
   vertical-align: middle; 
   height: 130px;
-   width: 200px;
+  width: 200px;
   opacity: 0;
   transition: .5s ease;
   background-color: #5C3957;
@@ -545,6 +571,17 @@ margin:20px;
   display: none;
 }
 
+.no-select{
+  
+  -webkit-user-select: none; 
+  -webkit-touch-callout: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;     
+
+  
+}
+
 
 /*End of Niaapps Blog CSS*/
 
@@ -642,7 +679,7 @@ margin:20px;
 
   .projects{
    width: 100%;
-   margin:20px;
+   margin: 20px;
    display: grid;
    margin-bottom: 100px;
    }
@@ -930,9 +967,8 @@ padding-right: 20px;
 } 
 /* End of mobile resize */
 
-
-/* Css Debug
-* {
+/*Css Debug */
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
