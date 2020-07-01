@@ -50,10 +50,16 @@ Peou Tuy is an author and spoken word poet, she has survived through the Khmer R
 
 Peou also speaks of her experience <a href="https://nearyheng.com/podcasts/skin-lighteners-you-can-bleach-your-skin-but-you-cannot-bleach-your-true-you-identity-peuo-tuy-p2of2/" target="_blank" title="">here.</a> She says:
 
-_I felt horrible, I was told constantly by Khmer communities and people on the street "Oh she's so dark!"
+"I felt horrible, I was told constantly by Khmer communities and people on the street 'Oh she's so dark!' My parents would say 'Yeah she's the darkest one.' or 'Why don't you wear this color, it looks better on you because you're dark.' and I felt like I was not worthy enough to live, I felt like my dark skin was a sin, I was told that everyday." 
+
+"As a child you get traumatized by that, thinking light skin is a better and the more light skinned you are the more successful you may become. I was very upset with the Khmer communities and my parents for a long time."
+
+"Women are meant to be elegant and porcelian-looking and light and pure and smooth, with men it's a little bit different, sexist I would say, their skin color didn't matter."
+
+"I felt like I had to compensate for my skin color."
 
 
- Her own parents telling her to wear long sleeve clothing to hide her skin, told to scrub the dirtyness away, and favoring her sisters who were ligher. In addition she describes how her brothers also dark skinned never got the same talks, adding on to the intersectionality of the colorism issue. 
+In addition she describes how her brothers also dark skinned never got the same talks, adding on to the intersectionality of the colorism issue. 
 
 Colorism hurts melanated people 
 It can give lighter toned people a bit of an implicit advantage. 

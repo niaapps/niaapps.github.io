@@ -290,9 +290,13 @@ list-style-type: none;}
 .projects{ 
   padding-left: 0;
   margin-left: 0;
+  overflow-y: hidden;
   }
 
-  
+.fifth-p{ 
+  float:right;
+  clear:both;}
+
 .card-p{
   transform: scale(.80);
   margin:15px;}
@@ -586,9 +590,9 @@ margin:20px;
 /*End of Niaapps Blog CSS*/
 
 
+/* overflow on portfolio page */
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 769px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -601,8 +605,6 @@ margin:20px;
   header{max-height:100px;}
  
   nav li{ margin: 5px;}
-/* Need to fix scroll issue and img magnify. could be transform 1.5 causing? */
-  
   
   .about-img{
     width:30%;
