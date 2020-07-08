@@ -96,8 +96,9 @@ transform: translate(-50%,-50%);
 }
 
 .logo{
-  display: inline;
-  /* padding-left: 15px; */
+  float: left;
+  display: block;
+  padding-left: 15px;
   padding-bottom: 7px;
   padding-top:5px;
 }
