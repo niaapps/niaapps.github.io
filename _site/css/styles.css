@@ -86,17 +86,17 @@ nav a:hover::before {
 }
 
 nav {
-  float:center;
-  position: absolute;
-	width: 100%;
-	max-width: 75%;
-    top: 25px;
-    left: 40%;
-    transform: translate(-50%,-50%);
+float:center;
+position: absolute;
+width: 100%;
+max-width: 75%;
+top: 25px;
+left: 40%;
+transform: translate(-50%,-50%);
 }
 
 .logo{
-  display: block;
+  display: inline-block;
   padding-left: 15px;
   padding-bottom: 7px;
   padding-top:5px;
