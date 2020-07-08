@@ -844,6 +844,7 @@ General */
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
 
+  html,body{overflow: hidden;}
 .pricing-container{  margin-bottom: 500px;}
 
 .home-bod{
