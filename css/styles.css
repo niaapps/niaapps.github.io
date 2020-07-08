@@ -845,6 +845,7 @@ General */
 @media only screen and (max-width: 768px) {
 
   html,body{overflow-y: hidden;}
+
 .pricing-container{  margin-bottom: 500px;}
 
 .home-bod{
@@ -863,12 +864,12 @@ General */
 .col-2
 {overflow-x: hidden;}
 
-header{max-height:100px;}
+header{max-height:125px;}
 
 nav li{ margin: 5px;}
 
 nav ul{
-  margin-top:30px;
+  margin-top:40px;
   margin-left: 90px;
   width: 100%;
 }
@@ -876,8 +877,13 @@ nav ul{
 /* Index only */
 
 .nav-home{ margin:0px;}
+.nav-home ul {  
+  margin-top:40px;
+  margin-left: 90px;
+  width: 100%;}
 
-.header-home{height: 100px;}
+.header-home{height: 125px;}
+
 .home-title{
   font-size: 30px;
   font-weight: bolder;
