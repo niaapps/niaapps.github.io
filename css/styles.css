@@ -847,17 +847,10 @@ General */
   html,body{
     overflow-y: hidden;
     overflow-x: auto;
-    }
+  }
 
-.pricing-container{  margin-bottom: 500px;}
 
-.home-bod{
-  background-image: url('../images/bkg-gif.gif');
-  width: 100%;
-  position: relative;
-}
 
-#myVideo{display: none;}
 
 [class*="col-"] {
   width: 100%;
@@ -897,18 +890,27 @@ nav ul{
 }
 
 
- .content{
-   position: relative;
-   margin: 0px;
-   width:100%;
-   padding: 0;
-   margin-bottom: 200px;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin-top: 40px;
-   
-   }
+.content{
+  position: relative;
+  margin: 0px;
+  width:100%;
+  padding: 0;
+  margin-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.home-bod{
+ background-image: url('../images/bkg-gif.gif');
+ width: 100%;
+ position: relative;
+}
+  
+#myVideo{display: none;}
+  
 /* Index end */
+
 .about-img{
   width:30%;
    height: auto;
@@ -940,7 +942,8 @@ nav ul{
  width:100%;
  margin:0;
  padding:20px;
- margin-bottom: 350px;
+ /* margin-bottom: 350px; */
+margin-bottom: 500px;
 }
 
 .footer{
