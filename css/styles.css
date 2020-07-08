@@ -96,17 +96,14 @@ transform: translate(-50%,-50%);
 }
 
 .logo-div{ 
-left: 0;  
 display: block;
 }
+
 .logo{
 padding-left: 15px;
 padding-bottom: 7px;
 padding-top:5px;
 }
-
-
-
 
 .page-title{
   text-align: center; 
@@ -117,33 +114,20 @@ padding-top:5px;
 }
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  z-index: -1;
-  /*position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-*/  
-
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-
-  
+z-index: -1;
+-webkit-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-ms-transform: translateX(-50%) translateY(-50%);
+-o-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
 }
-
-
-
-/* Add some content at the bottom of the video/page */
 
 .content {
   position: fixed;
@@ -157,27 +141,28 @@ padding-top:5px;
 }
 
 a{color:white;}
-/*a{color:black;}
-.a-home{color:white;}*/
 
-a:hover{color:#fff2b3; text-decoration: none; font-weight: none }
+a:hover{
+color:#fff2b3;
+text-decoration: none; 
+font-weight: none }
 
 .con-container {
-  text-align: left;
-  color: white;
-  margin-right: 200px;
-  margin-left: 200px; 
-  }
+text-align: left;
+color: white;
+margin-right: 200px;
+margin-left: 200px; 
+}
 
 .con-text{
-
-   float: center;
-  text-align: left;
+float: center;
+text-align: left;
 }
+
 .card {
-   background-color: white;
-   padding: 20px;
-   margin-top: 20px;
+background-color: white;
+padding: 20px;
+margin-top: 20px;
 }
 
 input[type=submit]{
@@ -193,24 +178,26 @@ input[type=submit]{
   font-family: 'Work Sans', sans-serif;
   
 }
+
 input[type=submit]:hover{
-   background-color: #a5647c;
+background-color: #a5647c;
 }
 
 
 .abt-container {
-  text-align: left;
-  color: white;
-  }
+text-align: left;
+color: white;
+}
+
 .abt-txt{width: 80%;}
 
 .about-img{
-   widows: 314px;
-   height: 415px;
-   float: left; 
-   margin-left: 30px;
-   margin-right: 20px;
-   margin-bottom: 10px;
+widows: 314px;
+height: 415px;
+float: left; 
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 10px;
 }
 
 footer {
@@ -864,8 +851,9 @@ header{max-height:200px;}
 
 nav li{ margin: 5px;}
 
+nav{top:15px;}
+
 nav ul{
-margin-top:50px;
 margin-left: 90px;
 width: 100%;
 }
