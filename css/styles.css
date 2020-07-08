@@ -866,7 +866,7 @@ margin-top:50px;
 margin-left: 90px;
 width: 100%;
 }
-
+.logo{margin-left: 10px;}
 /* Index only */
 
 .nav-home{ margin:0px;}
@@ -882,7 +882,7 @@ width: 100%;}
   font-weight: bolder;
 }
 .logo-h {
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 20px;
 }
 
