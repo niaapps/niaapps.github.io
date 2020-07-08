@@ -846,7 +846,7 @@ General */
 
   html,body{
     overflow-x: hidden;
-    overflow-y: auto;
+   
   }
 
 [class*="col-"] {
@@ -862,18 +862,18 @@ header{max-height:200px;}
 nav li{ margin: 5px;}
 
 nav ul{
-  margin-top:45px;
-  margin-left: 90px;
-  width: 100%;
+margin-top:60px;
+margin-left: 90px;
+width: 100%;
 }
 
 /* Index only */
 
 .nav-home{ margin:0px;}
 .nav-home ul {  
-  margin-top:45px;
-  margin-left: 90px;
-  width: 100%;}
+margin-top:60px;
+margin-left: 90px;
+width: 100%;}
 
 .header-home{height: 200px;}
 
