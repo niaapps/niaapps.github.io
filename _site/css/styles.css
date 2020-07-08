@@ -857,7 +857,7 @@ General */
 .col-2
 {overflow-x: hidden;}
 
-header{max-height:150px;}
+header{max-height:200px;}
 
 nav li{ margin: 5px;}
 
@@ -875,7 +875,7 @@ nav ul{
   margin-left: 90px;
   width: 100%;}
 
-.header-home{height: 150px;}
+.header-home{height: 200px;}
 
 .home-title{
   font-size: 30px;
@@ -909,17 +909,15 @@ nav ul{
 
 .about-img{
   width:30%;
-   height: auto;
+  height: auto;
   }
 
 .scale-img img{
   width: 50%;
   height:auto;  
+} 
 
-} 
-.scale-img img:hover{
-  transform: scale(1.5);
-} 
+.scale-img img:hover{ transform: scale(1.5);} 
 
 .abt-container{
   text-align: initial;
@@ -942,10 +940,10 @@ nav ul{
 }
 
 .footer{
- margin: 0;
- bottom:0px;
- overflow-y: hidden;
- position: fixed;
+margin: 0;
+bottom:0px;
+overflow-y: hidden;
+position: fixed;
 }
 
 .wrapper-home{margin-bottom: 150px;}
@@ -956,58 +954,55 @@ padding:10px;
 }
 
 .blog-recent{ 
-  padding-top: 20px;
-  margin-left:40px;
-  font-size: 25px;
-  }
+padding-top: 20px;
+margin-left:40px;
+font-size: 25px;
+}
 
 .footer-links-left{ 
- padding-left:0;
- width: 50%;
+padding-left:0;
+width: 50%;
 }
 
 .footer-subscribe{ 
- top:0;
- width: 50%;
+top:0;
+width: 50%;
 }
 
 .projects{
- width: 100%;
- margin:20px;
- display: grid;
- margin-bottom: 100px;
- }
+width: 100%;
+margin:20px;
+display: grid;
+margin-bottom: 100px;
+}
 
 .r2{display:inline;}
+
 .new-line{display: none;}
 
-
 .project-container{
-  margin: 0px;
-  width:100%;
-  padding: 0;
-
+margin: 0px;
+width:100%;
+padding: 0;
 }  
 
 .description{
-  padding: 0;
-  width: 100%;
+padding: 0;
+width: 100%;
 }
 
 .img-feedback{
-  padding-top:10px;
-  width:100%;
-  height: auto;
+padding-top:10px;
+width:100%;
+height: auto;
 }
-.img-feedback:hover{
-  transform: scale(1);
-}
+.img-feedback:hover{transform: scale(1);}
 
 #mdb-f{
-  float:left;
-  width: 75%; 
-  height:auto;
-  margin:0;
+float:left;
+width: 75%; 
+height:auto;
+margin:0;
 }
 
 .button-div{
@@ -1017,7 +1012,6 @@ padding-bottom: 150px;
 margin-top: 15px;
 float: left;
 width: 100%;
-
 }
 
 #resort{
@@ -1043,9 +1037,7 @@ margin:0;
 
 .mdb-rep{margin-bottom: 100px;}
 
-.pyw-rep{
-margin-bottom: 250px;
-}
+.pyw-rep{margin-bottom: 250px;}
 
 #outline{
 float:left;
