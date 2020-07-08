@@ -845,8 +845,8 @@ General */
 @media only screen and (max-width: 768px) {
 
   html,body{
-    overflow-y: hidden;
-    overflow-x: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
 
