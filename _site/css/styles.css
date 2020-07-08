@@ -33,6 +33,7 @@ body {
 header {
   max-height:60px;
   background: rgba(0, 0, 0, 0.5);
+  position: relative;
 
 }
 
@@ -42,19 +43,19 @@ header::after {
   clear: both;
 }
 nav ul {
+  top: 0;
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 50px;
 }
 
 nav li {
-  /*float:left; works, but next ln is more effective*/
-
+  
   padding-top: 5px; 
   display: inline-block;
   margin: 25px;
   position: relative;
-/*adjust margin as needed when logo is up */
   
 }
 
@@ -86,7 +87,23 @@ nav a:hover::before {
 
 nav {
   float:center;
+  position: absolute;
+	width: 100%;
+	max-width: 75%;
+    top: 25px;
+    left: 40%;
+    transform: translate(-50%,-50%);
 }
+
+.logo{
+  display: block;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  padding-top:5px;
+}
+
+
+
 
 .page-title{
   text-align: center; 
@@ -284,6 +301,9 @@ list-style-type: none;}
   padding:5px;
 }
 
+.new-line{
+  display: none;
+}
 /* Chrome and Safari */
 @media screen and (-webkit-min-device-pixel-ratio:0){
   
@@ -292,10 +312,6 @@ list-style-type: none;}
   margin-left: 0;
   overflow-y: hidden;
   }
-
-.fifth-p{ 
-  float:right;
-  clear:both;}
 
 .card-p{
   transform: scale(.80);
@@ -306,7 +322,7 @@ list-style-type: none;}
 @-moz-document url-prefix() { 
 
   .projects{
-    margin-left: 150px;
+    margin-left: 80px;
     z-index: -1;
     display: inline-flex; 
     padding:5px;
@@ -314,10 +330,6 @@ list-style-type: none;}
 
   .card-p {
     transform: none;
-    background-color: white;
-    height: 130px;
-    width: 200px;
-    margin: 20px;
   }  
 
 }
@@ -354,6 +366,9 @@ list-style-type: none;}
 }
 
 .projects div.overlay:hover {
+  opacity: 1;
+}
+.new-line div.overlay:hover {
   opacity: 1;
 }
 #project-link{
@@ -590,9 +605,9 @@ margin:20px;
 /*End of Niaapps Blog CSS*/
 
 
-/* overflow on portfolio page */
 
-@media only screen and (max-width: 769px) {
+
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -602,10 +617,41 @@ margin:20px;
   .col-2
   {overflow-x: hidden;}
 
-  header{max-height:100px;}
+  header{max-height:75px;}
  
   nav li{ margin: 5px;}
+
+  nav ul{ 
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 80px;}
   
+/* Index only */
+.home-title{
+  font-size: 30px;
+  font-weight: bolder;
+ }
+ .logo-h {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+ .header-home{max-height: 75px;}
+ .nav-home{margin:0;}
+ .nav-home ul{ margin-top: 30px;}
+
+ .content{
+   position: relative;
+   margin: 0px;
+   width:100%;
+   padding: 0;
+   margin-bottom: 200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 100px;
+ 
+ }
+ /* Index end */
+
   .about-img{
     width:30%;
      height: auto;
@@ -671,21 +717,50 @@ margin:20px;
    width: 50%;
   }
 
+  
 
-  .home-title{
-   font-size: 30px;
-   font-weight: bolder;
+/* Chrome and Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  
+  .projects{ 
+  margin-left: 0;
+  overflow-y: hidden;  
+  }
+  
+  .card-p{
+    transform: scale(.80);
+    margin:15px;
+  }
+ 
+
+}
+
+  .new-line{
+    margin-top:15px;
+    margin-left: 0;
+    z-index: -1;
+    display: inline-flex; 
+    padding:5px;
+    margin-bottom: 100px;
+    
   }
 
-  .nav-home{ margin:20px;}
+  .r2{display: none;}
 
-  .projects{
-   width: 100%;
-   margin: 20px;
-   display: grid;
-   margin-bottom: 100px;
-   }
+  /* Firefox */
+@-moz-document url-prefix() { 
+  
+  .projects{ margin-left: 0px;}
 
+  .card-p { transform: none;}  
+    
+  
+}
+
+
+  
+/* individual portfolio pages
+General */
   .project-container{
     margin: 0px;
     width:100%;
@@ -706,25 +781,26 @@ margin:20px;
   .img-feedback:hover{
     transform: scale(1);
   }
+  .button-div{
+    margin-left: 35px;
+    padding: 0;
+    padding-bottom: 150px;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+  
+   }
 
-  #mdb-f{
-    float:left;
-    width: 75%; 
-    height:auto;
-    margin:0;
-  }
+/* styles for individual project pages */
+#mdb-f{
+ float:left;
+  width: 75%; 
+  height:auto;
+  margin:0;
+}
 
- .button-div{
-  margin-left: 35px;
-  padding: 0;
-  padding-bottom: 150px;
-  margin-top: 15px;
-  float: left;
-  width: 100%;
 
- }
-
- #resort{
+#resort{
   float:left;
   width: 75%; 
   height:auto;
@@ -760,16 +836,6 @@ margin:20px;
 
 .outline-rep{margin-bottom: 100px;}      
 
-.content{
-  position: relative;
-  margin: 0px;
-  width:100%;
-  padding: 0;
-  margin-bottom: 200px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-}
 
 }
 /* End of resize code */
@@ -800,7 +866,39 @@ header{max-height:100px;}
 
 nav li{ margin: 5px;}
 
+nav ul{
+  margin-top:30px;
+  margin-left: 90px;
+  width: 100%;
+}
 
+/* Index only */
+
+.nav-home{ margin:0px;}
+
+.header-home{height: 100px;}
+.home-title{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.logo-h {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+
+ .content{
+   position: relative;
+   margin: 0px;
+   width:100%;
+   padding: 0;
+   margin-bottom: 200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 40px;
+   
+   }
+/* Index end */
 .about-img{
   width:30%;
    height: auto;
@@ -865,20 +963,16 @@ padding:10px;
  width: 50%;
 }
 
-
-.home-title{
- font-size: 30px;
- font-weight: bolder;
-}
-
-.nav-home{ margin:20px;}
-
 .projects{
  width: 100%;
  margin:20px;
  display: grid;
  margin-bottom: 100px;
  }
+
+.r2{display:inline;}
+.new-line{display: none;}
+
 
 .project-container{
   margin: 0px;
@@ -954,16 +1048,7 @@ margin:0;
 
 .outline-rep{margin-bottom: 100px;}      
 
-.content{
-position: relative;
-margin: 0px;
-width:100%;
-padding: 0;
-margin-bottom: 200px;
-padding-left: 20px;
-padding-right: 20px;
 
-}
 
 
 } 

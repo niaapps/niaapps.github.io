@@ -9,9 +9,9 @@ categories: updates-personal
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 
-In digital spaces across the internet amid all the rallies for racial justice there has been a sub conversation surronding colorism. Colorism is defined as prehudice of skin color typically within the same race. It is prevalent not only in African American culture, but Asian cultures, South Asian cultures, Carribean cultures and more. In each of these the conversation revolves around the same thing: anti-blackness and the idolization of lighter skin. The bias that darker skinned people face within their own communities is an enigmatic burden to bear that can and should be dismantled. The act of challenging your own anti-black ideals subconcious or not is an act of decolonization that in my opinion is necessary if you call yourself an ally.
+In digital spaces across the internet amid all the rallies for racial justice there has been a sub conversation surronding colorism. Colorism is defined as prehudice of skin color typically within the same race. It is prevalent not only in African American culture, but Asian cultures, South Asian cultures, Carribean cultures and many more across the globe. In each of these the conversation revolves around the same thing: anti-blackness and the idolization of lighter skin. The bias that darker skinned people face within their own communities is an enigmatic burden to bear that can and should be dismantled. The act of challenging your own anti-black ideals subconcious or not is an act of decolonization that in my opinion is necessary if we want everyone to be truly equal.
 
-It is without doubt that you have witnessed colorism at work before. Colorism is adults telling young children to avoid the sun for fear of "being too dark". Colorism is favoring one child over another for having lighter skin. Colorism is "They are pretty for a dark skinned person.". The distinction between colorism and racism is again that this happens within respective communities and not from someone outside of the community. Colorism is prevalent in everything, from hiring practices (favoring lighter skinned candidates) to the skin lightening industry becoming a $23 billion dollar business. Darker skinned persons are made to feel shame in something they cannot control. There are extensive first person accounts out there, but I'd like to highlight someone who has both talked and written about her experience.
+It is without doubt that you have witnessed colorism at work before. Colorism is adults telling young children to avoid the sun for fear of "being too dark". Colorism is favoring one child over another for having lighter skin. Colorism is "They are pretty for a dark skinned person". The distinction between colorism and racism is again that this happens within respective communities and not from someone outside of the community. Colorism is prevalent in everything, from hiring practices (favoring lighter skinned candidates) to the skin lightening industry becoming a <a href="https://www.businessoffashion.com/articles/global-currents/profiting-from-the-skin-lightening-trade" target="_blank" title="">$23 billion dollar</a> business. Darker skinned persons are made to feel shame in something they cannot control. There are extensive first person accounts out there, but I'd like to highlight someone who has both talked and written about her experience.
 
 Peou Tuy is an author and spoken word poet, she has survived through the Khmer Rogue as an infant and came to America as a refugee, living her life as a Khmer American. She is a darker skinned Asian woman and has faced colorism her entire life in the Khmer community. Here is a poem she wrote from her book, <a href="https://www.amazon.com/Khmer-Girl-Peuo-Tuy/dp/097796230X" target="_blank" title="">Khmer Girl</a> titled "Bleaching My Skin".
 
@@ -47,25 +47,27 @@ Peou Tuy is an author and spoken word poet, she has survived through the Khmer R
 &nbsp;&nbsp;&nbsp; 
 <p><em>Bitch! You desrve it!</em></p>
 </div>
+&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; 
 
-Peou also speaks of her experience <a href="https://nearyheng.com/podcasts/skin-lighteners-you-can-bleach-your-skin-but-you-cannot-bleach-your-true-you-identity-peuo-tuy-p2of2/" target="_blank" title="">here.</a> She says:
+Peou also speaks of her experience <a href="https://nearyheng.com/podcasts/skin-lighteners-you-can-bleach-your-skin-but-you-cannot-bleach-your-true-you-identity-peuo-tuy-p2of2/" target="_blank" title="">here.</a> Some notable quotes from the interview:
 
 "I felt horrible, I was told constantly by Khmer communities and people on the street 'Oh she's so dark!' My parents would say 'Yeah she's the darkest one.' or 'Why don't you wear this color, it looks better on you because you're dark.' and I felt like I was not worthy enough to live, I felt like my dark skin was a sin, I was told that everyday." 
 
 "As a child you get traumatized by that, thinking light skin is a better and the more light skinned you are the more successful you may become. I was very upset with the Khmer communities and my parents for a long time."
 
-"Women are meant to be elegant and porcelian-looking and light and pure and smooth, with men it's a little bit different, sexist I would say, their skin color didn't matter."
-
 "I felt like I had to compensate for my skin color."
 
 
-In addition she describes how her brothers also dark skinned never got the same talks, adding on to the intersectionality of the colorism issue. 
+In addition she describes how her brothers, also dark skinned, never got the same talks adding on to the intersectionality of the colorism issue:
 
-Colorism hurts melanated people 
-It can give lighter toned people a bit of an implicit advantage. 
+"Women are meant to be elegant and porcelian-looking and light and pure and smooth, with men it's a little bit different, sexist I would say, their skin color didn't matter."
 
-Colorism can be internalized due to the societal hatred of darker skin that becomes normalized in our communities. 
- 
+I'd like to make the distinction, no one is saying that light skinned people do not face discrimination or racism, but we are saying it is imperative to recognize how the societal hatred of darker skin is hurting your community and how your actions can further normalize this behavior.
+
+Colorism hurts melanated people, it can give lighter toned people a sort of implicit advantage because of it's likeness to whiteness. Colorism's roots stem from white supremacy. It exists on the individual as well as the institutional level.
+
+Research: Hisotry of colorism, talk about it, link to triple taurus, colorism thread. Talk about how strong black features perpetuate this societal hatred//tie in anti-blackness- as well as the mental health issue.
 
 Once you acknowledge the existence of this colorism issue, what can be done? Well to start, educating yourself and others further about why dark skin is percieved as undesirable and acknowledging it is something people have no control over. Educate yourself on implicit bias you may have and actively work to fix them.
 
@@ -76,3 +78,8 @@ Once you acknowledge the existence of this colorism issue, what can be done? Wel
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html" class="post-button" id="button-nxt">Previous Post</a>
 
   </div>
+
+<div class="thumbnail">
+  <img id="img-id" src="/../../images/img-title.jpg" alt="alt text" onContextMenu="alert('Please don\'t download this photo!');return false;">
+  </a>
+</div>
