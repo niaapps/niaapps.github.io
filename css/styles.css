@@ -851,7 +851,10 @@ header{max-height:200px;}
 
 nav li{ margin: 5px;}
 
-nav{top:20px;}
+nav{
+  top:20px;
+  margin:0;
+}
 
 nav ul{
 margin-top: 10px;  
