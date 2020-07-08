@@ -840,11 +840,14 @@ General */
 }
 /* End of resize code */
 
-
+/* Scrolling on all mobile pages */
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
 
-  html,body{overflow-y: hidden;}
+  html,body{
+    overflow-y: hidden;
+    overflow-x: auto;
+    }
 
 .pricing-container{  margin-bottom: 500px;}
 
