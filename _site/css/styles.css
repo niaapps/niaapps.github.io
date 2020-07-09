@@ -643,14 +643,14 @@ margin:20px;
    padding-left: 20px;
    padding-right: 20px;
    padding-top: 100px;
- 
  }
+
  /* Index end */
 
   .about-img{
-    width:30%;
-     height: auto;
-    }
+  width:30%;
+  height: auto;
+  }
  
   .scale-img img{
     width: 50%;
@@ -862,7 +862,7 @@ nav{
 
 nav ul{
 margin-top: 10px;  
-margin-left: 85px;
+margin-left: 90px;
 width: 100%;
 }
 
@@ -872,7 +872,7 @@ width: 100%;
 
 .nav-home ul {  
 margin-top:10px;
-margin-left: 85px;
+margin-left: 90px;
 width: 100%;}
 
 .header-home{height: 100px;}
