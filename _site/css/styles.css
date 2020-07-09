@@ -629,7 +629,9 @@ margin:20px;
   padding-top: 20px;
 }
  .header-home{max-height: 75px;}
+
  .nav-home{margin:0;}
+ 
  .nav-home ul{ margin-top: 30px;}
 
  .content{
@@ -725,7 +727,6 @@ margin:20px;
     margin:15px;
   }
  
-
 }
 
   .new-line{
@@ -871,7 +872,7 @@ width: 100%;
 .nav-home{ margin:0px;}
 .nav-home ul {  
 margin-top:10px;
-margin-left: 60px;
+margin-left: 80px;
 width: 100%;}
 
 .header-home{height: 250px;}
