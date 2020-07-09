@@ -864,7 +864,7 @@ margin-top: 10px;
 margin-left: 80px;
 width: 100%;
 }
-.logo-div{margin-left:0px;}
+/* .logo-div{margin-left:0px;} */
 
 /* Index only */
 
@@ -874,16 +874,16 @@ margin-top:50px;
 margin-left: 90px;
 width: 100%;}
 
-.header-home{height: 200px;}
+.header-home{height: 250px;}
 
 .home-title{
   font-size: 30px;
   font-weight: bolder;
 }
-.logo-h {
+/* .logo-h {
   margin-left: 0px;
   padding-top: 20px;
-}
+} */
 
 .content{
   position: relative;
@@ -975,7 +975,7 @@ display: grid;
 margin-bottom: 100px;
 }
 
-.text-c{position: absolute;}
+.text-o{position: absolute;}
 .new-line{display: none;}
 
 .project-container{
