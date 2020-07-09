@@ -17,8 +17,8 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 
 <div class="scale-img">
 
-![alt-text](/images/w1.gif "Home Page") 
-<img id="" src="/../../images/w1.gif" alt="Blog post">
+
+<img id="" src="/../../images/w1.gif" alt="Home Page">
 
 </div>
 
