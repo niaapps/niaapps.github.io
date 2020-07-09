@@ -851,7 +851,7 @@ General */
 .col-2
 {overflow-x: hidden;}
 
-header{max-height:200px;}
+header{max-height:100px;}
 
 nav li{ margin: 5px;}
 
@@ -862,29 +862,25 @@ nav{
 
 nav ul{
 margin-top: 10px;  
-margin-left: 80px;
+margin-left: 85px;
 width: 100%;
 }
-/* .logo-div{margin-left:0px;} */
 
 /* Index only */
 
 .nav-home{ margin:0px;}
+
 .nav-home ul {  
 margin-top:10px;
-margin-left: 80px;
+margin-left: 85px;
 width: 100%;}
 
-.header-home{height: 250px;}
+.header-home{height: 100px;}
 
 .home-title{
   font-size: 30px;
   font-weight: bolder;
 }
-/* .logo-h {
-  margin-left: 0px;
-  padding-top: 20px;
-} */
 
 .content{
   position: relative;
