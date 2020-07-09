@@ -831,7 +831,9 @@ General */
 }
 /* End of resize code */
 
-/* Scrolling on all mobile pages */
+/* Scrolling on all mobile pages: take a few hours
+ Navbar still needs work w/ logo addition
+ Portfolio page on mobile needs major fixes*/
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
 
