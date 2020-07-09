@@ -102,6 +102,7 @@ margin:0;
 }
 
 .logo{
+margin: 0;  
 padding-left: 15px;
 padding-bottom: 7px;
 padding-top:5px;
@@ -624,7 +625,7 @@ margin:20px;
   font-weight: bolder;
  }
  .logo-h {
-  margin-left: 20px;
+  margin-left: 0px;
   padding-top: 20px;
 }
  .header-home{max-height: 75px;}
