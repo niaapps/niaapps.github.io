@@ -863,6 +863,7 @@ nav ul{
 margin-top: 10px;  
 margin-left: 87px;
 width: 100%;
+padding-right: 5px;
 }
 
 /* Index only */
@@ -872,7 +873,8 @@ width: 100%;
 .nav-home ul {  
 margin-top:10px;
 margin-left: 87px;
-width: 100%;}
+width: 100%;
+padding-right: 5px;}
 
 .header-home{height: 100px;}
 
