@@ -47,11 +47,10 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 nav li {
-  
   padding-top: 5px; 
   display: inline-block;
   margin: 25px;
@@ -98,7 +97,7 @@ transform: translate(-50%,-50%);
 .logo-div{ 
 display: block;
 padding:0;
-margin:0;
+
 }
 
 .logo{
@@ -617,7 +616,8 @@ margin:20px;
   nav ul{ 
     width: 100%;
     margin-top: 30px;
-    margin-left: 80px;}
+    padding-left: 20px;}
+
   
 /* Index only */
 .home-title{
@@ -632,7 +632,9 @@ margin:20px;
 
  .nav-home{margin:0;}
  
- .nav-home ul{ margin-top: 30px;}
+ .nav-home ul{ 
+  margin-top: 30px;
+  padding-left: 20px;}
 
  .content{
    position: relative;
