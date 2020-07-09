@@ -975,7 +975,7 @@ display: grid;
 margin-bottom: 100px;
 }
 
-.r2{display:inline;}
+.r2{display: grid;}
 
 .new-line{display: none;}
 
