@@ -94,11 +94,6 @@ left: 40%;
 transform: translate(-50%,-50%);
 }
 
-.logo-div{ 
-display: block;
-padding:0;
-
-}
 
 .logo{
 margin: 0;  
@@ -856,6 +851,8 @@ General */
 header{max-height:100px;}
 
 nav li{ margin: 5px;}
+
+.nav-container{margin:0;}
 
 nav{
   top:35px;
