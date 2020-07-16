@@ -595,7 +595,7 @@ margin:20px;
 
 
 @media only screen and (max-width: 1200px) {
-  /* For mobile phones: */
+
   [class*="col-"] {
     width: 100%;
     padding: 20px;
@@ -851,7 +851,9 @@ General */
 {overflow-x: hidden;}
 
 header{max-height:100px;}
-
+/* test to see if font reduction worked mobile */
+nav a{ font-size: 10px;}  
+ 
 nav li{ margin: 5px;}
 
 .nav-container{margin:0;}
