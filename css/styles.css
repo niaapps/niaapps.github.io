@@ -846,8 +846,7 @@ html,body{ overflow-x: hidden;}
   padding: 20px;
 }
 
-/* Check to see if fixes logo */
-.col-1{padding: 5px;}
+
 
 .col-2
 {overflow-x: hidden;}
