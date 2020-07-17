@@ -752,35 +752,37 @@ margin:20px;
   
 /* individual portfolio pages
 General */
-  .project-container{
-    margin: 0px;
-    width:100%;
-    padding: 0;
+.project-container{
+  margin: 0px;
+  width:100%;
+  padding: 0;
 
-  }  
+}  
   
-  .description{
-    padding: 0;
-    width: 100%;
-  }
+.description{
+  padding: 0;
+  width: 100%;
+}
 
-  .img-feedback{
-    padding-top:10px;
-    width:100%;
-    height: auto;
-  }
-  .img-feedback:hover{
-    transform: scale(1);
-  }
-  .button-div{
-    margin-left: 35px;
-    padding: 0;
-    padding-bottom: 150px;
-    margin-top: 15px;
-    float: left;
-    width: 100%;
+.img-feedback{
+  padding-top:10px;
+  width:100%;
+  height: auto;
+}
+
+.img-feedback:hover{
+  transform: scale(1);
+}
+
+.button-div{
+ margin-left: 35px;
+ padding: 0;
+ padding-bottom: 150px;
+ margin-top: 15px;
+ float: left;
+ width: 100%;
   
-   }
+}
 
 /* styles for individual project pages */
 #mdb-f{
@@ -837,22 +839,21 @@ General */
 /* Mobile only resize */
 @media only screen and (max-width: 768px) {
 
-  html,body{
-    overflow-x: hidden;
-   
-  }
+html,body{ overflow-x: hidden;}
 
 [class*="col-"] {
   width: 100%;
   padding: 20px;
 }
 
+.col-1{padding: 5px;}
+
 .col-2
 {overflow-x: hidden;}
 
 header{max-height:100px;}
-/* test to see if font reduction worked mobile */
-nav a{ font-size: 10px;}  
+
+nav a{ font-size: 13px;}  
  
 nav li{ margin: 5px;}
 
@@ -878,7 +879,8 @@ padding-right: 5px;
 margin-top:10px;
 margin-left: 85px;
 width: 100%;
-padding-right: 5px;}
+padding-right: 5px;
+}
 
 .header-home{height: 100px;}
 
@@ -911,7 +913,7 @@ padding-right: 5px;}
 .about-img{
   width:30%;
   height: auto;
-  }
+}
 
 .scale-img img{
   width: 50%;
@@ -925,13 +927,13 @@ padding-right: 5px;}
   width: 100%;
   overflow-y: visible;
   margin-bottom: 150px;
-  }  
+}  
 
 .con-container{
   margin:0;
   margin-bottom: 100px;
   width: 100%;
-  }
+}
 
 .pricing-container{
  width:100%;
@@ -978,6 +980,7 @@ margin-bottom: 100px;
 }
 
 .text-o{position: absolute;}
+
 .new-line{display: none;}
 
 .project-container{
