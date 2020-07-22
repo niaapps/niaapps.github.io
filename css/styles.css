@@ -796,7 +796,7 @@ General */
 /* End of  desktop resize code */
 
 /* Mobile only resize */
-@media (min-width: 400px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
 html,body{overflow-x: hidden;}
 
