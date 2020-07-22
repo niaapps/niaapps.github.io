@@ -798,8 +798,6 @@ General */
 /* Mobile only resize */
 @media (max-width: 768px) {
 
-html,body{overflow-x: hidden;}
-
 header{height: 100px;}
 
 [class*="col-"] {
