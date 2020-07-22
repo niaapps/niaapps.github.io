@@ -31,10 +31,9 @@ body {
 }
 
 header {
-  max-height:60px;
+  max-height:65px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
-
 }
 
 header::after {
@@ -42,6 +41,7 @@ header::after {
   display: table;
   clear: both;
 }
+
 nav ul {
   top: 0;
   margin: 0;
@@ -51,18 +51,16 @@ nav ul {
 }
 
 nav li {
-  padding-top: 5px; 
-  display: inline-block;
-  margin: 25px;
-  position: relative;
-  
+padding-top: 5px; 
+display: inline-block;
+margin: 25px;
+position: relative; 
 }
 
 nav a {
-
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
 }
 
 nav a:hover {
@@ -94,13 +92,9 @@ left: 40%;
 transform: translate(-50%,-50%);
 }
 
+.logo-div{padding: 10px;}
 
-.logo{
-margin: 0;  
-padding-left: 15px;
-padding-bottom: 7px;
-padding-top:5px;
-}
+.logo{margin: 0;}
 
 .page-title{
   text-align: center; 
@@ -142,7 +136,7 @@ a{color:white;}
 a:hover{
 color:#fff2b3;
 text-decoration: none; 
-font-weight: none }
+font-weight: none; }
 
 .con-container {
 text-align: left;
@@ -387,7 +381,7 @@ list-style-type: none;}
 }
 
 .img-feedback:hover{
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 
 .button-div{
@@ -431,26 +425,16 @@ margin:20px;
 }
 
 #resort{
-  float:left;
-  width: 500px; 
-  height:300px;
-  margin:20px;
+float:left;
+width: 500px; 
+height:300px;
+margin:20px;
 }
 
- #resortVideo{
-  width: auto;
-    height: auto;
-
+#resortVideo{
+width: auto;
+height: auto;
 }
-
-/* .description-outline{
-  padding-left: 40px;
-  width:375px;
-  float:left;
-  color:white;
-  height:300px;
-} */
-
 
 
 .p-button{
@@ -594,193 +578,173 @@ margin:20px;
 
 
 
-@media only screen and (max-width: 1200px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-    padding: 20px;
-  }
+@media (min-width: 768px) and (max-width: 1280px) {
 
-  .col-2
-  {overflow-x: hidden;}
+[class*="col-"] {
+width: 100%;
+padding: 20px;
+}
 
-  header{max-height:75px;}
- 
-  nav li{ margin: 5px;}
+header{height: 85px;}
 
-  nav ul{ 
-    width: 100%;
-    margin-top: 30px;
-    padding-left: 20px;}
+.col-1{padding: 0;}
 
-  
+.col-2{overflow-x: hidden;}
+
+nav a{font-size: 16px;}
+
+nav li {margin: 5px;}
+
 /* Index only */
 .home-title{
   font-size: 30px;
   font-weight: bolder;
  }
- .logo-h {
-  margin-left: 0px;
-  padding-top: 20px;
-}
- .header-home{max-height: 75px;}
-
- .nav-home{margin:0;}
- 
- .nav-home ul{ 
-  margin-top: 30px;
-  padding-left: 20px;}
 
  .content{
-   position: relative;
-   margin: 0px;
-   width:100%;
-   padding: 0;
-   margin-bottom: 200px;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-top: 100px;
- }
+position: relative;
+margin: 0px;
+width:100%;
+padding: 0;
+margin-bottom: 200px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 100px;
+}
+/* Index end */
 
- /* Index end */
-
-  .about-img{
-  width:30%;
-  height: auto;
-  }
+.about-img{
+width:30%;
+height: auto;
+}
  
-  .scale-img img{
-    width: 50%;
-    height:auto;  
+.scale-img img{
+width: 50%;
+height:auto;  
+}
 
-  } 
- .scale-img img:hover{
-    transform: scale(1.5);
-  } 
+.scale-img img:hover{transform: scale(1.5);} 
 
-  .abt-container{
-    text-align: initial;
-    width: 100%;
-    overflow-y: visible;
-    margin-bottom: 150px;
-    }  
+.abt-container{
+text-align: initial;
+width: 100%;
+overflow-y: visible;
+margin-bottom: 150px;
+}  
 
-  .con-container{
-      margin:0;
-      margin-bottom: 100px;
-      width: 100%;
-      }
+.con-container{
+margin:0;
+margin-bottom: 100px;
+width: 100%;
+}
 
-  .pricing-container{
-   width:100%;
-   margin:0;
-   padding:20px;
-   margin-bottom: 350px;
-  }
+.pricing-container{
+width:100%;
+margin:0;
+padding:20px;
+margin-bottom: 350px;
+}
 
-  .footer{
-   margin: 0;
-   bottom:0px;
-   overflow-y: hidden;
-   position: fixed;
-  }
+.footer{
+margin: 0;
+bottom:0px;
+overflow-y: hidden;
+position: fixed;
+}
 
+.wrapper-home{margin-bottom: 150px;}
 
-  .wrapper-home{margin-bottom: 150px;}
-
-  .comments{
-  margin:0;
-  padding:10px;
-  }
+.comments{
+margin:0;
+padding:10px;
+}
 
 .blog-recent{ 
-    padding-top: 20px;
-    margin-left:40px;
-    font-size: 25px;
-    }
+padding-top: 20px;
+margin-left:40px;
+font-size: 25px;
+}
 
-  .footer-links-left{ 
-   padding-left:0;
-   width: 50%;
-  }
+.footer-links-left{ 
+padding-left:0;
+width: 50%;
+}
 
-  .footer-subscribe{ 
-   top:0;
-   width: 50%;
-  }
-
+.footer-subscribe{ 
+top:0;
+width: 50%;
+}
   
 
 /* Chrome and Safari */
 @media screen and (-webkit-min-device-pixel-ratio:0){
+
+.projects{ 
+margin-left: 0;
+overflow-y: hidden;  
+}
   
-  .projects{ 
-  margin-left: 0;
-  overflow-y: hidden;  
-  }
-  
-  .card-p{
-    transform: scale(.80);
-    margin:15px;
-  }
+.card-p{
+transform: scale(.80);
+margin:15px;
+}
  
 }
 
-  .new-line{
-    margin-top:15px;
-    margin-left: 0;
-    z-index: -1;
-    display: inline-flex; 
-    padding:5px;
-    margin-bottom: 100px;
+.new-line{
+margin-top:15px;
+margin-left: 0;
+z-index: -1;
+display: inline-flex; 
+padding:5px;
+margin-bottom: 100px;
     
-  }
-
-  .r2{display: none;}
-
-  /* Firefox */
-@-moz-document url-prefix() { 
-  
-  .projects{ margin-left: 0px;}
-
-  .card-p { transform: none;}  
-    
-  
 }
 
+.r2{display: none;}
 
+/* Firefox */
+@-moz-document url-prefix() { 
   
+.projects{ margin-left: 0px;}
+
+.card-p { transform: none;}  
+    
+}
+
 /* individual portfolio pages
 General */
-  .project-container{
-    margin: 0px;
-    width:100%;
-    padding: 0;
+.project-container{
+  margin: 0px;
+  width:100%;
+  padding: 0;
 
-  }  
+}  
   
-  .description{
-    padding: 0;
-    width: 100%;
-  }
+.description{
+  padding: 0;
+  width: 100%;
+}
 
-  .img-feedback{
-    padding-top:10px;
-    width:100%;
-    height: auto;
-  }
-  .img-feedback:hover{
-    transform: scale(1);
-  }
-  .button-div{
-    margin-left: 35px;
-    padding: 0;
-    padding-bottom: 150px;
-    margin-top: 15px;
-    float: left;
-    width: 100%;
+.img-feedback{
+  padding-top:10px;
+  width:100%;
+  height: auto;
+}
+
+.img-feedback:hover{
+  transform: scale(1.2);
+}
+
+.button-div{
+ margin-left: 35px;
+ padding: 0;
+ padding-bottom: 150px;
+ margin-top: 15px;
+ float: left;
+ width: 100%;
   
-   }
+}
 
 /* styles for individual project pages */
 #mdb-f{
@@ -831,58 +795,39 @@ General */
 }
 /* End of resize code */
 
-/* Scrolling on all mobile pages: take a few hours
- Navbar still needs work w/ logo addition
+/*
  Portfolio page on mobile needs major fixes*/
 /* Mobile only resize */
-@media only screen and (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 767px) {
 
-  html,body{
-    overflow-x: hidden;
-   
-  }
+
+
+header{height: 100px;}
 
 [class*="col-"] {
   width: 100%;
   padding: 20px;
 }
 
-.col-2
-{overflow-x: hidden;}
+.col-1{padding: 0px;}
 
-header{max-height:100px;}
+.col-2{overflow-x: hidden;}
 
-nav li{ margin: 5px;}
+nav a{font-size: 12.5px;}
 
-.nav-container{margin:0;}
-
-nav{
-  top:35px;
-  margin:0;
+nav li {
+margin: 2px;
+padding-top: 0px;
 }
 
-nav ul{
-margin-top: 10px;  
-margin-left: 85px;
-width: 100%;
-padding-right: 5px;
-}
+nav ul {margin-left: 115px;}
+
+nav{top:30px;}
 
 /* Index only */
-
-.nav-home{ margin:0px;}
-
-.nav-home ul {  
-margin-top:10px;
-margin-left: 85px;
-width: 100%;
-padding-right: 5px;}
-
-.header-home{height: 100px;}
-
 .home-title{
-  font-size: 30px;
-  font-weight: bolder;
+font-size: 30px;
+font-weight: bolder;
 }
 
 .content{
@@ -909,7 +854,7 @@ padding-right: 5px;}
 .about-img{
   width:30%;
   height: auto;
-  }
+}
 
 .scale-img img{
   width: 50%;
@@ -923,13 +868,13 @@ padding-right: 5px;}
   width: 100%;
   overflow-y: visible;
   margin-bottom: 150px;
-  }  
+}  
 
 .con-container{
   margin:0;
   margin-bottom: 100px;
   width: 100%;
-  }
+}
 
 .pricing-container{
  width:100%;
@@ -975,9 +920,6 @@ display: grid;
 margin-bottom: 100px;
 }
 
-.text-o{position: absolute;}
-.new-line{display: none;}
-
 .project-container{
 margin: 0px;
 width:100%;
@@ -994,7 +936,8 @@ padding-top:10px;
 width:100%;
 height: auto;
 }
-.img-feedback:hover{transform: scale(1);}
+
+.img-feedback:hover{transform: scale(1.1);}
 
 #mdb-f{
 float:left;
