@@ -793,10 +793,8 @@ General */
 
 
 }
-/* End of resize code */
+/* End of  desktop resize code */
 
-/*
- Portfolio page on mobile needs major fixes*/
 /* Mobile only resize */
 @media (min-width: 400px) and (max-width: 767px) {
 
