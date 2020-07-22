@@ -798,7 +798,7 @@ General */
 /* Mobile only resize */
 @media (min-width: 400px) and (max-width: 767px) {
 
-
+html,body{overflow-x: hidden;}
 
 header{height: 100px;}
 
