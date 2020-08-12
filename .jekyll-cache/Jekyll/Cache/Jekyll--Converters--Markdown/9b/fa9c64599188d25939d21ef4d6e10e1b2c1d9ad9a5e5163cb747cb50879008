@@ -1,47 +1,4 @@
-<head><link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet"> 	
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-
-  <title>Blog-Javascript Adventure</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="My blog touches on a range of topics: technology, love, music, politics, android development, and website design. ">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-</head>
-
-<header class="col-1">
-  <div class="nav-container">
-    <div class="logo-div">
-      <img src="/../../images/logo.png" height = "40px" width ="65px" alt="logo" class="logo">
-      </div>
-  <nav>
-    <ul>
-   <li><a href="https://niaapps.github.io/index.html">Home</a></li>
-      <li><a href="https://niaapps.github.io/about.html">About</a></li>
-      <li><a href="https://niaapps.github.io/niaapps-blog/">Blog</a></li>
-      <li><a href="https://niaapps.github.io/contact.html">Contact</a></li>
-      <li><a href="https://niaapps.github.io/pricing.html">Pricing</a></li>
-      <li><a href="https://niaapps.github.io/portfolio.html">Portfolio</a></li>
-    </ul>    
-  </nav>
-  </div>
-  </header>
-  <div class="page-title col-4">
-
-		<p><h2>Nia's Blog</h2></p>
-	</div>
-	
-<div class="wrapper col-2">
-  <h3>Javascript Adventure</h3>
-  <h3>July 31, 2020</h3>
- <div class="blog-text col-7"><link href="/css/syntax.css" rel="stylesheet" />
+I"Æ?<link href="/css/syntax.css" rel="stylesheet" />
 
 <p>So the Script I used was:</p>
 
@@ -118,6 +75,68 @@ Html/markdown:</p>
 38
 39
 40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
 </pre></td><td class="code"><pre>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"select-div"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">"post-type"</span> <span class="na">id=</span><span class="s">"post-type"</span> <span class="na">onchange=</span><span class="s">"show_post_type(this)"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"1"</span><span class="nt">&gt;</span>All Posts<span class="nt">&lt;/option&gt;</span>
@@ -140,21 +159,83 @@ Html/markdown:</p>
           <span class="nt">&lt;ul&gt;</span>
           
           {% for post in site.categories.updates-coding %}
+         
            <span class="nt">&lt;li&gt;</span>
             <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url }}"</span> <span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
-           <span class="nt">&lt;/li&gt;</span>  
+           <span class="nt">&lt;/li&gt;</span>
+                  
           {% endfor %}
           
           <span class="nt">&lt;/ul&gt;</span>
         <span class="nt">&lt;/div&gt;</span>
         <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"personal-posts"</span><span class="nt">&gt;</span>
-        
-          <span class="nt">&lt;ul&gt;</span>{% for post in site.categories.updates-personal %}
+          <span class="nt">&lt;ul&gt;</span>
+         
            <span class="nt">&lt;li&gt;</span>
-            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url }}"</span> <span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/07/31/Culture-Dip.html"</span> <span class="nt">&gt;</span>Cuture Dip<span class="nt">&lt;/a&gt;</span>
            <span class="nt">&lt;/li&gt;</span>
-          {% endfor %}
-          
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/07/31/Colorism.html"</span> <span class="nt">&gt;</span>What is Colorism?<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html"</span> <span class="nt">&gt;</span>Quarantine Playlist<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html"</span> <span class="nt">&gt;</span>Justice for Breonna Taylor<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html"</span> <span class="nt">&gt;</span>Black Lives Matter<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html"</span> <span class="nt">&gt;</span>Daily Check-In<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2020/04/11/Template.html"</span> <span class="nt">&gt;</span>Template<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html"</span> <span class="nt">&gt;</span>Self Discovery Journal Prompts<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2019/04/12/growing-pains.html"</span> <span class="nt">&gt;</span>Growing Pains<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2018/06/08/art-update.html"</span> <span class="nt">&gt;</span>Art Update<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
+         
+           <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/niaapps-blog/updates-personal/2018/03/31/first-post.html"</span> <span class="nt">&gt;</span>First Post<span class="nt">&lt;/a&gt;</span>
+           <span class="nt">&lt;/li&gt;</span>
+                  
+                   
           <span class="nt">&lt;/ul&gt;</span> 
         <span class="nt">&lt;/div&gt;</span>
         
@@ -216,79 +297,4 @@ Html/markdown:</p>
   
 </pre></td></tr></tbody></table></code></pre></figure>
 
-</div> 
-
-</div>
-<div class="ft-space col-5"></div>
-
-<div class = "comments col-6">
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 521; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: false,
-        id: false
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
-</div>
-
-<footer class="footer-post" >
-  <!-- test to see if on mobile removing col-3 straigthens socials -->
-  <!-- Footer Links -->
-
-
-
-    
-    <div class="footer-links-left">
-
-    
-      <ul class ="social">
-          <li>
-            <a href="https://www.facebook.com/niaapplications/" target="_blank">
-          <img src="/images/fb.png" alt="fb-link" style="width: 32px; height:32px">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/niawillie" target="_blank">
-          <img src="/images/twitter.png" alt="twi-link" style="width: 28px; height:28px">
-            </a>
-          </li>
-          <li>
-           <a href="https://www.linkedin.com/in/niaapps" target="_blank">
-            <img src="/images/li.png" alt="li-link" style="width: 32px; height:32px">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/niaapps" target="_blank">
-          <img src="/images/git.png" alt="git-link" style="width: 32px; height:32px ">
-            </a>
-          </li>
-        </ul> 
-    </div>
-
-    <div class="footer-subscribe">
-      <form class="form-subscribe" action="https://feedburner.google.com/fb/a/mailverify" method="post"
-      target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NiaApplications', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-     
-      <p>Subscribe for Updates:</p>
-      <div class="email"style="overflow: hidden; padding-right: .5em;">
-        <input type="text" style="width:140px;" name="email"/>
-      </div>
-      <div class="sub-b">
-        <input type="submit" value="Sign Up"  style="float: right;"/>
-        </div>
-    <input type="hidden" value="NiaApplications" name="uri"/>
-    <input type="hidden" name="loc" value="en_US"/> 
-  
-      </form>
-  
-
-<!--  <div class="footer-copyright"> Â© 2020 Copyright: Nia Applications
-  </div> -->
-
-
-  <!-- Footer Links -->
-
-</footer>
+:ET

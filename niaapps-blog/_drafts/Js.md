@@ -4,33 +4,36 @@ title: "Javascript Adventure"
 date: 2020-07-31 16:00:00 -0400
 categories: updates-coding
 ---
+<link href="/css/syntax.css" rel="stylesheet">
  So the Script I used was:
 
-   <script>
-    var slider = document.getElementById("font-range");
-    var output = document.getElementById("size");
-    output.innerHTML = slider.value;
-    
-    slider.oninput = function() {
-    output.innerHTML = this.value;
-    document.getElementById("post-text").style.fontSize = output.innerHTML;
-    }
-    </script>
+{% highlight html linenos %}
+<script>
+  var slider = document.getElementById("font-range");
+  var output = document.getElementById("size");
+  output.innerHTML = slider.value;  
+  slider.oninput = function() {
+  output.innerHTML = this.value;
+  document.getElementById("post-text").style.fontSize = output.innerHTML;}
+</script>
+{% endhighlight %}
 
+and the respective html:
 
-    and the respective html:
+{% highlight html linenos %}
+<div class="slidecontainer">
+<p>Font Size: <span id="size"></span></p>  
+<input type="range" min="16" max="30" value="16" class="slider" id="font-range">
+ </div>
 
-          <div class="slidecontainer">
-          <p>Font Size: <span id="size"></span></p>  
-            <input type="range" min="16" max="30" value="16" class="slider" id="font-range">
-          </div>
-
+{% endhighlight %}
 
 
 
 
 Sorting Posts:
 Html/markdown:
+{% highlight html linenos %}
   <div class="select-div">
       <select name="post-type" id="post-type" onchange="show_post_type(this)">
         <option value="1">All Posts</option>
@@ -40,40 +43,45 @@ Html/markdown:
     </div> 
     <div id="all-posts">
         <ul>
+        {% raw %}
          {% for post in site.posts %}
            <li>
              <a href="{{ post.url }}" >{{ post.title }}</a>
            </li>
          {% endfor %}
+         {% endraw %}
        </ul>
       </div>
           <div id="coding-posts">
-          <ul>{% for post in site.categories.updates-coding %}
-         
+          <ul>
+          {% raw %}
+          {% for post in site.categories.updates-coding %}
            <li>
             <a href="{{ post.url }}" >{{ post.title }}</a>
-           </li>
-                  
-                   {% endfor %}
+           </li>  
+          {% endfor %}
+          {% endraw %}
           </ul>
         </div>
         <div id="personal-posts">
+        {% raw %}
           <ul>{% for post in site.categories.updates-personal %}
-         
            <li>
             <a href="{{ post.url }}" >{{ post.title }}</a>
            </li>
-                  
-                   {% endfor %}
+          {% endfor %}
+          {%endraw%}
           </ul> 
         </div>
+        {% endhighlight %}
 
 CSS:
-
+{% highlight html linenos %}
 #coding-posts,#personal-posts{display: none;}
 #all-posts{display: inline-block;}
-
+{% endhighlight %}
 JS:
+{% highlight html linenos %}
 <script>
 
      function show_post_type(element){
@@ -95,3 +103,4 @@ JS:
      
      }
   </script>
+  {% endhighlight %}

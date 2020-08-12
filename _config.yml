@@ -30,7 +30,8 @@ github_username:  niaapps
 
   
 # Build settings
-
+markdown: kramdown
+highlighter: rouge
 gems:
   - jekyll-feed
 

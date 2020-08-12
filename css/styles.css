@@ -582,6 +582,9 @@ height: auto;
 #coding-posts,#personal-posts{display: none;}
 #all-posts{display: inline-block;}
 
+#post-type{
+  color:white;
+  background-color: #000000;}
 /*End of Niaapps Blog CSS*/
 
 

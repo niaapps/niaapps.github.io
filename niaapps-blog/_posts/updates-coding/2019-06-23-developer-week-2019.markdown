@@ -2,7 +2,7 @@
 layout: post
 title: Developer Week 2019
 date: 2019-06-23 14:00:00 -0400
-categories: updates-personal
+categories: updates-coding
 ---
 <!-- Need to copy/paste to each post: -->
 <div class="feed" markdown="1">
