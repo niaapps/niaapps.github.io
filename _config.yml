@@ -22,7 +22,7 @@ title: Nia Applications
 email: niaapplications@gmail.com
 description: Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://niaapps.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: niawillie
 github_username:  niaapps
 

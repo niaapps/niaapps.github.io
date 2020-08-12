@@ -1,0 +1,23 @@
+I"è<p>So the Script I used was:</p>
+
+<script>
+    var slider = document.getElementById("font-range");
+    var output = document.getElementById("size");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+    output.innerHTML = this.value;
+    document.getElementById("post-text").style.fontSize = output.innerHTML;
+    }
+    </script>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>and the respective html:
+
+      &lt;div class="slidecontainer"&gt;
+      &lt;p&gt;Font Size: &lt;span id="size"&gt;&lt;/span&gt;&lt;/p&gt;  
+        &lt;input type="range" min="16" max="30" value="16" class="slider" id="font-range"&gt;
+      &lt;/div&gt;
+</code></pre></div></div>
+
+<p>Sorting Posts:</p>
+:ET

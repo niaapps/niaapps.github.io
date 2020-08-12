@@ -1,0 +1,243 @@
+I"!<p>So the Script I used was:</p>
+
+<script>
+    var slider = document.getElementById("font-range");
+    var output = document.getElementById("size");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+    output.innerHTML = this.value;
+    document.getElementById("post-text").style.fontSize = output.innerHTML;
+    }
+    </script>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>and the respective html:
+
+      &lt;div class="slidecontainer"&gt;
+      &lt;p&gt;Font Size: &lt;span id="size"&gt;&lt;/span&gt;&lt;/p&gt;  
+        &lt;input type="range" min="16" max="30" value="16" class="slider" id="font-range"&gt;
+      &lt;/div&gt;
+</code></pre></div></div>
+
+<p>Sorting Posts:
+Html/markdown:</p>
+<div class="select-div">
+      <select name="post-type" id="post-type" onchange="show_post_type(this)">
+        <option value="1">All Posts</option>
+        <option value="2">Coding Posts</option>
+        <option value="3">Personal Posts </option>
+        </select>
+    </div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="all-posts"&gt;
+    &lt;ul&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-coding/2020/07/31/Js.html" &gt;Javascript Adventure&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/07/31/Culture-Dip.html" &gt;Cuture Dip&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/07/31/Colorism.html" &gt;What is Colorism?&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html" &gt;Quarantine Playlist&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" &gt;Justice for Breonna Taylor&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" &gt;Black Lives Matter&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" &gt;Daily Check-In&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2020/04/11/Template.html" &gt;Template&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-coding/2020/03/27/website-update.html" &gt;Website Update and COVID-19&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" &gt;Self Discovery Journal Prompts&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" &gt;Developer Week 2019&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" &gt;Growing Pains&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" &gt;Hello! Hello! From your sleepless coder!&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" &gt;Let's Play Catch Up!&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-coding/2018/06/23/oppurtunity-update.html" &gt;Lapdesk and Opportunity Update&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2018/06/08/art-update.html" &gt;Art Update&lt;/a&gt;
+       &lt;/li&gt;
+     
+       &lt;li&gt;
+         &lt;a href="/niaapps-blog/updates-personal/2018/03/31/first-post.html" &gt;First Post&lt;/a&gt;
+       &lt;/li&gt;
+     
+   &lt;/ul&gt;
+  &lt;/div&gt;
+      &lt;div id="coding-posts"&gt;
+      &lt;ul&gt;
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-coding/2020/07/31/Js.html" &gt;Javascript Adventure&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-coding/2020/03/27/website-update.html" &gt;Website Update and COVID-19&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" &gt;Hello! Hello! From your sleepless coder!&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html" &gt;Let's Play Catch Up!&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-coding/2018/06/23/oppurtunity-update.html" &gt;Lapdesk and Opportunity Update&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div id="personal-posts"&gt;
+      &lt;ul&gt;
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/07/31/Culture-Dip.html" &gt;Cuture Dip&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/07/31/Colorism.html" &gt;What is Colorism?&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html" &gt;Quarantine Playlist&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" &gt;Justice for Breonna Taylor&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" &gt;Black Lives Matter&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html" &gt;Daily Check-In&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2020/04/11/Template.html" &gt;Template&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" &gt;Self Discovery Journal Prompts&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" &gt;Developer Week 2019&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" &gt;Growing Pains&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2018/06/08/art-update.html" &gt;Art Update&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+     
+       &lt;li&gt;
+        &lt;a href="/niaapps-blog/updates-personal/2018/03/31/first-post.html" &gt;First Post&lt;/a&gt;
+       &lt;/li&gt;
+              
+               
+      &lt;/ul&gt; 
+    &lt;/div&gt;
+</code></pre></div></div>
+
+<p>CSS:</p>
+
+<p>#coding-posts,#personal-posts{display: none;}
+#all-posts{display: inline-block;}</p>
+
+<p>JS:
+<script></script></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> function show_post_type(element){
+  if(element.value == 1){
+    document.getElementById("all-posts").style.display = 'inline-block';
+    document.getElementById("personal-posts").style.display = 'none';
+    document.getElementById("coding-posts").style.display = 'none';
+  }
+  if(element.value == 3){
+    document.getElementById("personal-posts").style.display = 'inline-block';
+    document.getElementById("all-posts").style.display = 'none';
+    document.getElementById("coding-posts").style.display = 'none';
+  }
+  if(element.value == 2){
+    document.getElementById("coding-posts").style.display = 'inline-block';
+    document.getElementById("all-posts").style.display = 'none';
+    document.getElementById("personal-posts").style.display = 'none';
+  }
+ 
+ }   &lt;/script&gt;
+</code></pre></div></div>
+:ET

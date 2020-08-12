@@ -17,6 +17,7 @@
     <link rel="mask-icon" href="/../../safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
   </head>
   <body class="blog-body">
   <header class="col-1">
@@ -42,25 +43,43 @@
       </div>
       
   <div class="wrapper-home col-2">
-      <!-- var x = document.createElement("SELECT"); Need to write JS to change post type when selected. These changes aren't pushed yet.
+    <h2 class="blog-recent">Recent Posts</h2>
+    <div class="select-div">
+      <select name="post-type" id="post-type" onchange="show_post_type(this)">
+        <option value="1">All Posts</option>
+        <option value="2">Coding Posts</option>
+        <option value="3">Personal Posts </option>
+        </select>
+    </div> 
+    <div id="all-posts">
+        <ul>
+         {% for post in site.posts %}
+           <li>
+             <a href="{{ post.url }}" >{{ post.title }}</a>
+           </li>
+         {% endfor %}
+       </ul>
+      </div>
+          <div id="coding-posts">
+          <ul>{% for post in site.categories.updates-coding %}
          
-          <div>
-            <select name="post-type">
-              <option value="posts">All Posts</option>
-              <option value="updates-coding">Coding Posts</option>
-              <option value="updates-personal">Personal Posts </option>
-              </select>
-          </div> --> 
-          <h2 class="blog-recent">Recent Posts</h2>
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}" >{{ post.title }}</a>
-              </li>
-            {% endfor %}
+           <li>
+            <a href="{{ post.url }}" >{{ post.title }}</a>
+           </li>
+                  
+                   {% endfor %}
           </ul>
-
-          
+        </div>
+        <div id="personal-posts">
+          <ul>{% for post in site.categories.updates-personal %}
+         
+           <li>
+            <a href="{{ post.url }}" >{{ post.title }}</a>
+           </li>
+                  
+                   {% endfor %}
+          </ul> 
+        </div>
 
   </div>
 
@@ -120,4 +139,27 @@
     <!-- Footer Links -->
   
   </footer>
+
+  <script>
+
+     function show_post_type(element){
+      if(element.value == 1){
+        document.getElementById("all-posts").style.display = 'inline-block';
+        document.getElementById("personal-posts").style.display = 'none';
+        document.getElementById("coding-posts").style.display = 'none';
+      }
+      if(element.value == 3){
+        document.getElementById("personal-posts").style.display = 'inline-block';
+        document.getElementById("all-posts").style.display = 'none';
+        document.getElementById("coding-posts").style.display = 'none';
+      }
+      if(element.value == 2){
+        document.getElementById("coding-posts").style.display = 'inline-block';
+        document.getElementById("all-posts").style.display = 'none';
+        document.getElementById("personal-posts").style.display = 'none';
+      }
+     
+     }
+  </script>
 </body>
+

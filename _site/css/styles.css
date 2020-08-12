@@ -572,10 +572,17 @@ height: auto;
   
 }
 
+.blog-text{
+  padding: 30px;
+  padding-top: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+#coding-posts,#personal-posts{display: none;}
+#all-posts{display: inline-block;}
 
 /*End of Niaapps Blog CSS*/
-
-
 
 
 @media (min-width: 769px) and (max-width: 1280px) {
