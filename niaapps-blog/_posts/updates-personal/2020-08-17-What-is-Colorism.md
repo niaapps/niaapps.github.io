@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Colorism?"
-date: 2020-08-17 00:00:00 -0400
+date: 2020-08-17 00:00:10 -0400
 categories: updates-personal
 ---
  <meta name="description" content="These micro discrimanotry habits have macro effects on darker skinned people.">
