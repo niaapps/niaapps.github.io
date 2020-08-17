@@ -1,4 +1,327 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T02:48:43-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">What is Colorism?</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html" rel="alternate" type="text/html" title="What is Colorism?" /><published>2020-08-17T00:00:00-04:00</published><updated>2020-08-17T00:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html">&lt;meta name=&quot;description&quot; content=&quot;These micro discrimanotry habits have macro effects on darker skinned people.&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T18:40:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">JavaScript Adventure</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html" rel="alternate" type="text/html" title="JavaScript Adventure" /><published>2020-08-17T16:00:00-04:00</published><updated>2020-08-17T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html">&lt;meta name=&quot;description&quot; content=&quot;This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work.&quot; /&gt;
+
+&lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
+&lt;div class=&quot;feed&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;link href=&quot;/css/syntax.css&quot; rel=&quot;stylesheet&quot; /&gt;
+
+&lt;style&gt;#section-1 ul, #section-2 ul, #section-3 ul{list-style:none;} 
+.slider {
+  -webkit-appearance: none;
+  width             : 220px;
+  height            : 19px;
+  background        : #8ab5f5;
+  outline           : thick;
+  border-radius     : 25px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance        : none;
+  width             : 0;
+  height            : 0;
+  background-color  : transparent;
+  cursor            : pointer;
+  border-left       : 23px solid transparent;
+  border-right      : 23px solid transparent;
+  border-top        : 20px solid #f59657;
+}
+.slider::-moz-range-thumb {
+  height          : 0;
+  width           : 0;
+  cursor          : pointer;
+  background-color: transparent;
+  border-left     : 23px solid transparent;
+  border-right    : 23px solid transparent;
+  border-top      : 20px solid #f59657;
+}
+#post-text{padding:20px;}
+&lt;/style&gt;
+
+&lt;p&gt;Hey Readers!&lt;/p&gt;
+
+&lt;p&gt;This is a coding post about some work I have been doing in JavaScript both on this site and on a project I have for work. I’d say I’m a novice with JS because of how infrequently I use it as opposed to HTML &amp;amp; CSS. The language is widely used across the internet, so I pick it up when I need to. The challenge for me was that markdown/liquid is not intuitive for me. These new-age programming languages strip important parts so that you don’t have to be a techie to use them. In the same respect they lose abilities/functionality in some areas. I am old school in that sense. Figuring out how to use JavaScript with the markdown features for my site was my only hiccup.&lt;/p&gt;
+
+&lt;p&gt;Let’s lay groundwork, for those who don’t know. JavaScript ≠ Java. JavaScript, usually abbreviated to JS is a high level programming language that allows you to implement more complex features when developing webpages. The two demos I have for you today are a selector to sort my blog posts, and a Text size range slider. In the past the only significant work I can recall using JS for is making a site “infinite scroll.” These really only scratch the surface, here is &lt;a href=&quot;https://marvinthompson-code.netlify.app&quot; target=&quot;_blank&quot; title=&quot;Marvin's Portfolio site&quot;&gt;Marvin Thompson&lt;/a&gt; that has done way cooler stuff with JS. Marvin is another up and coming full stack web developer, and works with React which is a JS frame work. Linked above is his portfolio site. One notable project of his is &lt;a href=&quot;https://facespace.netlify.app&quot; target=&quot;_blank&quot; title=&quot;FaceSpace is meant to be like Facebook&quot;&gt;FaceSpace&lt;/a&gt;. It is a social media project meant to emulate facebook. It just goes to show how much you can do with JS. Now that you have been amazed by the great work JS can achieve, here are the small things I’ve utilized it for:&lt;/p&gt;
+
+&lt;p&gt;I created a selector, or in plain terms a drop-down sort. I have been wanting to implement this feature for a while. Personally, having an idea vs executing it is a little daunting sometimes… It is easier to jump in if you’re being paid to do it, as opposed to doing something for my own site. I have slowly been finding myself becoming a perfectionist, so I worked up the nerve to dare to try something I may suck at first, like most beginners.&lt;/p&gt;
+
+&lt;p&gt;Here’s some code:&lt;/p&gt;
+
+&lt;p&gt;CSS:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nf&quot;&gt;#coding-posts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;#personal-posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+
+&lt;span class=&quot;nf&quot;&gt;#all-posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Html/markdown:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Declaring a selector and it's choices. --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;select-div&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;select&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onchange=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;show_post_type(this)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;All Posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Coding Posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Personal Posts &lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/select&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- seperate div for all posts --&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;all-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+  {% for post in site.posts %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ post.url }}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+  {% endfor %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- seperate div for coding posts --&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;coding-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    {% for post in site.categories.updates-coding %}
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ post.url }}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;  
+    {% endfor %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- seperate div for all posts --&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;personal-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    {% for post in site.categories.updates-personal %}
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ post.url }}&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    {% endfor %}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The way this works is each div for all posts, coding posts and personal posts have markdown in them that generates an unordered list with links to respective posts. In markdown, each post has a category declared in its front matter. I use a for loop to generate each. By default in the CSS above you can see the all posts div is shown and the separated personal and coding posts are set to display none. Next is the JS to tell the selector which div to display and which divs to hide, switching each time a new selection is made:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;show_post_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+  &lt;span class=&quot;cm&quot;&gt;/*In the HTML above we set the value of all posts to 1, coding posts to 2 
+    and personal posts to 3.
+    We passed the selector in as element, now test in 3 separate if statements*/&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;all-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;inline-block&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;personal-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;coding-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;coding-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;inline-block&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;all-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;personal-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;personal-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;inline-block&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;all-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;coding-posts&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Each separate if statement contains a block that passes the id of each div, changing the CSS style display to either inline-block or none depending on what we need. I also made the selector black to fit the webpage theme. &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;You can see it in action on my blog home page&lt;/a&gt;, and below is a gif to demonstrate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;gif of selector on blog home page&quot; src=&quot;/../../images/js-demo.gif&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next thing I made with JS is a text size range slider for a client’s site.  I used an input tag with the type set to range to achieve this. It is an accessibility feature that you should consider implementing on your own website. Creating accessible web pages is important in addition to minimum standards being required by law.&lt;/p&gt;
+
+&lt;p&gt;The HTML:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;slidecontainer&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Text Size: &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;size&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;range&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;min=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;16&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;max=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;30&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;16&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;slider&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font-range&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The CSS:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.slider&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;-webkit-appearance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;220px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;            &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;19px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#8ab5f5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;outline&lt;/span&gt;           &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;thick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;25px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.slider&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::-webkit-slider-thumb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;-webkit-appearance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;appearance&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;            &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;cursor&lt;/span&gt;            &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pointer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-left&lt;/span&gt;       &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;23px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-right&lt;/span&gt;      &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;23px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-top&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#f59657&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.slider&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;::-moz-range-thumb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;          &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;           &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;cursor&lt;/span&gt;          &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pointer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-left&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;23px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-right&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;23px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border-top&lt;/span&gt;      &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#f59657&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The JS:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;font-range&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
+  &lt;span class=&quot;nx&quot;&gt;slider&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;oninput&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;post-text&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fontSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So how does this work? Begin by setting a div’s id to equal “post-text”(any text you want to change in size). Above is a function that takes the output of the slider and sets the style font-size of post-text to be equal to it. The second line is so the user can see the value they are setting it to. I chose these colors to fit my client’s site, but any would do if you were to implement this. I created the “arrow” or triangle by using border-left, top &amp;amp; right on the “thumb”. It is important to code for both moz (Mozilla) and WebKit (chrome, safari). Check out the demo below:&lt;/p&gt;
+
+&lt;div class=&quot;slidecontainer&quot;&gt;
+&lt;p&gt;Text Size: &lt;span id=&quot;size&quot;&gt;&lt;/span&gt;&lt;/p&gt;  
+&lt;input type=&quot;range&quot; min=&quot;19&quot; max=&quot;40&quot; value=&quot;19&quot; class=&quot;slider&quot; id=&quot;font-range&quot; /&gt;
+ &lt;/div&gt;
+
+&lt;script&gt;
+  var slider = document.getElementById(&quot;font-range&quot;);
+  var output = document.getElementById(&quot;size&quot;);
+  output.innerHTML = slider.value;  
+  slider.oninput = function() {
+  output.innerHTML = this.value;
+  document.getElementById(&quot;post-text&quot;).style.fontSize = output.innerHTML;}
+&lt;/script&gt;
+
+&lt;div id=&quot;post-text&quot;&gt;Hi, this text will change size!&lt;/div&gt;
+&lt;p&gt;Those are the two bits of JS I have coded recently. Thanks for reading. Leave a comment about what lovely things in JS you’ve seen/coded below! I’d love to be inspired. Again check out Marvin’s stuff too, my post here is truly the tip of the iceberg! Till next time!&lt;/p&gt;
+
+&lt;!-- ex img w/ directory to root and discourage download pop up --&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img id=&quot;img-id&quot; src=&quot;/../../images/js.jpg&quot; alt=&quot;alt text&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;
+  &amp;lt;/a&amp;gt;
+&lt;/div&gt;
+
+&lt;!-- Buttons for Blog post update prev with last post regularly don't forget date and title--&gt;
+&lt;div class=&quot;button-post&quot;&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
+
+  &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here Hey Readers!</summary></entry><entry><title type="html">What is Colorism?</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html" rel="alternate" type="text/html" title="What is Colorism?" /><published>2020-08-17T00:00:10-04:00</published><updated>2020-08-17T00:00:10-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html">&lt;meta name=&quot;description&quot; content=&quot;These micro discrimanotry habits have macro effects on darker skinned people.&quot; /&gt;
 
 &lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
 &lt;div class=&quot;feed&quot;&gt;
@@ -72,7 +395,7 @@
 
 &lt;p&gt;I’d like to make the distinction, no one is saying that light skinned people do not face discrimination or racism, but we are saying it is imperative to recognize how the societal hatred of darker skin is hurting your community and how your actions can further normalize this behavior.&lt;/p&gt;
 
-&lt;p&gt;Let’s talk about history for a moment. The roots of colorism in America is nearly identical to the Caribbean. In both cases, the class stratification starts with enslavement and colonization. A social hierarchy purported by the White ruling class: putting whiteness at the top, blackness at the bottom, and mulattos (A mix of European + Black or Caribbean heritage respectively) somewhere in the middle based on perception. You can listen more about colorism in the Caribbean from &lt;a href=&quot;https://www.nytimes.com/by/frances-robles&quot; target=&quot;_blank&quot; title=&quot;Frances Robles NYT page&quot;&gt;Frances &lt;/a&gt;&lt;a href=&quot;https://twitter.com/FrancesRobles&quot; target=&quot;_blank&quot; title=&quot;Frances Robles Twitter&quot;&gt;Robles&lt;/a&gt; &lt;a href=&quot;https://www.npr.org/templates/story/story.php?storyId=12001750&quot; target=&quot;_blank&quot; title=&quot;NPR episode where Frances Robles speaks about her experience with Colorism in the Caribbean&quot;&gt; here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s talk about history for a moment. The roots of colorism in America is nearly identical to the Caribbean. In both cases, the class stratification starts with enslavement and colonization. A social hierarchy purported by the White ruling class: putting whiteness at the top, blackness at the bottom, and mulattos (A mix of European + Black or Caribbean heritage respectively) somewhere in the middle based on perception. You can listen more about colorism in the Caribbean from &lt;a href=&quot;https://www.nytimes.com/by/frances-robles&quot; target=&quot;_blank&quot; title=&quot;Frances Robles NYT page&quot;&gt;Frances &lt;/a&gt;&lt;a href=&quot;https://twitter.com/FrancesRobles&quot; target=&quot;_blank&quot; title=&quot;Frances Robles Twitter&quot;&gt;Robles&lt;/a&gt; &lt;a href=&quot;https://www.npr.org/templates/story/story.php?storyId=12001750&quot; target=&quot;_blank&quot; title=&quot;NPR episode where Frances Robles speaks about her experience with Colorism in the Caribbean&quot;&gt; here&lt;/a&gt;. This post will be focusing on colorism in America.&lt;/p&gt;
 
 &lt;p&gt;In the study &lt;a href=&quot;https://7c2c4239-2cae-4bf7-9d24-e25021092699.filesusr.com/ugd/5fff9b_738c19918f21490a904304b5852ed5f4.pdf?index=true&quot; target=&quot;_blank&quot; title=&quot;full pdf from Dr. Reece&quot;&gt;“Genesis of U.S. Colorism and Skin Tone Stratification: Slavery, Freedom, and Mulatto-Black Occupational Inequality in the Late 19th Century”&lt;/a&gt; written by Dr. &lt;a href=&quot;https://scholar.google.com/citations?hl=en&amp;amp;user=fEDQllQAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot; target=&quot;_blank&quot; title=&quot;Dr. Reece's Google Scholar page&quot;&gt;Robert&lt;/a&gt;&lt;a href=&quot;https://www.robertlreece.com/research&quot; target=&quot;_blank&quot; title=&quot;Dr. Reece's website&quot;&gt; L. &lt;/a&gt;&lt;a href=&quot;https://twitter.com/PhuzzieSlippers&quot; target=&quot;_blank&quot; title=&quot;Dr. Reece's Twitter&quot;&gt;Reece&lt;/a&gt; it was found in the U.S., that colorism has been prevalent both during and after slavery, providing Mulattos greater opportunities than their Black counterparts. Dr. Reece delves on many significant points. He sets the stage with that which we should already know:&lt;/p&gt;
 
@@ -117,15 +440,15 @@
 &lt;p&gt;I encourage you all to read Dr. Reece’s &lt;a href=&quot;https://www.robertlreece.com/research&quot; target=&quot;_blank&quot; title=&quot;Dr. Reece's research page on his website&quot;&gt;work.&lt;/a&gt; They are well researched and provide insight into topics like Colorism that are not as widely explored by other academics. I personally plan on reading “The Gender of Colorism: Understanding the Intersection of Skin Tone and Gender Inequality” next, which was written this year.&lt;/p&gt;
 
 &lt;p&gt;History is the background of this painting, but as we approach the metaphorical foreground where is the situation now? As it is with most 21st century issues, capitalism comes knocking. Companies like Unilever profit off of dark skinned people’s insecurity, which as I’ve demonstrated is perpetuated on a societal level. Just this past June Hindustan Unilever has come under fire amid the renewed racial justice protests. Their product &lt;a href=&quot;https://en.wikipedia.org/wiki/Glow_%26_Lovely&quot; target=&quot;_blank&quot; title=&quot;Link to wiki on 'Fair and Lovely' lightening cream&quot;&gt;“Fair and Lovely”&lt;/a&gt;, a lightening cream that has been on the market since the 1970s is being scrutinized for its name as well as it’s use. &lt;a href=&quot;https://www.nytimes.com/2020/06/25/business/unilever-jj-skin-care-lightening.html&quot; target=&quot;_blank&quot; title=&quot;Article about Unilever and J&amp;amp;J facing criticism for skin lightening products&quot;&gt;Unilever has since changed the name&lt;/a&gt; to “Glow and Lovely” but the concoction remains the same, lightening people’s skin tone. Johnson and Johnson will rename some products to stop the emphasis on “fairness” as well as &lt;a href=&quot;https://www.cnn.com/2020/06/25/business/hindustan-unilever-fair-and-lovely-intl-hnk/index.html&quot; target=&quot;_blank&quot; title=&quot;Secondary article about Unilever and J&amp;amp;J facing criticism for skin lightening products&quot;&gt;discontinuing &lt;/a&gt;some lightening creams.
-Right before 2019 came to a close two non-profits garnered &lt;a href=&quot;https://www.nytimes.com/2019/12/05/us/colorism-amazon-skin-lightning-bleaching.html&quot; target=&quot;_blank&quot; title=&quot;Article about Amazon and Colorism&quot;&gt;23,000 signatures asking Amazon&lt;/a&gt; to discontinue it’s participation in selling skin bleaching products. Surprisingly, Amazon listened. Again, it should be known that the skin-lightening industry was on track to becoming a $23 billion dollar industry. Skin lightening or skin bleaching is not considered safe by any means by the FDA, yet these products continue to be made and stocked on shelves. Products that hurt people on both a psychological(the idea that one’s skin tone they are born with needs to be”fixed”) and physical level should not flourish on the market.&lt;/p&gt;
+Right before 2019 came to a close two non-profits garnered &lt;a href=&quot;https://www.nytimes.com/2019/12/05/us/colorism-amazon-skin-lightning-bleaching.html&quot; target=&quot;_blank&quot; title=&quot;Article about Amazon and Colorism&quot;&gt;23,000 signatures asking Amazon&lt;/a&gt; to discontinue it’s participation in selling skin bleaching products. Surprisingly, Amazon listened. Again, it should be known that the skin-lightening industry was on track to becoming a $23 billion dollar industry. Skin lightening or skin bleaching is not considered safe by any means by the FDA, yet these products continue to be made and stocked on shelves. Products that hurt people on both a psychological(the idea that one’s skin tone they are born with needs to be “fixed”) and physical level should not flourish on the market.&lt;/p&gt;
 
-&lt;p&gt;Let’s recap. Colorism hurts melanated people, it can give lighter-toned people a sort of implicit advantage because of it’s likeness to whiteness. Colorism’s roots stem from white supremacy as well as anti-blackness. It exists on the individual as well as the institutional level. Once you acknowledge the existence of this colorism issue, what can be done? Well to start, educating yourself and others further about why dark skin is perceived as undesirable and acknowledging it is something people have no control over. Educate yourself on the implicit bias you may have and actively work to fix them.&lt;/p&gt;
+&lt;p&gt;Let’s recap. Colorism hurts melanated people, it can give lighter-toned people a sort of implicit advantage because of it’s likeness to whiteness. Colorism’s roots stem from white supremacy as well as anti-blackness. It exists on the individual as well as the institutional level. Once you acknowledge the existence of this colorism issue, what can be done? Well to start, educating yourself and others further about why dark skin is perceived as undesirable and acknowledging it is something people have no control over. Educate yourself on the implicit bias you may have and actively work to bring light to them and challenge them to level the playing field. The shade of someone’s skin tone should not be a factor when dating, hiring, deciding pay rate, or any other issue that is linked to someone’s livelihood.&lt;/p&gt;
 
 &lt;p&gt;Thank you for reading.&lt;/p&gt;
 
 &lt;div class=&quot;button-post&quot;&gt;
     &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-    &lt;!-- &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/08/18/JavaScript-Adventure.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt; --&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/08/17/JavaScript-Adventure.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;thumbnail&quot;&gt;
@@ -841,17 +1164,4 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 &lt;div class=&quot;button-div&quot;&gt;
     &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
     &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
-  &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Hello! Hello! From your sleepless coder!</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" rel="alternate" type="text/html" title="Hello! Hello! From your sleepless coder!" /><published>2019-04-12T00:30:00-04:00</published><updated>2019-04-12T00:30:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html">&lt;!-- Need to copy/paste to each post: --&gt;
-&lt;div class=&quot;feed&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;So I’m working on revamping my website, as I may be doing more HTML work this summer and want to have something to show for it. Below is a gif of my Nav Bar with a hover effect I just finished. The extra space on the left will be for my new logo, which I’m in the process of designing. I know it’s incredibly simple, but it’s 12 am and I’m damn proud. More to come, definitely. What goes on a home page, I am beginning to ask myself. Know any good example sites? Comment them! Have any feedback? Get at me! I’m lonely at this hour.&lt;/p&gt;
-
-&lt;div class=&quot;scale-img&quot;&gt;
-&lt;img src=&quot;/../../images/website.gif&quot; alt=&quot;gif of my site&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;button-post&quot;&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/09/lets-play-catch-up.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
-  &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here So I’m working on revamping my website, as I may be doing more HTML work this summer and want to have something to show for it. Below is a gif of my Nav Bar with a hover effect I just finished. The extra space on the left will be for my new logo, which I’m in the process of designing. I know it’s incredibly simple, but it’s 12 am and I’m damn proud. More to come, definitely. What goes on a home page, I am beginning to ask myself. Know any good example sites? Comment them! Have any feedback? Get at me! I’m lonely at this hour.</summary></entry></feed>
+  &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here</summary></entry></feed>
