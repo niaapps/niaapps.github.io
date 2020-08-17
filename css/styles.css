@@ -582,6 +582,9 @@ height: auto;
 #coding-posts,#personal-posts{display: none;}
 #all-posts{display: inline-block;}
 
+#section-2,#section-3{display: none;}
+#section-1{display: inline-block;}
+
 #post-type{
   color:white;
   background-color: #000000;}
