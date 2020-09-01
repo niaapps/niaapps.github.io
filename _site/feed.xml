@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T18:40:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">JavaScript Adventure</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html" rel="alternate" type="text/html" title="JavaScript Adventure" /><published>2020-08-17T16:00:00-04:00</published><updated>2020-08-17T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html">&lt;meta name=&quot;description&quot; content=&quot;This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work.&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-01T14:27:02-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">JavaScript Adventure</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html" rel="alternate" type="text/html" title="JavaScript Adventure" /><published>2020-08-17T16:00:00-04:00</published><updated>2020-08-17T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html">&lt;meta name=&quot;description&quot; content=&quot;This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work.&quot; /&gt;
 
 &lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
 &lt;div class=&quot;feed&quot;&gt;
@@ -191,9 +191,9 @@
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Each separate if statement contains a block that passes the id of each div, changing the CSS style display to either inline-block or none depending on what we need. I also made the selector black to fit the webpage theme. &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;You can see it in action on my blog home page&lt;/a&gt;, and below is a gif to demonstrate.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;gif of selector on blog home page&quot; src=&quot;/../../images/js-demo.gif&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;&lt;/p&gt;
-
+&lt;div class=&quot;scale-img&quot;&gt;
+&lt;img alt=&quot;gif of selector on blog home page&quot; src=&quot;/../../images/js-demo.gif&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;
+&lt;/div&gt;
 &lt;p&gt;The next thing I made with JS is a text size range slider for a client’s site.  I used an input tag with the type set to range to achieve this. It is an accessibility feature that you should consider implementing on your own website. Creating accessible web pages is important in addition to minimum standards being required by law.&lt;/p&gt;
 
 &lt;p&gt;The HTML:&lt;/p&gt;
@@ -448,7 +448,7 @@ Right before 2019 came to a close two non-profits garnered &lt;a href=&quot;http
 
 &lt;div class=&quot;button-post&quot;&gt;
     &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/08/17/JavaScript-Adventure.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;thumbnail&quot;&gt;
@@ -1161,7 +1161,7 @@ tinkering away. If there are any issues please reach out to me! I have just set 
 
 &lt;p&gt;I am ready to love me. I am ready to let useless rage go. I am ready to both ask and accept help. I am ready for abundance. Thanks for reading.&lt;/p&gt;
 
-&lt;div class=&quot;button-div&quot;&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
+&lt;div class=&quot;button-post&quot;&gt;
+&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
+&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
   &lt;/div&gt;</content><author><name></name></author><summary type="html">For my email subscribers, please click here</summary></entry></feed>

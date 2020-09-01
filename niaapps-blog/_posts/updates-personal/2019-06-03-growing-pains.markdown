@@ -25,7 +25,7 @@ Last but not least, being kinder to myself, self love. I saved this for last bec
 
 I am ready to love me. I am ready to let useless rage go. I am ready to both ask and accept help. I am ready for abundance. Thanks for reading.
 
-<div class="button-div">
-    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" class="post-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" class="post-button" id="button-nxt">Next Post</a>
+<div class="button-post">
+<a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" class="post-button" id="button-nxt">Previous Post</a>
+<a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/06/23/developer-week-2019.html" class="post-button" id="button-nxt">Next Post</a>
   </div>

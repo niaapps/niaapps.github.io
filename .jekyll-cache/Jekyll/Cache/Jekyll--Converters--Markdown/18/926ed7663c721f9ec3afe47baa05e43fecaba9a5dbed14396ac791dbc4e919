@@ -1,4 +1,4 @@
-I"0Z<meta name="description" content="This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work." />
+I""\<meta name="description" content="This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work." />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed">
@@ -42,9 +42,9 @@
 
 <p>This is a coding post about some work I have been doing in JavaScript both on this site and on a project I have for work. I’d say I’m a novice with JS because of how infrequently I use it as opposed to HTML &amp; CSS. The language is widely used across the internet, so I pick it up when I need to. The challenge for me was that markdown/liquid is not intuitive for me. These new-age programming languages strip important parts so that you don’t have to be a techie to use them. In the same respect they lose abilities/functionality in some areas. I am old school in that sense. Figuring out how to use JavaScript with the markdown features for my site was my only hiccup.</p>
 
-<p>Let’s lay groundwork, for those who don’t know. JavaScript ≠ Java. JavaScript, usually abbreviated to JS is a high level programming language that allows you to implement more complex features when developing webpages. The two demos I have for you today are a selector to sort my blog posts, and a Text size range slider. In the past the only significant work I can recall using JS for is making a site “infinite scroll.” These really only scratch the surface, here is <a href="https://marvinthompson-code.netlify.app/" target="_blank" title="Marvin's Portfolio site">Marvin Thompson</a> that has done way cooler stuff with JS. Marvin is another up and coming full stack web developer, and</p>
+<p>Let’s lay groundwork, for those who don’t know. JavaScript ≠ Java. JavaScript, usually abbreviated to JS is a high level programming language that allows you to implement more complex features when developing webpages. The two demos I have for you today are a selector to sort my blog posts, and a Text size range slider. In the past the only significant work I can recall using JS for is making a site “infinite scroll.” These really only scratch the surface, here is <a href="https://marvinthompson-code.netlify.app" target="_blank" title="Marvin's Portfolio site">Marvin Thompson</a> that has done way cooler stuff with JS. Marvin is another up and coming full stack web developer, and works with React which is a JS frame work. Linked above is his portfolio site. One notable project of his is <a href="https://facespace.netlify.app" target="_blank" title="FaceSpace is meant to be like Facebook">FaceSpace</a>. It is a social media project meant to emulate facebook. It just goes to show how much you can do with JS. Now that you have been amazed by the great work JS can achieve, here are the small things I’ve utilized it for:</p>
 
-<p>Starting with the selector, I have been wanting to implement this feature for a while. Personally, having an idea vs executing it is a little daunting sometimes… It is easier to jump in if you’re being paid to do it, as opposed to doing something for my own site. I have slowly been finding myself becoming a perfectionist, so I worked up the nerve to dare to try something I may suck at first, like most beginners.</p>
+<p>I created a selector, or in plain terms a drop-down sort. I have been wanting to implement this feature for a while. Personally, having an idea vs executing it is a little daunting sometimes… It is easier to jump in if you’re being paid to do it, as opposed to doing something for my own site. I have slowly been finding myself becoming a perfectionist, so I worked up the nerve to dare to try something I may suck at first, like most beginners.</p>
 
 <p>Here’s some code:</p>
 
@@ -191,9 +191,9 @@
 </pre></td></tr></tbody></table></code></pre></figure>
 
 <p>Each separate if statement contains a block that passes the id of each div, changing the CSS style display to either inline-block or none depending on what we need. I also made the selector black to fit the webpage theme. <a href="https://niaapps.github.io/niaapps-blog/" target="_blank" title="">You can see it in action on my blog home page</a>, and below is a gif to demonstrate.</p>
-
-<p><img alt="gif of selector on blog home page" src="/../../images/js-demo.gif" oncontextmenu="alert('Please don\'t download this photo!');return false;" /></p>
-
+<div class="scale-img">
+<img alt="gif of selector on blog home page" src="/../../images/js-demo.gif" oncontextmenu="alert('Please don\'t download this photo!');return false;" />
+</div>
 <p>The next thing I made with JS is a text size range slider for a client’s site.  I used an input tag with the type set to range to achieve this. It is an accessibility feature that you should consider implementing on your own website. Creating accessible web pages is important in addition to minimum standards being required by law.</p>
 
 <p>The HTML:</p>
@@ -203,7 +203,7 @@
 3
 4
 </pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slidecontainer"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;p&gt;</span>Font Size: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"size"</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>  
+<span class="nt">&lt;p&gt;</span>Text Size: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"size"</span><span class="nt">&gt;&lt;/span&gt;&lt;/p&gt;</span>  
 <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span> <span class="na">min=</span><span class="s">"16"</span> <span class="na">max=</span><span class="s">"30"</span> <span class="na">value=</span><span class="s">"16"</span> <span class="na">class=</span><span class="s">"slider"</span> <span class="na">id=</span><span class="s">"font-range"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 </pre></td></tr></tbody></table></code></pre></figure>

@@ -42,7 +42,7 @@ Anyways, thanks for reading this update. When I get that notification it warms m
 
 Till next time.
 
-<div class="button-div">
+<div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" class="post-button" id="button-nxt">Previous Post</a>
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/30/self-discovery-journal-prompts.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
