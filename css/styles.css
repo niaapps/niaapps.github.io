@@ -833,6 +833,25 @@ nav ul {margin-left: 115px;}
 
 nav{top:30px;}
 
+.select-div{
+width: 100%;  
+padding:20px;
+}
+
+/* Firefox */
+@-moz-document url-prefix() { 
+.content{margin-bottom: 100px;}
+.abt-container{margin-bottom: 75px;}
+.con-container{margin-bottom: 50px;}
+.pricing-container{margin-bottom: 250;}
+.wrapper-home{margin-bottom: 75px;}
+.mdb-rep{margin-bottom: 50px;}
+.pyw-rep{margin-bottom: 125px;}
+.outline-rep{margin-bottom: 50px;}    
+.projects{margin-bottom: 50px;}  
+}
+
+
 /* Index only */
 .home-title{
 font-size: 30px;

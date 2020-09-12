@@ -14,11 +14,12 @@ tragedy, perseverance and an ode to the journey of being true to yourself. I fel
 I watched Kinky Boots on BroadwayHD with a free trial. It was good. I don't often watch musicals, but something about the flashy outfits and heartfelt song made my bad day better. I watched the version where Lola is played by Matt Henry. In other versions of this Broadway show Lola has been played by Billy Porter and Wayne Brady. There is even a version where Panic at the Disco's Brendon Urie plays Charlie. The premise is that a family shoe factory is going out of business but is revived by the design of a Drag Queen named Lola and a cobbler Charlie who wants to make better shoes for this "niche market". I won't spoil too much, but the scene that stuck out to me was when Lola has a bet with one of the workers to do something that makes them a man. Lola asks Don to "Accept someone for who they are." Acceptance in my own life is hard for me. I often stride to change people. I cannot change conservatives to be more inclusive, and that is hard for me to accept. I know that people can be better, and it is a bare minimum for me to keep you in my life. I guess in a way I accept that I can't change them, but instead of subjecting myself to inhumane situations I close my circle. I continue to advocate in my own ways, and hope one day they'll change.
 Books:
 
-Gemini
+Gemini 
 
 Becoming
 
-Iktomi and the Ducks, and other Sioux stories
+I read Iktomi and the Ducks, and other Sioux stories by Red Bird or Zitkála-Šá, reading a story each night before bed, almost like being a kid again. Quarantine has me comforting myself amid all the craziness, and the stories are sort of meant to be told to children, each carrying a lesson. It was a light hearted read, and although I am not Sioux it was nice to get a slice of insight into indigenous culture. This book was one of the few things I took from my father when we lost our home in 2018. He would gather books from various different North American indigenous cultures. He always wanted to re-connect with our family's indigenous ancestry, something I also wish to pursue in the future. 
 
 The Obstacle is the Way
 
+Disclosure
