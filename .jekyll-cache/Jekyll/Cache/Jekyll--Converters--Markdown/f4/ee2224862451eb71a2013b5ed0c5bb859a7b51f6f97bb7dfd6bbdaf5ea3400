@@ -1,4 +1,4 @@
-I"Õ<!-- Need to copy/paste to each post: -->
+I"Ô<!-- Need to copy/paste to each post: -->
 <div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
@@ -19,8 +19,8 @@
 
 <p>I am ready to love me. I am ready to let useless rage go. I am ready to both ask and accept help. I am ready for abundance. Thanks for reading.</p>
 
-<div class="button-div">
+<div class="button-post">
 <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/04/12/hello-from-your-sleepless-coder.html" class="post-button" id="button-nxt">Previous Post</a>
-<a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/06/23/developer-week-2019.html" class="post-button" id="button-nxt">Next Post</a>
+<a href="https://niaapps.github.io/niaapps-blog/updates-coding/2019/06/23/developer-week-2019.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 :ET
