@@ -2,47 +2,58 @@
 layout: default
 ---
 <html>
+
 <head>
-<style>
-textarea{vertical-align: top;
-  display: block;}
-form{display: inline-block;
-	width: 400px;
-	text-align: left;}
-</style>
+	<style>
+		textarea {
+			vertical-align: top;
+			display: block;
+		}
+
+		form {
+			display: inline-block;
+			width: 400px;
+			text-align: left;
+		}
+	</style>
 </head>
 
 <title>Contact-Nia Applications</title>
 
 <div class="page-title">
-		<p><h2> Contact</h2></p><br>
-	
+	<p>
+	<h2> Contact</h2>
+	</p><br>
+
 </div>
 
-<div class= "con-container">
+<div class="con-container">
 
-  <div class="con-text">
-	<p class="tab">	
-	The form below is the quickest way to reach me regarding projects.<br>
-	You may also email me directly at: <a href="mailto:niaapplications@gmail.com" target="_blank">niaapplications@gmail.com</a>.<br>
-	Blog comments are also responded to frequently. I look forward to hearing from you regarding exciting new projects, questions about current collaborations, and feedback that helps me better serve my clients' vision.
-   </p>
- </div>
-
- <form name = "input" action="https://formspree.io/niaapplications@gmail.com" method="POST">
-	<label for="name"> Name: </label>
-	<input type="text" name="name" id ="name" required> <br>
-	<label for="email"> Email: </label>
-	<input type="text" name="_replyto" id ="email" required ><br>
-   <div class="mbox"> 
-	<label for="msg">Message:</label>
-	<textarea name = 'message' id="msg" maxlength="1000" cols="30" rows="6" required></textarea>
+	<div class="con-text">
+		<p class="tab">
+			The form below is the quickest way to reach me regarding projects.<br>
+			You may also email me directly at: <a href="mailto:niaapplications@gmail.com"
+				target="_blank">niaapplications@gmail.com</a>.<br>
+			Blog comments are also responded to frequently. I look forward to hearing from you regarding exciting new
+			projects, questions about current collaborations, and feedback that helps me better serve my clients'
+			vision.
+		</p>
 	</div>
-   
-   <input type="submit"value="Submit">
-   
-   </form>	
-   
+
+	<form name="input" action="https://formspree.io/niaapplications@gmail.com" method="POST">
+		<label for="name"> Name: </label>
+		<input type="text" name="name" id="name" required> <br>
+		<label for="email"> Email: </label>
+		<input type="text" name="_replyto" id="email" required><br>
+		<div class="mbox">
+			<label for="msg">Message:</label>
+			<textarea name='message' id="msg" maxlength="1000" cols="30" rows="6" required></textarea>
+		</div>
+
+		<input type="submit" value="Submit">
+
+	</form>
+
 </div>
 
 </body>
