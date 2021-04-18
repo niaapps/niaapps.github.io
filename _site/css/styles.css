@@ -288,6 +288,25 @@ footer ul {
   float      : left;
 }
 
+#mc-btn {
+  color                      : white;
+  background-color           : #60407F;
+  border-radius              : 4px;
+  border                     : none;
+  font-size                  : 14px;
+  padding                    : 2px 5px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration        : 0.4s;
+  cursor                     : pointer;
+  font-family                : 'Work Sans', sans-serif;
+  padding                    : 5px;
+}
+
+#mc-btn:hover {
+  background-color: #a5647c;
+}
+
 /*Any paragraph*/
 .tab {
   text-indent: 20px;
