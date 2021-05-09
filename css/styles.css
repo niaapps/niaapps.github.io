@@ -103,6 +103,16 @@ nav {
 
 .logo-div {
   padding: 10px;
+
+}
+
+.logo-div img {
+  cursor: pointer;
+}
+
+.logo-div a {
+  position: relative;
+  z-index : 99;
 }
 
 .logo {
