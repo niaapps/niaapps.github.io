@@ -5,7 +5,7 @@ date: 2021-05-26 11:45:00 -0400
 categories: updates-coding
 ---
 
- <meta name="description" content="blog post about my experience at CUNYHackathon, and the app my team made PenniezzZ">
+ <meta name="description" content="Blog post about my experience at CUNYHackathon, and the app my team made PenniezzZ">
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
