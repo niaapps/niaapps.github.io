@@ -3,6 +3,7 @@ layout: post
 title: "CUNY Hackathon 2021"
 date: 2021-05-26 11:45:00 -0400
 categories: updates-coding
+unpublished: true
 ---
 
  <meta name="description" content="Blog post about my experience at CUNYHackathon, and the app my team made PenniezzZ">
