@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Culture Dip"
-date: 2021-06-02 2:00:00 -0400
+date: 2021-06-02 14:00:00 -0400
 categories: updates-personal
 ---
  <meta name="description" content="What kept you sane during lockdown?  These are things I enjoyed during our extended inside stay.">
@@ -31,7 +31,7 @@ Hello Reader. As we look upon a better tomorrow with the vaccination rates going
 
 #### _Moonlight_
 &nbsp;&nbsp;&nbsp;
-
+Moonlight touched my heart. To be a Black and Gay man especially in a southern state like FL is a difficult predicament, and adding poverty into the mix made it so real and relatable to me. This is a coming of age story. This is a story of learning to be who you are. I won't say more than that. It should still be on Netflix and it deserves all the love and praise.
 
 &nbsp;&nbsp;&nbsp;
 ### Books
