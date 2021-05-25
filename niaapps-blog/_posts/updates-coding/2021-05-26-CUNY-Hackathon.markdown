@@ -21,9 +21,9 @@ I came up with the idea for a “Charity Clock” in high school but throughout 
 Unfortunately hackathons are a short period and we did not get to finish in time. I still had an amazing time meeting new people and learning from my teammates. As mentioned before, I normally work alone, which means my git repo is just me, it's easy to scrap and create a new repo when a mistake is made. This experience taught me so much about how important version control is and so many new git commands that are super useful. Learning how to navigate git in a new way was invigorating. I have had the goal of going to a 1 hackathon per semester for a couple of years and this is actually the first time I've actually done it. The pandemic actually made it so I had no excuses, as it was moved online. The barriers of transportation, food, and time were all taken away. This hackathon was also free to participate in so that helped! Even though the hackathon is over, one teammate and I continued to work on he PenniezZZ app, but eventually they had other responsibilites that came first. Below you'll find the DevPost submission, a link to my fork of the github repo (where you can watch my progress as I finish it in my spare time) and a video demo of the unfinished app. I have actually already signed up for another hackathon hosted by MLH who sponsored CUNYHackathon, so stay tuned!
 
 <a href="https://devpost.com/software/penniezzz" target="_blank" title="">The Devpost Submission.</a>
-&nbsp;&nbsp;&nbsp;
 <br/>
-The Video Demo
+<br/>
+The Video Demo:
 <iframe width="800" height="515" src="https://www.youtube.com/embed/v0B23h4Uue4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;&nbsp;&nbsp;
 <a href="https://github.com/niaapps/penniezzz" target="_blank" title="">The forked Repo.</a> I will post another blog update when there is more to tell.
