@@ -26,7 +26,7 @@ url: "https://niaapps.github.io" # the base hostname & protocol for your site, e
 twitter_username: niawillie
 github_username:  niaapps
 
-
+future: false
 
   
 # Build settings
