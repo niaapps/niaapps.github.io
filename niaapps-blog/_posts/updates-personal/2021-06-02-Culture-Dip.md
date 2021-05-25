@@ -46,5 +46,8 @@ Moonlight touched my heart. To be a Black and Gay man especially in a southern s
 &nbsp;&nbsp;&nbsp;
    I read Iktomi and the Ducks by Red Bird or Zitkála-Šá, reading a story each night before bed, almost like being a kid again. Quarantine has me comforting myself amid all the craziness, and the stories are sort of meant to be told to children, each carrying a lesson. It was a light-hearted read, and although I am not Sioux it was nice to get a slice of insight into Indigenous culture. This book was one of the few things I took from my father when we lost our home in 2018. He would gather books from various different North American Indigenous cultures. He always wanted to re-connect with our family’s Indigenous ancestry, something I have toiled with doing in the future. Ultimately I’ve learned from Indigenous creators on the internet that reconnection is a very arduous process if you have nothing to go on, and no real claims or access to that culture can be established. This is a result of colonialism and many struggles with disconnectedness. Not all Indigenous people will accept you either calling for blood quantum and whatnot despite the anti-blackness of it all. Alas, the read was a gentle insight into cultures that were forbidden to practice for a long time in this country.
 
+<div class="button-post">
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/26/CUNY-Hackathon.html" class="post-button" id="button-nxt">Previous Post</a>
 
+  </div>
 

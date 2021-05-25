@@ -221,6 +221,6 @@ Those are the two bits of JS I have coded recently. Thanks for reading. Leave a 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/08/17/What-is-Colorism.html" class="post-button" id="button-nxt">Previous Post</a>
-
+       <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/26/CUNY-Hackathon.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
