@@ -33,5 +33,5 @@ As always thank you for reading! Comment below something you are looking forward
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html" class="post-button" id="button-nxt">Previous Post</a>
-     <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/02/Culture-Dip.html" class="post-button" id="button-nxt">Next Post</a> -->
+     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/31/Cryoto-Craze.html" class="post-button" id="button-nxt">Next Post</a>
   </div>

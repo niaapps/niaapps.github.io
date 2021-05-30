@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coding a Wordpress Theme From Scratch"
-date: 2021-02-05 16:00:00 -0400
+date: 2021-08-20 16:00:00 -0400
 categories: updates-coding
 ---
 
