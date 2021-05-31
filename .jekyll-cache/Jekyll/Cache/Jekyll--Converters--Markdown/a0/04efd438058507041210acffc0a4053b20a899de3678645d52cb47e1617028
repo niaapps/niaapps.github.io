@@ -1,68 +1,4 @@
-<!DOCTYPE html>
-
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-
-  <title>Blog-Crypto Craze</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="My blog touches on a range of topics: technology, love, music, politics, android development, and website design. ">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <script id="mcjs">
-
-    function showPopup() {
-
-      !function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/a8120e69a7436706de6c22f08/ea9f1bf1251f23905ec1cd738.js");
-
-      //unsetting the cookie
-      document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    }
-
-    document.getElementById("show-popup").onclick = function () { showPopup(); }
-  </script>
-
-</head>
-
-<header class="col-1">
-  <div class="nav-container">
-    <div class="logo-div">
-      <a href="https://niaapps.github.io/index.html"><img src="/../../images/logo.png" height="40px" width="65px"
-          alt="logo" class="logo"></a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="https://niaapps.github.io/index.html">Home</a></li>
-        <li><a href="https://niaapps.github.io/about.html">About</a></li>
-        <li><a href="https://niaapps.github.io/niaapps-blog/">Blog</a></li>
-        <li><a href="https://niaapps.github.io/contact.html">Contact</a></li>
-        <li><a href="https://niaapps.github.io/pricing.html">Pricing</a></li>
-        <li><a href="https://niaapps.github.io/portfolio.html">Portfolio</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div class="page-title col-4">
-
-  <p>
-  <h2>Nia's Blog</h2>
-  </p>
-</div>
-
-<div class="wrapper col-2">
-  <h3>Crypto Craze</h3>
-  <h3>May 31, 2021</h3>
-  <div class="blog-text col-7"><meta name="description" content="Learn about Crypto!" />
+I"h1<meta name="description" content="Learn about Crypto!" />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed">
@@ -110,7 +46,7 @@ After asking for some feedback on what you want to learn more about I got two re
 
 <p>Now for <strong><em>Step two</em></strong>, comes verification.</p>
 
-<p>When using Blockchain you have a digital identifier. This ID comes in two parts: a Private or Secret Key and a Public Key, similar to your computer’s public and private IP address. My Public ID for <em>that</em> specific transaction would be calculated based on the data from the transaction and my private key, which remains constant, that no one else has access to. Just like with an IP address, it is very important to make sure no one has access to its information. Then additional code checks the transaction ID and my public key to verify that it was created with my private key and no one else’s. After these credentials are approved this ID is attached to our transactional block to confirm that I verified this transaction. In addition to just us, because the chain is public, every full node also has to verify the transaction (nodes are programs on computers that hold all the transactions ever made on the chain and as a result require a lot of memory to store). Owners of each node are incentivized to do so with a idea called “Proof-of-Work”, a concept that will be discussed later.</p>
+<p>When using Blockchain you have a digital identifier. This ID comes in two parts: a Private or Secret Key and a Public Key, similar to your computer’s public and private IP address. My Public ID for <em>that</em> specific transaction would be calculated based on the data from the transaction and my private key, which remains constant, that no one else has access to. Just like with an IP address, it is very important to make sure no one has access to its information. Then additional code checks the transaction ID and my public key to verify that it was created with my private key and no one else’s. After these credentials are approved this ID is attached to our transactional block to confirm that I verified this transaction. In addition to just us, because the chain is public, every full node also has to verify the transaction (nodes are programs on computers that hold all the transactions ever made on the chain and as a result require a lot of memory to store). Owners of each node are incentivized to do so with a concept called “Proof-of-Work”,</p>
 
 <p><strong><em>Step 3</em></strong>, If you complete other transactions(sending/receiving/transferring) they would be added to your block.</p>
 
@@ -164,78 +100,4 @@ After asking for some feedback on what you want to learn more about I got two re
      <!-- <a href="" id="button-nxt">Next Post</a> -->
   </div>
 
-</div>
-
-</div>
-<div class="ft-space col-5"></div>
-
-<div class="comments col-6">
-  <div id="hyvor-talk-view"></div>
-  <script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 521; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-      url: false,
-      id: false
-    };
-  </script>
-  <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
-</div>
-
-<footer class="footer-post">
-  <!-- test to see if on mobile removing col-3 straigthens socials -->
-  <!-- Footer Links -->
-
-
-
-
-  <div class="footer-links-left">
-
-
-    <ul class="social">
-      <li>
-        <a href="https://www.facebook.com/niaapplications/" target="_blank">
-          <img src="/images/fb.png" alt="fb-link" style="width: 32px; height:32px">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/niaapplications/" target="_blank">
-          <img src="/images/ig.png" alt="instagram-link" style="width: 32px; height:32px ">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/niawillie" target="_blank">
-          <img src="/images/twitter.png" alt="twi-link" style="width: 28px; height:28px">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/niaapps" target="_blank">
-          <img src="/images/li.png" alt="li-link" style="width: 32px; height:32px">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/niaapps" target="_blank">
-          <img src="/images/git.png" alt="git-link" style="width: 32px; height:32px ">
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="footer-subscribe">
-    <p>Subscribe for Updates:</p>
-    <div class="sub-b">
-      <button id="mc-btn" onclick="showPopup()" style="float: right;">Sign Up</button>
-    </div>
-
-  </div>
-
-
-  <!--  <div class="footer-copyright"> © 2020 Copyright: Nia Applications </div> -->
-
-
-
-  <!-- Footer Links -->
-
-</footer>
-
-</html>
+:ET
