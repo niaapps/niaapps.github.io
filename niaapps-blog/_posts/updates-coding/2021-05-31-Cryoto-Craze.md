@@ -104,7 +104,7 @@ Till next time!
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/26/CUNY-Hackathon.html" class="post-button" id="button-nxt">Previous Post</a>
-     <!-- <a href="" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
 

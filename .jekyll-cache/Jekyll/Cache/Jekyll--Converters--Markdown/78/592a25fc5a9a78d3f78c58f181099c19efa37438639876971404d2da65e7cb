@@ -1,4 +1,4 @@
-I"ç1<meta name="description" content="Learn about Crypto!" />
+I"Í1<meta name="description" content="Learn about Crypto!" />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed">
@@ -97,7 +97,7 @@ After asking for some feedback on what you want to learn more about I got two re
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/26/CUNY-Hackathon.html" class="post-button" id="button-nxt">Previous Post</a>
-     <!-- <a href="" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
 :ET
