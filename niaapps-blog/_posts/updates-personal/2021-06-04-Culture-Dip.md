@@ -67,3 +67,7 @@ I have also been watching anime and reading self-help books, but wanted to save 
 
 </div>
 
+
+<div class="thumbnail">
+ <img id="img-id" src="/../../images/cd.jpg" alt="alt text">
+</div>
