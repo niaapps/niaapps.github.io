@@ -49,6 +49,44 @@ This List was last updated: 6/18/2020
 
 <a href="https://twitter.com/BerniceKing/status/1269636063632527360/photo/2" target="_blank" title="">Call/Email demanding Justice for Breonna Taylor</a>.
 
+
+# Edit 6/6/2021
+
+<div class="scale-img">
+<img id="img-id" src="/../../images/breonna3.jpg" width="500px" height="auto" alt="A memorial for Breonna Taylor">
+</div>
+
+I'd like to take a moment and give space to Breonna Taylor.
+
+A year ago I wrote about the tragedy that stole Ms. Taylor's life. She and I have the same birthday, yesterday June 5th. She would be 28 if 4 white cops did not have the ability to abuse the power they have. It's been 450 days or a year and 85 days since her murder. Not nearly enough has been done to bring justice and accountability for her family.
+
+Here is what has happened since:
+
+
+- While all of the cops involved were either fired or resigned themselves, none have been convicted for her murder
+
+- Jonathan Mattingly got a Book Deal with a small press, but luckily in protest it's distributor Simon & Schuster refuses to ship the books.
+- Shortly after this decision Mattingly announced his retirement
+
+- Myles Cosgrove was fired, it has been determined his 16 rounds ended Breonna Taylor's life. He was fired for violating use of deadly force procedure.
+
+- Joshua Jaynes was fired for violating the standard operating procedure for truthfulness. Jaynes acquired the no-knock warrant for Breonna Taylor's apartment, but withheld from the judge that the US Postal inspector did not confirm Breonna's Ex was receiving packages at her home. Jaynes did not verify, but swore to it in the affidavit when obtaining the warrant.
+
+- Brett Hankison was indicted for "wantonly endangerment" of the first degree, in relation to shooting the apartment next door. Charges and indictment were decided by a 12 person grand jury.
+- Hankison would later be fired from the force for the same charge he received, but his superior made the distinction that it was for "wantonly and blindly" firing 10 shots into Breonna Taylor's apartment. 
+- Jefferson County Circuit Court Judge Ann Bailey Smith postponed the trial of Hankison for wanton endangerment in connection to Ms. Taylor's murder. Originally it was scheduled from Aug. 31st 2021 and now is on Feb. 1 2022 The judge cited the pandemic for the postponement. Hankison's next pre trial date is next month, July 16th at 11am. This trial could finally convict one of Ms. Taylor's murderers.
+
+- Breonna's law was passed in Louisville banning no-knock warrants in the city
+- Kentucky governor signed into law limiting no-knock warrants across the state.
+- In a wrongful death suit Ms. Taylor's family is being awarded $12 million USD. Tanika Palmer, Taylor's mother has said the reforms and 12 mil do not equal justice for her daughter's death. In her words "It's time to move forward with the criminal charges."
+
+If you can say that you believe that Black Lives Matter to you, please don't let Breonna Taylor slip from your mind. Continue to say her name. Continue to advocate for the charging and conviction of all four of the cops mentioned who had a hand in her death.  As mentioned before Hankison's next pretrial date is July 16th at 11am. I often share resources on my site to help, from call scripts to put pressure on representatives, to emailing people whose job it is to make decisions for constituents in regards to public safety. I will share them here as well as I find them.
+
+My heart goes out to Ms. Taylor's family. 
+
+
+
+
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" class="post-button" id="button-nxt">Previous Post</a>
     <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html" class="post-button" id="button-nxt">Next Post</a>

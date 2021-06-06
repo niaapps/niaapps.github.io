@@ -1,68 +1,4 @@
-<!DOCTYPE html>
-
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-
-  <title>Blog-Justice for Breonna Taylor</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="My blog touches on a range of topics: technology, love, music, politics, android development, and website design. ">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <script id="mcjs">
-
-    function showPopup() {
-
-      !function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/a8120e69a7436706de6c22f08/ea9f1bf1251f23905ec1cd738.js");
-
-      //unsetting the cookie
-      document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    }
-
-    document.getElementById("show-popup").onclick = function () { showPopup(); }
-  </script>
-
-</head>
-
-<header class="col-1">
-  <div class="nav-container">
-    <div class="logo-div">
-      <a href="https://niaapps.github.io/index.html"><img src="/../../images/logo.png" height="40px" width="65px"
-          alt="logo" class="logo"></a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="https://niaapps.github.io/index.html">Home</a></li>
-        <li><a href="https://niaapps.github.io/about.html">About</a></li>
-        <li><a href="https://niaapps.github.io/niaapps-blog/">Blog</a></li>
-        <li><a href="https://niaapps.github.io/contact.html">Contact</a></li>
-        <li><a href="https://niaapps.github.io/pricing.html">Pricing</a></li>
-        <li><a href="https://niaapps.github.io/portfolio.html">Portfolio</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<div class="page-title col-4">
-
-  <p>
-  <h2>Nia's Blog</h2>
-  </p>
-</div>
-
-<div class="wrapper col-2">
-  <h3>Justice for Breonna Taylor</h3>
-  <h3>June 05, 2020</h3>
-  <div class="blog-text col-7"><meta name="description" content="Today is my birthday. It is also Breonna Taylor's. Instead of talking about me I would like to talk about her story." />
+I".<meta name="description" content="Today is my birthday. It is also Breonna Taylor's. Instead of talking about me I would like to talk about her story." />
 
 <div class="feed">
   <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" title="Link to this post">For my email subscribers, please click here</a></p>
@@ -110,26 +46,24 @@
 <h1 id="edit-662021">Edit 6/6/2021</h1>
 
 <div class="scale-img">
-<img id="img-id" src="/../../images/breonna3.jpg" width="500px" height="auto" alt="A memorial for Breonna Taylor" />
+<img id="img-id" src="/../../images/breonna-3.jpg" width="700" height="auto" />
 </div>
 
-<p>I’d like to take a moment and give space to Breonna Taylor.</p>
-
-<p>A year ago I wrote about the tragedy that stole Ms. Taylor’s life. She and I have the same birthday, yesterday June 5th. She would be 28 if 4 white cops did not have the ability to abuse the power they have. It’s been 450 days or a year and 85 days since her murder. Not nearly enough has been done to bring justice and accountability for her family.</p>
-
-<p>Here is what has happened since:</p>
+<p>I’d like to take a moment and give space to Breonna Taylor.
+A year ago I wrote about the tragedy that stole Ms. Taylor’s life. She and I have the same birthday, yesterday June 5th. She would be 28 if 4 white cops did not have the ability to abuse the power they have. It’s been 450 days or a year and 85 days since her murder. Not nearly enough has been done to bring justice and accountability for her family.
+Here is what has happened since:</p>
 
 <ul>
   <li>
     <p>While all of the cops involved were either fired or resigned themselves, none have been convicted for her murder</p>
   </li>
   <li>Jonathan Mattingly got a Book Deal with a small press, but luckily in protest it’s distributor Simon &amp; Schuster refuses to ship the books.</li>
-  <li>
-    <p>Shortly after this decision Mattingly announced his retirement</p>
-  </li>
-  <li>
-    <p>Myles Cosgrove was fired, it has been determined his 16 rounds ended Breonna Taylor’s life. He was fired for violating use of deadly force procedure.</p>
-  </li>
+  <li>Shortly after this decision Mattingly announced his retirement</li>
+</ul>
+
+<p>-Myles Cosgrove was fired, it has been determined his 16 rounds ended Breonna Taylor’s life. He was fired for violating use of deadly force procedure.</p>
+
+<ul>
   <li>
     <p>Joshua Jaynes was fired for violating the standard operating procedure for truthfulness. Jaynes acquired the no-knock warrant for Breonna Taylor’s apartment, but withheld from the judge that the US Postal inspector did not confirm Breonna’s Ex was receiving packages at her home. Jaynes did not verify, but swore to it in the affidavit when obtaining the warrant.</p>
   </li>
@@ -156,78 +90,4 @@
 <div class="thumbnail">
   <img id="bre" src="/../../images/breonna2.jpg" alt="Breonna Taylor" />
   </div>
-</div>
-
-</div>
-<div class="ft-space col-5"></div>
-
-<div class="comments col-6">
-  <div id="hyvor-talk-view"></div>
-  <script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 521; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-      url: false,
-      id: false
-    };
-  </script>
-  <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
-</div>
-
-<footer class="footer-post">
-  <!-- test to see if on mobile removing col-3 straigthens socials -->
-  <!-- Footer Links -->
-
-
-
-
-  <div class="footer-links-left">
-
-
-    <ul class="social">
-      <li>
-        <a href="https://www.facebook.com/niaapplications/" target="_blank">
-          <img src="/images/fb.png" alt="fb-link" style="width: 32px; height:32px">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/niaapplications/" target="_blank">
-          <img src="/images/ig.png" alt="instagram-link" style="width: 32px; height:32px ">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/niawillie" target="_blank">
-          <img src="/images/twitter.png" alt="twi-link" style="width: 28px; height:28px">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/niaapps" target="_blank">
-          <img src="/images/li.png" alt="li-link" style="width: 32px; height:32px">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/niaapps" target="_blank">
-          <img src="/images/git.png" alt="git-link" style="width: 32px; height:32px ">
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="footer-subscribe">
-    <p>Subscribe for Updates:</p>
-    <div class="sub-b">
-      <button id="mc-btn" onclick="showPopup()" style="float: right;">Sign Up</button>
-    </div>
-
-  </div>
-
-
-  <!--  <div class="footer-copyright"> © 2020 Copyright: Nia Applications </div> -->
-
-
-
-  <!-- Footer Links -->
-
-</footer>
-
-</html>
+:ET

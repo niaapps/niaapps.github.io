@@ -1,4 +1,4 @@
-I"a"<meta name="description" content="What kept you sane during lockdown?" />
+I"¿"<meta name="description" content="What kept you sane during lockdown?" />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed">
@@ -60,4 +60,7 @@ Last summer I read Gemini by Nikki Giovanni. For the time her views were radical
 
 </div>
 
+<div class="thumbnail">
+ <img id="img-id" src="/../../images/cd.jpg" alt="alt text" />
+</div>
 :ET
