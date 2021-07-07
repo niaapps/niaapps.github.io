@@ -150,3 +150,7 @@ Thank you for reading!
 <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/10/INIT-Hackathon.html" class="post-button" id="button-nxt">Next Post</a> -->
 
 </div>
+
+<div class="thumbnail">
+ <img id="img-id" src="/../../images/ai.jpg" alt="alt text">
+</div>
