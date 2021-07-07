@@ -1,0 +1,5 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe same technology is used in a kinect sign language translator.\\E$"}
+{"rule":"ALL_MOST_SOME_OF_NOUN","sentence":"^\\QWatson competed against Ken Jennings and Brad Rutter some of Jeopardy!'s top past players.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWatson won against both of them in practice runs before airing, and twice in two actual games.\\E$"}
+{"rule":"AFFORD_VB","sentence":"^\\QMachine Learning\nImagine you are trying to teach a child how to get ready for bed.\\E$"}
+{"rule":"A_LOT_OF_NN","sentence":"^\\QNLP is used in a lot of AI because the everyday user will still need to communicate with it's machine and direct it to use it.\\E$"}

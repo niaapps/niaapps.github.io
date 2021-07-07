@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 html,
 body {
   width     : 100%;
@@ -546,7 +550,56 @@ footer ul {
   border-color: #7F4D92;
 }
 
+#feedback,
+#fname,
+#lname,
+#fname::placeholder,
+#lname::placeholder #feedback::placeholder {
+  font-size: 16px;
+}
 
+.rating {
+  margin-bottom : 50px;
+  display       : flex;
+  flex-direction: row-reverse;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display   : block;
+  cursor    : pointer;
+  width     : 50px;
+  background: #ccc;
+}
+
+.rating label ::before {
+  content  : '../images/star-empty.svg';
+  position : relative;
+  display  : block;
+  font-size: 30px;
+  color    : black;
+}
+
+.rating label ::after {
+  content    : '../images/star-empty.svg';
+  position   : absolute;
+  display    : block;
+  font-size  : 30px;
+  color      : #fff2b3;
+  top        : 0;
+  opacity    : 1;
+  transition : 1.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.rating label :hover ::after,
+.rating input :checked~label::after {
+  opacity: 1;
+}
 
 /*Niaapps Blog CSS*/
 
@@ -645,6 +698,13 @@ footer ul {
   color: white;
 }
 
+.mouse-over {
+  color: transparent;
+}
+
+.mouse-over:hover {
+  color: white;
+}
 
 .comments {
   opacity     : 0.8;
@@ -717,6 +777,13 @@ footer ul {
 
 /*End of Niaapps Blog CSS*/
 
+/* Simple table outline */
+td,
+th {
+  border    : 1px solid #dddddd;
+  text-align: center;
+  padding   : 8px;
+}
 
 @media (min-width: 769px) and (max-width: 1280px) {
 

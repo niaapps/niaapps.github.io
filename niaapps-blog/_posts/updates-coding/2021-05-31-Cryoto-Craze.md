@@ -14,7 +14,6 @@ categories: updates-coding
 <div class="scale-img">
 <img src="https://assets.ozy.com/ozy-prod/2021/05/cryptolead.gif" alt="Gif of Crypto coins falling into a coin slot on a phone" width="500px" height="250px">
 </div>
-
 Hey Readers! <br>
 After asking for some feedback on what you want to learn more about I got two replies asking to delve more into Cryptocurrency. 
 
@@ -64,13 +63,14 @@ Bitcoin uses a cryptographic hashing function. Hashing is a means of translating
 Now you may be asking “What if someone lies about how much BTC they have and try to overspend?” As soon as you transfer and convert USD or your desired currency, it becomes a transaction that is added to the chain, public to everyone. You cannot overspend more BTC than you own because all of your transactions are on the chain, tallying up exactly how much you do or don’t have. In this sense, the history of transactions itself *is* the currency. You can go take a look at all the current transactions of Bitcoin right now by clicking <a href="https://www.blockchain.com/explorer" target="_blank" title="Blockchain explorer">here.</a>
 
 Earlier, we talked about nodes in step two who are rewarded when they use "<a href="https://www.investopedia.com/terms/p/proof-work.asp" target="_blank" title="Investopedia article about POW">Proof-of-Work</a>". Full Nodes on the network verify every transaction, and by doing so can mine BTC in the process. People who own these full nodes or computers have them solve extremely complex math problems, sometimes taking days to complete. The result is a hash (also in SHA-256). This concept lets nodes prove they have done computational “work” to assert consensus on the transaction that needs to be verified. When a majority is reached over a transaction’s validity (All nodes have hashed and verified) it is then added to the chain.
-
+<p id="GPU">
 <br>
 
-### Buying isn't the only way 
+
+<h3>Buying isn't the only way</h3> 
 
 Another way you can get in on Bitcoin is to set up a computer to be a <a href="https://www.investopedia.com/terms/b/bitcoin-mining.asp" target="_blank" title="Investopedia article about BTC mining">"miner".</a> Miners use Proof-of-Work to solve those complex equations to “mine” bitcoin. Upon solving these problems a bitcoin is produced. When you convert USD to BTC you are buying these “mined” coins. These miners are awarded with bitcoin for every new block of transactions they add to the chain. The catch is that with each new block the reward becomes halved every 210,000 blocks. This usually takes about 4 years, but for the sake of reference in 2009 the reward was 50 BTC and as of Feb. 2021 it’s 6.25. Bitcoin mining has a connection to a class I just took last semester, Computer Architecture. We learned briefly about GPUs (Graphics Processing Units) and to set up Bitcoin mining many recommend a GPU as opposed to a CPU because of its higher throughput, or ability to do more work in a given amount of time. I made a presentation on a study comparing a CPU and GPU if you are interested, comment down below or on Instagram, I’ll post it!
-
+</p>
 <br>
 
 ### Mystery Surrounding the Creation of Bitcoin

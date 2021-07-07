@@ -18,7 +18,6 @@ Hello Reader. <br/>
 I have not always been into cinema like I am today. The more I watch, the more I am exposed to, I've found myself falling in love with it. This specific way of human expression, storytelling, and exposure is unique and engaging.
 
 #### _What Happened Miss Simone?_
-<div class="scale-img"></div>
 <br/>
 Last year I watched “What Happened Miss Simone?” on Netflix. I’ve been watching movies/documentaries that are emotionally moving lately. It's almost as if amid all the craziness I need some sort of metaphorical hug. Nina Simone’s life was one of pain, tragedy, perseverance, and an ode to the journey of being true to yourself. I felt it when she spoke about being free, that it meant to live without fear. I often find myself searching for that place, one where I have no fear. She meant this in the context of the Civil Rights Movement. A place where Black people and people of color can exist without fear due to racism and discrimination. I sincerely hope the strides we make get us to that world.
  
@@ -48,7 +47,7 @@ Moonlight touched my heart. To be a Black and Gay man especially in a southern s
 I have honestly been slacking with reading for pleasure. I will reread fiction in my spare time, but the pandemic has honestly drained that curiosity for something new in me. Here are two new books I have read recently.
 
 <div class="scale-img">
-  <img id="img-id" src="/../../images/books.jpg" alt="alt text" width="500px" height="auto" onContextMenu="alert('Please don\'t download this photo!');return false;">
+  <img id="img-id" src="/../../images/books.jpg" alt="Zitkala Sa's book cover" width="500px" height="auto" onContextMenu="alert('Please don\'t download this photo!');return false;">
 </div>
 
 #### _Gemini: An Extended Autobiographical Statement on My First Twenty-five Years of Being a Black Poet_ by Nikki Giovanni
@@ -64,6 +63,7 @@ I have also been watching anime and reading self-help books, but wanted to save 
 
 <div class="button-post">
   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/05/31/Cryoto-Craze.html" class="post-button" id="button-nxt">Previous Post</a>
+   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/07/AI-Throughout-Time.html" class="post-button" id="button-nxt">Next Post</a>
 
 </div>
 

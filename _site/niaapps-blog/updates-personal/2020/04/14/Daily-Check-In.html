@@ -100,7 +100,17 @@ I am going to try to learn Chinese (Mandarin, not my family’s tongue Toisanese
     };
   </script>
   <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </div>
 
 <footer class="footer-post">

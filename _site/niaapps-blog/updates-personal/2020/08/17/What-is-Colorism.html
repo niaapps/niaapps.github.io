@@ -211,7 +211,17 @@ Right before 2019 came to a close two non-profits garnered <a href="https://www.
     };
   </script>
   <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </div>
 
 <footer class="footer-post">
