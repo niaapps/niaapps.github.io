@@ -1,4 +1,4 @@
-I"ÑH<!-- unofficial launch is 7/7-->
+I"0I<!-- unofficial launch is 7/7-->
 <meta name="description" content="Dive into the AI world!" />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
@@ -132,5 +132,9 @@ Android Alter has prosthetic skin for itâ€™s face, neck and arms, it was not des
 <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" class="post-button" id="button-nxt">Previous Post</a>
 <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/10/INIT-Hackathon.html" class="post-button" id="button-nxt">Next Post</a> -->
 
+</div>
+
+<div class="thumbnail">
+ <img id="img-id" src="/../../images/ai.jpg" alt="alt text" />
 </div>
 :ET
