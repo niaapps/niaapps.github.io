@@ -1,4 +1,4 @@
-I"�\<meta name="description" content="This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work." />
+I"V]<meta name="description" content="This is a coding post about work I have been doing in JavaScript both on this site and on a project I have for work." />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed">
@@ -49,6 +49,7 @@
 <p>Here’s some code:</p>
 
 <p>CSS:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -60,7 +61,9 @@
 <span class="nf">#all-posts</span><span class="p">{</span><span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;}</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
+</div>
 <p>Html/markdown:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -140,7 +143,9 @@
 <span class="nt">&lt;/div&gt;</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
+</div>
 <p>The way this works is each div for all posts, coding posts and personal posts have markdown in them that generates an unordered list with links to respective posts. In markdown, each post has a category declared in its front matter. I use a for loop to generate each. By default in the CSS above you can see the all posts div is shown and the separated personal and coding posts are set to display none. Next is the JS to tell the selector which div to display and which divs to hide, switching each time a new selection is made:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -190,6 +195,7 @@
   
 </pre></td></tr></tbody></table></code></pre></figure>
 
+</div>
 <p>Each separate if statement contains a block that passes the id of each div, changing the CSS style display to either inline-block or none depending on what we need. I also made the selector black to fit the webpage theme. <a href="https://niaapps.github.io/niaapps-blog/" target="_blank" title="">You can see it in action on my blog home page</a>, and below is a gif to demonstrate.</p>
 <div class="scale-img">
 <img alt="gif of selector on blog home page" src="/../../images/js-demo.gif" oncontextmenu="alert('Please don\'t download this photo!');return false;" />
@@ -197,6 +203,7 @@
 <p>The next thing I made with JS is a text size range slider for a client’s site.  I used an input tag with the type set to range to achieve this. It is an accessibility feature that you should consider implementing on your own website. Creating accessible web pages is important in addition to minimum standards being required by law.</p>
 
 <p>The HTML:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -208,7 +215,9 @@
 <span class="nt">&lt;/div&gt;</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
+</div>
 <p>The CSS:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -272,7 +281,9 @@
 <span class="p">}</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
+</div>
 <p>The JS:</p>
+<div class="code">
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -291,6 +302,8 @@
   <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">post-text</span><span class="dl">"</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontSize</span> <span class="o">=</span> <span class="nx">output</span><span class="p">.</span><span class="nx">innerHTML</span><span class="p">;}</span>
 <span class="nt">&lt;/script&gt;</span>
 </pre></td></tr></tbody></table></code></pre></figure>
+
+</div>
 
 <p>So how does this work? Begin by setting a div’s id to equal “post-text”(any text you want to change in size). Above is a function that takes the output of the slider and sets the style font-size of post-text to be equal to it. The second line is so the user can see the value they are setting it to. I chose these colors to fit my client’s site, but any would do if you were to implement this. I created the “arrow” or triangle by using border-left, top &amp; right on the “thumb”. It is important to code for both moz (Mozilla) and WebKit (chrome, safari). Check out the demo below:</p>
 

@@ -26,7 +26,7 @@ Imagine you are trying to teach a child how to get ready for bed. First you woul
 Deep learning(DL) is a subset of ML. Deep learning is ML that is based off of the human brain. AI that learn with deep learning will have an artificial neural network. DL requires a large data set to teach the machine. This is both expensive and time-consuming as you often need <a href="http://niaapps.github.io/niaapps-blog/updates-coding/2021/05/31/Cryoto-Craze.html#GPU" target="_blank" title="My last post where I talk more about GPU's">GPU’s</a> which possess higher processing power. AIs that employ DL will take in a data-set, teach themselves to recognize patterns and then give predictions based on what it learned. Neural networks are how we model the human brain. These networks are made up of artificial neurons. They have an input and output layer, and some layers in between that help AI decipher information it takes in.
 
 ### Symbolic AI
-Before Deep learning existed AI was dominated by Symbolic AI AKA Good, Old-Fashioned AI. Symbolic AI does not require massive amounts of data like other ML. It does not ensue training or guesswork like other methods either. Symbolic AI do have access to a knowledge base- symbols to represent our real world. By representing problems as symbol it uses logic to problem-solve. Symbolic AI use relational statements. Let’s say we have a <!-- <a href="" target="_blank" title="Virtual Strawberry Donut I made during a hackathon">-->strawberry donut.<!--</a>--> We can represent symbols inside ().<br/>
+Before Deep learning existed AI was dominated by Symbolic AI AKA Good, Old-Fashioned AI. Symbolic AI does not require massive amounts of data like other ML. It does not ensue training or guesswork like other methods either. Symbolic AI do have access to a knowledge base- symbols to represent our real world. By representing problems as symbol it uses logic to problem-solve. Symbolic AI use relational statements. Let’s say we have a <a href="http://niaapps.github.io/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html#donut" target="_blank" title="Virtual Strawberry Donut I made during a hackathon">strawberry donut.</a> We can represent symbols inside ().<br/>
 So:<br/>
 <br/> 
 (donut)<br/> 
@@ -147,7 +147,7 @@ Thank you for reading!
 
 <div class="button-post">
 <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" class="post-button" id="button-nxt">Previous Post</a>
-<!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/10/INIT-Hackathon.html" class="post-button" id="button-nxt">Next Post</a> -->
+<a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html" class="post-button" id="button-nxt">Next Post</a>
 
 </div>
 

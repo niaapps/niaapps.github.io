@@ -52,13 +52,16 @@ I created a selector, or in plain terms a drop-down sort. I have been wanting to
 Here's some code:
 
 CSS:
+<div class="code">
 {% highlight css linenos %}
 #coding-posts,
 #personal-posts{display: none;}
 
 #all-posts{display: inline-block;}
 {% endhighlight %}
+</div>
 Html/markdown:
+<div class="code">
 {% highlight html linenos %}
 
 <!-- Declaring a selector and it's choices. -->
@@ -100,9 +103,9 @@ Html/markdown:
   </ul> 
 </div>
 {% endhighlight %}
-
+</div>
 The way this works is each div for all posts, coding posts and personal posts have markdown in them that generates an unordered list with links to respective posts. In markdown, each post has a category declared in its front matter. I use a for loop to generate each. By default in the CSS above you can see the all posts div is shown and the separated personal and coding posts are set to display none. Next is the JS to tell the selector which div to display and which divs to hide, switching each time a new selection is made:
-
+<div class="code">
 {% highlight html linenos %}
 <script>
   function show_post_type(element){
@@ -127,7 +130,7 @@ The way this works is each div for all posts, coding posts and personal posts ha
   }
   </script>
   {% endhighlight %}
-
+</div>
 Each separate if statement contains a block that passes the id of each div, changing the CSS style display to either inline-block or none depending on what we need. I also made the selector black to fit the webpage theme. <a href="https://niaapps.github.io/niaapps-blog/" target="_blank" title="">You can see it in action on my blog home page</a>, and below is a gif to demonstrate.
 <div class="scale-img">
 <img alt="gif of selector on blog home page" src="/../../images/js-demo.gif" onContextMenu="alert('Please don\'t download this photo!');return false;">
@@ -136,15 +139,16 @@ The next thing I made with JS is a text size range slider for a client's site.  
 
 
 The HTML:
-
+<div class="code">
 {% highlight html linenos %}
 <div class="slidecontainer">
 <p>Text Size: <span id="size"></span></p>  
 <input type="range" min="16" max="30" value="16" class="slider" id="font-range">
 </div>
 {% endhighlight %}
-
+</div>
 The CSS:
+<div class="code">
 {% highlight css linenos %}
 .slider {
   -webkit-appearance: none;
@@ -178,8 +182,9 @@ The CSS:
 }
 
 {% endhighlight %}
-
+</div>
 The JS:
+<div class="code">
 {% highlight html linenos %}
 <script>
   var slider = document.getElementById("font-range");
@@ -190,7 +195,7 @@ The JS:
   document.getElementById("post-text").style.fontSize = output.innerHTML;}
 </script>
 {% endhighlight %}
-
+</div>
 
 So how does this work? Begin by setting a div's id to equal "post-text"(any text you want to change in size). Above is a function that takes the output of the slider and sets the style font-size of post-text to be equal to it. The second line is so the user can see the value they are setting it to. I chose these colors to fit my client's site, but any would do if you were to implement this. I created the "arrow" or triangle by using border-left, top & right on the "thumb". It is important to code for both moz (Mozilla) and WebKit (chrome, safari). Check out the demo below:
 

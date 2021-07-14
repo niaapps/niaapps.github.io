@@ -773,6 +773,10 @@ footer ul {
   border-radius   : 25px;
 }
 
+.code {
+  text-align: left !important;
+}
+
 
 
 /*End of Niaapps Blog CSS*/
@@ -839,6 +843,12 @@ th {
   .scale-img img {
     width : 50%;
     height: auto;
+  }
+
+
+  .scale-img iframe {
+    width: 80%;
+
   }
 
   .scale-img img:hover {
@@ -1154,6 +1164,12 @@ General */
   .scale-img img:hover {
     transform: scale(1.5);
   }
+
+  .scale-img iframe {
+    width: 60%;
+
+  }
+
 
   .abt-container {
     text-align   : initial;
