@@ -5,7 +5,8 @@ date: 2021-07-15 8:00:00 -0400
 categories: updates-coding
 ---
 
- <meta name="description" content="Post about my time at MLH INIT">
+ <meta property="og:description"name="description" content="Post about my time at MLH INIT">
+ <meta property="og:image" content="https://niaapps.github.io/images/d3.png" alt="virtual donut I made" />
 <link href="/css/syntax.css" rel="stylesheet">
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed" markdown="1">
@@ -113,8 +114,4 @@ Thank you for reading!
     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/07/AI-Throughout-Time.html" class="post-button" id="button-nxt">Previous Post</a>
     <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
 
-  </div>
-
-  <div class="thumbnail">
- <img id="img-id" src="/../../images/d10.png" alt="virtual donut I made">
 </div>
