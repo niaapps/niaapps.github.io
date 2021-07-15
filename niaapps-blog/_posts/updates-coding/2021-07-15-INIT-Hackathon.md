@@ -5,7 +5,7 @@ date: 2021-07-15 8:00:00 -0400
 categories: updates-coding
 ---
 
- <meta property="og:description"name="description" content="Post about my time at MLH INIT">
+ <meta property="og:description" name="description" content="Post about my time at MLH INIT">
  <meta property="og:image" content="https://niaapps.github.io/images/d3.png" alt="virtual donut I made" />
 <link href="/css/syntax.css" rel="stylesheet">
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
