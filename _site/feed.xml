@@ -1,276 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-14T15:37:54-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">Coding a Wordpress Theme From Scratch</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2021/08/20/Strawberry-Theme.html" rel="alternate" type="text/html" title="Coding a Wordpress Theme From Scratch" /><published>2021-08-20T16:00:00-04:00</published><updated>2021-08-20T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2021/08/20/Strawberry%20Theme</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2021/08/20/Strawberry-Theme.html">&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
-
-&lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
-&lt;div class=&quot;feed&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2021/08/20/Strawberry Theme.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;link href=&quot;/css/syntax.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;p&gt;Hey Readers!&lt;/p&gt;
-
-&lt;p&gt;I have been especially excited for this post. I have been working on this project for a little over a yeaer and have learned so much about wordpress as well about HTML, CSS, JavaScript and PHP. The project was to create a wordpress custom theme from scratch for &lt;a href=&quot;https://twitter.com/Imani_Barbarin&quot; target=&quot;_blank&quot; title=&quot;Imani's Twitter&quot;&gt;Imani Barbarin &lt;/a&gt;who runs &lt;a href=&quot;https://crutchesandspice.com/&quot; target=&quot;_blank&quot; title=&quot;Crutches and Spice website&quot;&gt;Crutches &amp;amp; Spice&lt;/a&gt;. I am not a Wordpress developer per se but developing this theme was something within my capability and I would do it again. If you recall I actually wrote about one of the features in &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html&quot; target=&quot;_blank&quot; title=&quot;link to JavaScript Adventure post&quot;&gt;this post&lt;/a&gt;, a text size slider. In this post I will write about the theme overall and a few key features in detail. I named the theme &lt;a href=&quot;https://niaapps.github.io/strawberry-wp-theme.html&quot; target=&quot;_blank&quot; title=&quot;Strawberry Theme Info Page&quot;&gt; &lt;strong&gt;&lt;em&gt;Strawberry&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; because the first color I started with, from Imani’s logo was a pink that reminded me of a cartoon strawberry. If you think you want strawberry theme for your website click &lt;a href=&quot;https://niaapps.github.io/strawberry-wp-theme.html&quot; target=&quot;_blank&quot; title=&quot;Strawberry Theme Info Page&quot;&gt;here&lt;/a&gt; Without further ado, let’s jump in!&lt;/p&gt;
-
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;If you don’t know &lt;a href=&quot;https://twitter.com/Imani_Barbarin&quot; target=&quot;_blank&quot; title=&quot;Imani's Twitter&quot;&gt;Imani Barbarin&lt;/a&gt; yet, definitely check her out. She is a diasbled representation and inclusion advocate. She writes on her blog &lt;a href=&quot;https://crutchesandspice.com/&quot; target=&quot;_blank&quot; title=&quot;Crutches and Spice website&quot;&gt;Crutches &amp;amp; Spice&lt;/a&gt; and has a following of more than 80K people on twitter. To say the least, I was nervous that so many people would be going to a website that &lt;em&gt;I&lt;/em&gt; designed. This meant that I had to get it right. A site requirement was to make the site accessible to her readers, many who have disabilities themselves. W3C has these guidelines for this exact reason, but many websites only do the absolute bare minimum! I found a tool that helped me make the site 99% accessible. The 1% is a warning caused by a wordpress generated snippet of code, that I unfortunately cannot work around. The site, according to the tool has 0 errors, which is less than major sites like Facebook [5 errors, 33 warnings], Twitter [2 errors, 38 warnings] and wordpress.com/read [29 errors, 76 warnings](seriously wordpress, what the heck?!). The name of this tool is called WAVE, you can learn more about it &lt;a href=&quot;https://wave.webaim.org/&quot; target=&quot;_blank&quot; title=&quot;WAVE website&quot;&gt;here.&lt;/a&gt; I will definitely be using it to improve my own site and every web dev project I have.&lt;/p&gt;
-
-&lt;h2 id=&quot;key-features&quot;&gt;Key Features&lt;/h2&gt;
-
-&lt;p&gt;As mentioned before, the text slider was a key feature that I have already &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html&quot; target=&quot;_blank&quot; title=&quot;link to JavaScript Adventure post&quot;&gt;written about&lt;/a&gt;, but what else does &lt;strong&gt;Strawberry&lt;/strong&gt; theme have to offer?&lt;/p&gt;
-
-&lt;h3 id=&quot;owl-carousel-post-slider&quot;&gt;OWL Carousel Post Slider&lt;/h3&gt;
-
-&lt;p&gt;On the landing blog page there is a post carousel featuring the last 10 posts. I’ve laid with a purple overlay, and a magenta background to fit the theme. Writing the code to change each photo size to be uniform, keep an acceptable looking aspect ratio, as well as centering was a real challenge. I’ve set this one to auto scroll, but has buttons at the bottom to toggle left and right, as well as the entire slider being draggable to see more posts.&lt;/p&gt;
-
-&lt;h3 id=&quot;sticky-sidebar-and-navigation-bar&quot;&gt;Sticky Sidebar and Navigation Bar&lt;/h3&gt;
-
-&lt;p&gt;I think it’s no secret I love position:sticky; in CSS. On this very site my footer is sticky on the blog page. Everything on the right as well as the navigation/search on the top, will follow the user as they scroll on the page, making it so that they are always easy and in reach. Here is a gif of what the sticky sidebar and navigation look like on the main page:
-   
-   &lt;/p&gt;
-
-&lt;div class=&quot;scale-img&quot;&gt; &lt;img src=&quot;/../../images/text.gif&quot; alt=&quot;Gif of text slider in action&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;   
-   
-&lt;!-- Sub in new gif later --&gt;
-Here’s the code behind the sidebar:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;HTML and PHP:&lt;/em&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-wrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-     &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;socials&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-btn&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://twitter.com/Imani_Barbarin&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Go to Imani's Twitter&quot;&lt;/span&gt;
-             &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
-             &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; 
-             &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/twitter.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter logo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-btn&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.facebook.com/CrutchesandSpice/?ref=bookmarks&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Go to Crutches &amp;amp; Spice Facebook Page&quot;&lt;/span&gt;
-             &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-             &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; 
-             &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/facebook.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;facebook logo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-btn&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.instagram.com/crutches_and_spice/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Go to Crutches &amp;amp; Spice Instagram&quot;&lt;/span&gt;
-             &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-             &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; 
-             &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/ig.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;instagram logo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-btn&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.linkedin.com/in/i-gineva-barbarin-3b836528/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Go to Imani's Linkedin&quot;&lt;/span&gt;
-             &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-             &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; 
-             &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/in.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;linkedin logo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;social-btn&quot;&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://imanibarbarin.com/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Go to Imani's Portfolio site&quot;&lt;/span&gt;
-             &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
-             &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s-img&quot;&lt;/span&gt; 
-             &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/link.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;literal chain link&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;patreon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;hr&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-ln&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-heading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Support This Blog!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.patreon.com/ImaniBarbarin&quot;&lt;/span&gt; 
-        &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Subscribe to Crutches &amp;amp; Spice on Patreon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/stagingsite/wp-content/themes/strawberry/assets/images/patreon_logo.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;patreon logo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;subscribe&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;hr&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-ln&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-heading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Subscribe for Email Updates!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php if (is_active_sidebar('jetpack-subscribe')) : ?&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php dynamic_sidebar('jetpack-subscribe');
-          endif;  ?&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;archive&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;hr&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-ln&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sidebar-heading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Archives&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;archive-drop&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;select&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;archive-dropdown&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onchange=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;document.location.href=this.options[this.selectedIndex].value;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php esc_attr(_e('Select Month', 'textdomain')); ?&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;cp&quot;&gt;&amp;lt;?php wp_get_archives(array( 'type' =&amp;gt; 'monthly', 'format' =&amp;gt; 'option', 'show_post_count' =&amp;gt; 1 )); ?&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/select&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;slidecontainer main-range&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Text Size: &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;size&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;range&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;min=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;16&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;max=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;32&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;16&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;slider page-slider&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font-range&quot;&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;aria-label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Text size slider&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;autocomplete=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;CSS:&lt;/em&gt;
-&lt;!-- Need to make this in color like JS: --&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.sidebar&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;25px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;550px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sticky&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#F55776&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;overflow-x&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding-bottom&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.sidebar-ln&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;39%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#5796f5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.sidebar-wrap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;top&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sticky&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max-content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min-content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.archive&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.archive-drop&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.archive-drop&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Merriweather'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Tahoma'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.archive-nav&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h4 id=&quot;the-most-important-and-most-common-mistake-people-make-with-position-sticky-is-that-it-depends-on-top-to-work-i-have-my-top-set-to-55-in-the-sidebar-wrap-div-and-sticky-on-my-sidebar-div-its-important-so-dont-forget--see-what-i-did-there&quot;&gt;The most important and most common mistake people make with position: sticky is that it depends on top to work. I have my top set to 5.5 in the sidebar-wrap div and sticky on my sidebar div. it’s !important so don’t forget! ;) see what I did there?&lt;/h4&gt;
-
-&lt;h3 id=&quot;things-this-project-taught-me&quot;&gt;Things this project taught me&lt;/h3&gt;
-
-&lt;div class=&quot;button-post&quot;&gt;
-    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2020/08/17/JavaScript-Adventure.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-
-  &lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-coding" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">INIT Hackathon</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html" rel="alternate" type="text/html" title="INIT Hackathon" /><published>2021-07-15T08:00:00-04:00</published><updated>2021-07-15T08:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html">&lt;meta name=&quot;description&quot; content=&quot;Post about my time at MLH INIT&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-15T11:02:15-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nia Applications</title><subtitle>Personal and Coding blog of an aspiring software developer. I code Android Applications and websites.</subtitle><entry><title type="html">INIT Hackathon</title><link href="http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html" rel="alternate" type="text/html" title="INIT Hackathon" /><published>2021-07-15T08:00:00-04:00</published><updated>2021-07-15T08:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html">&lt;meta name=&quot;description&quot; content=&quot;Post about my time at MLH INIT&quot; /&gt;
 
 &lt;link href=&quot;/css/syntax.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
@@ -281,7 +9,7 @@ Here’s the code behind the sidebar:&lt;/p&gt;
 
 &lt;p&gt;Hi there readers!&lt;/p&gt;
 
-&lt;p&gt;My most recent tech adventure was a hackathon called INIT 2022 (short for initiate) hosted by Major League Hacking. INIT is an event geared towards beginners and centers around learning. Unlike other hackathons, there are no prizes. It’s about preparing for the upcoming hackathon season, building on skills you already possess and adding new ones to your toolkit. While there was a point system, it was only for fun. To participate you had to join a guild (team) and earn points for your guild by completing challenges. There was leaderboard, and each point you earned for yourself also gave a point to your guild. My Guild just missed top 10, coming in 11th place. The light competitiveness made the event lively, even if getting the most points only gave you bragging rights. The event had tons of workshops available. They allowed you to follow along and learn new tech, languages or skills. This hackathon spanned over a week and a day. We were encouraged to take days off (in my case time for work) and to get sleep when necessary (no 2am workshops for me!) On the bright side most of the workshops were recorded on twitch, so if there is anything you wanted to learn but missed you can come back to it.&lt;/p&gt;
+&lt;p&gt;My most recent tech adventure was a hackathon called INIT 2022 (short for initiate) hosted by &lt;a href=&quot;https://mlh.io/&quot; target=&quot;_blank&quot; title=&quot;MLH website&quot;&gt;Major League Hacking.&lt;/a&gt; INIT is an event geared towards beginners and centers around learning. Unlike other hackathons, there are no prizes. It’s about preparing for the upcoming hackathon season, building on skills you already possess and adding new ones to your toolkit. While there was a point system, it was only for fun. To participate you had to join a guild (team) and earn points for your guild by completing challenges. There was leaderboard, and each point you earned for yourself also gave a point to your guild. My Guild just missed top 10, coming in 11th place. The light competitiveness made the event lively, even if getting the most points only gave you bragging rights. The event had tons of workshops available. They allowed you to follow along and learn new tech, languages or skills. This hackathon spanned over a week and a day. We were encouraged to take days off (in my case time for work) and to get sleep when necessary (no 2am workshops for me!) On the bright side most of the workshops were recorded on twitch, so if there is anything you wanted to learn but missed you can come back to it.&lt;/p&gt;
 
 &lt;p&gt;Today I will be writing about the 3 of the challenges I participated in. I found this hackathon easy-going. Most of the intermediate challenges were being sponsored by specific software I didn’t need. Instead, I found myself doing a lot of beginner level and no-code challenges.&lt;/p&gt;
 
@@ -558,47 +286,7 @@ Android Alter has prosthetic skin for it’s face, neck and arms, it was not des
 
 &lt;div class=&quot;thumbnail&quot;&gt;
  &lt;img id=&quot;img-id&quot; src=&quot;/../../images/ai.jpg&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-coding" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Template</title><link href="http://localhost:4000/niaapps-blog/updates-personal/updates-coding/2021/06/11/Template.html" rel="alternate" type="text/html" title="Template" /><published>2021-06-11T12:00:00-04:00</published><updated>2021-06-11T12:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/updates-coding/2021/06/11/Template</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/updates-coding/2021/06/11/Template.html">&lt;meta name=&quot;description&quot; content=&quot;&quot; /&gt;
-
-&lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
-&lt;div class=&quot;feed&quot;&gt;
-  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2021/06/11/Template.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;!-- Make images responsive --&gt;
-&lt;div class=&quot;scale-img&quot;&gt;
-  &lt;img id=&quot;img-id&quot; src=&quot;/../../images/img-title.jpg&quot; alt=&quot;alt-text&quot; width=&quot;500px&quot; height=&quot;auto&quot; /&gt;
-&lt;/div&gt;
-
-&lt;!-- Link example (opens new tab) --&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Link Text&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- Indent or white space --&gt;
-
-&lt;p&gt;   &lt;/p&gt;
-
-&lt;!-- ex img w/ directory to root and discourage download pop up --&gt;
-
-&lt;p&gt;&lt;img id=&quot;img-id&quot; src=&quot;/../../images/img-title.jpg&quot; alt=&quot;alt text&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;&lt;/p&gt;
-
-&lt;!-- Buttons for Blog post update prev with last post regularly don't forget date and title--&gt;
-&lt;div class=&quot;button-post&quot;&gt;
-   &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/07/AI-Throughout-Time.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
-    &lt;a href=&quot;&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
-
-  &lt;/div&gt;
-
-&lt;p&gt;For code include:&lt;/p&gt;
-&lt;link href=&quot;/css/syntax.css&quot; rel=&quot;stylesheet&quot; /&gt;
-
-&lt;div class=&quot;code&quot;&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;replace&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-personal" /><category term="updates-coding" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Culture Dip</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" rel="alternate" type="text/html" title="Culture Dip" /><published>2021-06-04T08:00:00-04:00</published><updated>2021-06-04T08:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html">&lt;meta name=&quot;description&quot; content=&quot;What kept you sane during lockdown?&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-coding" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Culture Dip</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html" rel="alternate" type="text/html" title="Culture Dip" /><published>2021-06-04T08:00:00-04:00</published><updated>2021-06-04T08:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2021/06/04/Culture-Dip.html">&lt;meta name=&quot;description&quot; content=&quot;What kept you sane during lockdown?&quot; /&gt;
 
 &lt;!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding--&gt;
 &lt;div class=&quot;feed&quot;&gt;
@@ -1473,4 +1161,247 @@ Lastly I found this artist while searching for songs, while I don’t know any o
 &lt;div class=&quot;thumbnail&quot;&gt;
   &lt;img id=&quot;img-id&quot; src=&quot;/../../images/yt.png&quot; alt=&quot;alt text&quot; oncontextmenu=&quot;alert('Please don\'t download this photo!');return false;&quot; /&gt;
   &amp;lt;/a&amp;gt;
-&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-personal" /><summary type="html">For my email subscribers, please click here</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-personal" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Justice for Breonna Taylor</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html" rel="alternate" type="text/html" title="Justice for Breonna Taylor" /><published>2020-06-05T00:01:00-04:00</published><updated>2020-06-05T00:01:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html">&lt;meta name=&quot;description&quot; content=&quot;Today is my birthday. It is also Breonna Taylor's. Instead of talking about me I would like to talk about her story.&quot; /&gt;
+
+&lt;div class=&quot;feed&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hello my readers, hoping you are keeping hope amid these unpredictable times.&lt;/p&gt;
+
+&lt;p&gt;Today is my birthday. It is also &lt;a href=&quot;https://www.cbsnews.com/news/breonna-taylor-fbi-investigation-shooting-louisville-police/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Breonna &lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Taylor’s&lt;/a&gt; birthday. Instead of talking about me I would like to talk about her story. Breonna would have turned 27 today. She was an essential worker, an EMT. She was a University of Kentucky graduate and steadily pursuing her career in the medical field. She was serving her community and her country by working during a  pandemic. That in itself is admirable,  the bravery it takes to work during the spread of a deadly virus should  not be overlooked. In an &lt;a href=&quot;&quot; target=&quot;_blank&quot; title=&quot;https://www.npr.org/2020/06/04/869930040/as-the-nation-chants-her-name-breonna-taylors-family-grieves-a-life-robbed&quot;&gt;NPR&lt;/a&gt; interview released yesterday family and friends talked about her and her life. How she said she would make a name for herself. I want that to sink in. She was very young and had her whole life ahead of her.&lt;/p&gt;
+
+&lt;p&gt;Her life was taken, family described the loss as feeling they were robbed. The incident occurred past midnight on March 13th, 2020. We know now that three cops in plain clothes entered her home on a no-knock warrant. Kenneth Walker, Breonna’s boyfriend said that after hearing loud bangs on the door, Breonna repeatedly asked &lt;em&gt;“Who is it?”&lt;/em&gt; with no response. Walker, a licensed gun owner then armed himself due to lack of response. Police used a battery ram to enter the apartment. Walker shoots first, logically assuming these men are burglars as they did not identify themselves. He then shot one robber in the leg. Officers responded by opening fire of &lt;em&gt;more than 20 rounds&lt;/em&gt;, shooting Breonna at least &lt;strong&gt;&lt;em&gt;8 times&lt;/em&gt;&lt;/strong&gt;, ending her life. Kenneth was arrested at the time, but has since had all &lt;a href=&quot;https://www.boston25news.com/news/trending/charges-dropped-against-breonna-taylors-boyfriend-police-chief-retires-fbi-joins-probe/MDUWBEGADNHSVKIWVV3G42BZLA/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;charges dropped&lt;/a&gt; on grounds of self-defense. Breonna had an ex-boyfriend who was in custody for selling drugs, and suspected of shipping them to Breonna’s home. She had nothing to do with the drugs but the no knock warrant that a judge awarded was &lt;em&gt;based on this suspicion&lt;/em&gt;. No drugs were found in the apartment. This negligence cost Breonna her life. Family and friends tell the truth, that she was not that type of person, who would risk the life she had for something as silly as drugs. It has been 84 days since her death. On May 21st the F.B.I. began an investigation but the three cops are still out there employed on the force.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/No-knock_warrant#cite_note-nyt19m-1 &quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;history&lt;/a&gt; and use of no-knock warrants is all bad news. The number of no-knock raids has increased from 3,000 in 1981 to over 50,000 in 2005. From 2010 to 2016 31 civilians died at the hands of officers using a no-knock warrant and 81 civilians died during SWAT raids using no-knock warrants. More than half of civilians killed were a minority, 42% of them African American.&lt;/p&gt;
+
+&lt;p&gt;It is heartbreaking to hear how a woman full of so much life and promise is no longer with us. Police brutality has been on the rise in the US. From 2013-2019, police in Kentucky killed &lt;a href=&quot;https://mappingpoliceviolence.org/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;&lt;em&gt;122 people&lt;/em&gt;.&lt;/a&gt; Black people are &lt;a href=&quot;https://mappingpoliceviolence.org/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;&lt;em&gt;three times&lt;/em&gt;&lt;/a&gt; more likely to be killed by police than White people.&lt;/p&gt;
+
+&lt;p&gt;If you read my last &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;post&lt;/a&gt; you may recall that Black people are also three times as more likely to die from the COVID-19. Breonna was risking the last of her days in more ways than one. If you are born Black it should not warrant suspicion, the color of your skin should not be a death sentence. This injustice has not gone unnoticed. Protests are happening to garner support and awareness for Ms. Taylor. We need to continue putting pressure on the Louisville Metro Police Department to arrest Myles Cosgrove, Brett Hankison and Jonathan Mattingly. Recently we saw how the same fight for accountability can have positive results as the degree of murder in the &lt;a href=&quot;https://www.nbcnews.com/news/us-news/3-more-minneapolis-officers-charged-george-floyd-death-derek-chauvin-n1222796&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;George Floyd&lt;/a&gt; case was raised as well as the arrest of other complicit officers. We need the same swift action for Breonna Taylor.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+
+&lt;p&gt;    
+   &lt;/p&gt;
+
+&lt;p&gt;Below are resources to either help Ms. Taylor’s family or to put pressure on the LMPD to hold officers accountable for taking Breonna’s life. If you have any additional resources either contact me through my contact page or email them. I will add them to the post.&lt;/p&gt;
+
+&lt;p&gt;This List was last updated: 6/18/2020&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://justiceforbreonna.org/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Website called Justice for Breonna, resources on how to take action.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.co/K6DVLZWJ9B?amp=1&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Email link&lt;/a&gt; that is prewritten to Assistant Chief of police of Louisville KY as well as Mayor of Louisville. All need is to insert your name, city and state.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/Script-for-KAG.html&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Email script and link I put together.&lt;/a&gt; Copy and paste the script, filling in your name/city/state to demand justice for Breonna Taylor from Kentucky’s Attorney General.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.change.org/p/andy-beshear-justice-for-breonna-taylor?utm_content=cl_sharecopy_22077589_en-US%3Av4&amp;amp;recruiter=852527036&amp;amp;recruited_by_id=20111c80-ad63-11e8-9a3a-a76981400f4b&amp;amp;utm_source=share_petition&amp;amp;utm_medium=copylink&amp;amp;utm_campaign=psf_combo_share_abi&amp;amp;utm_term=psf_combo_share_initial&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Justice for Breonna Taylor Petition&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/CHlSMOSA/status/1268253644920483840/photo/1&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Call this number and demand accountability.&lt;/a&gt; You can find a prewritten script &lt;a href=&quot;https://twitter.com/BerniceKing/status/1269636063632527360&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Official GofundMe for Breonna Taylor&lt;/a&gt;. Proceeds go directly to her family.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gofundme.com/f/r3w76-raising-money-for-breonna-taylor-and-david-macatee&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;A second GoFundMe for both Breonna and David McAtee&lt;/a&gt;. You can read more about McAtee &lt;a href=&quot;https://www.cnn.com/2020/06/02/us/david-mcatee-louisville-what-we-know-trnd/index.html&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://actionnetwork.org/fundraising/louisville-community-bail-fund&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Louisville Bail Fund for protesters&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/BerniceKing/status/1269636063632527360/photo/2&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Call/Email demanding Justice for Breonna Taylor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;edit-662021&quot;&gt;Edit 6/6/2021&lt;/h1&gt;
+
+&lt;div class=&quot;scale-img&quot;&gt;
+&lt;img id=&quot;img-id&quot; src=&quot;/../../images/breonna3.jpg&quot; width=&quot;500px&quot; height=&quot;auto&quot; alt=&quot;A memorial for Breonna Taylor&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’d like to take a moment and give space to Breonna Taylor.&lt;/p&gt;
+
+&lt;p&gt;A year ago I wrote about the tragedy that stole Ms. Taylor’s life. She and I have the same birthday, yesterday June 5th. She would be 28 if 4 white cops did not have the ability to abuse the power they have. It’s been 450 days or a year and 85 days since her murder. Not nearly enough has been done to bring justice and accountability for her family.&lt;/p&gt;
+
+&lt;p&gt;Here is what has happened since:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While all of the cops involved were either fired or resigned themselves, none have been convicted for her murder&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Jonathan Mattingly got a Book Deal with a small press, but luckily in protest it’s distributor Simon &amp;amp; Schuster refuses to ship the books.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Shortly after this decision Mattingly announced his retirement&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Myles Cosgrove was fired, it has been determined his 16 rounds ended Breonna Taylor’s life. He was fired for violating use of deadly force procedure.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Joshua Jaynes was fired for violating the standard operating procedure for truthfulness. Jaynes acquired the no-knock warrant for Breonna Taylor’s apartment, but withheld from the judge that the US Postal inspector did not confirm Breonna’s Ex was receiving packages at her home. Jaynes did not verify, but swore to it in the affidavit when obtaining the warrant.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Brett Hankison was indicted for “wantonly endangerment” of the first degree, in relation to shooting the apartment next door. Charges and indictment were decided by a 12 person grand jury.&lt;/li&gt;
+  &lt;li&gt;Hankison would later be fired from the force for the same charge he received, but his superior made the distinction that it was for “wantonly and blindly” firing 10 shots into Breonna Taylor’s apartment.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Jefferson County Circuit Court Judge Ann Bailey Smith postponed the trial of Hankison for wanton endangerment in connection to Ms. Taylor’s murder. Originally it was scheduled from Aug. 31st 2021 and now is on Feb. 1 2022 The judge cited the pandemic for the postponement. Hankison’s next pre trial date is next month, July 16th at 11am. This trial could finally convict one of Ms. Taylor’s murderers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Breonna’s law was passed in Louisville banning no-knock warrants in the city&lt;/li&gt;
+  &lt;li&gt;Kentucky governor signed into law limiting no-knock warrants across the state.&lt;/li&gt;
+  &lt;li&gt;In a wrongful death suit Ms. Taylor’s family is being awarded $12 million USD. Tanika Palmer, Taylor’s mother has said the reforms and 12 mil do not equal justice for her daughter’s death. In her words “It’s time to move forward with the criminal charges.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you can say that you believe that Black Lives Matter to you, please don’t let Breonna Taylor slip from your mind. Continue to say her name. Continue to advocate for the charging and conviction of all four of the cops mentioned who had a hand in her death.  As mentioned before Hankison’s next pretrial date is July 16th at 11am. I often share resources on my site to help, from call scripts to put pressure on representatives, to emailing people whose job it is to make decisions for constituents in regards to public safety. I will share them here as well as I find them.&lt;/p&gt;
+
+&lt;p&gt;My heart goes out to Ms. Taylor’s family.&lt;/p&gt;
+
+&lt;div class=&quot;button-post&quot;&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/10/Quarantine-Playlist.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
+
+  &lt;/div&gt;
+
+&lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img id=&quot;bre&quot; src=&quot;/../../images/breonna2.jpg&quot; alt=&quot;Breonna Taylor&quot; /&gt;
+  &lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-personal" /><summary type="html">For my email subscribers, please click here</summary></entry><entry><title type="html">Black Lives Matter</title><link href="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html" rel="alternate" type="text/html" title="Black Lives Matter" /><published>2020-05-31T16:00:00-04:00</published><updated>2020-05-31T16:00:00-04:00</updated><id>http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter</id><content type="html" xml:base="http://localhost:4000/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html">&lt;meta name=&quot;description&quot; content=&quot;Black Lives Matter. The system that oppresses Black people in this country cannot be reformed. All lives cannot matter until Black Lives are treated as they truly matter.&quot; /&gt;
+
+&lt;div class=&quot;feed&quot;&gt;
+  &lt;p&gt;&lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/05/31/Black-Lives-Matter.html&quot; title=&quot;Link to this post&quot;&gt;For my email subscribers, please click here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hey Readers. I hope that all of you are safe where you are and that your families are well.&lt;/p&gt;
+
+&lt;p&gt;I’m sure you all have been keeping up with the news. We have yet again failed Black people in this country [USA]. The death of &lt;a href=&quot;https://www.cnn.com/2020/05/27/us/george-floyd-trnd/index.html&quot; target=&quot;__blank&quot; title=&quot;Article about the life of Floyd&quot;&gt;&lt;strong&gt;George&lt;/strong&gt; &lt;/a&gt; &lt;a href=&quot;https://www.nytimes.com/2020/05/29/us/derek-chauvin-george-floyd-worked-together.html&quot; target=&quot;__blank&quot; title=&quot;Article about the Murder of Floyd&quot;&gt;&lt;strong&gt;Floyd&lt;/strong&gt;&lt;/a&gt; 6 days ago is another heartbreaking tragedy. He was accused of using a fake bill at a store on completely unfounded grounds. The incident ended with him begging for his life, because three cops were on top of him, one, Derek Chauvin, kneeling on his neck for &lt;strong&gt;&lt;em&gt;8 full minutes and 46 seconds&lt;/em&gt;&lt;/strong&gt;. He was murdered because of the color of his skin. Gruesomely two months before we saw this same story of Black lives being robbed happen to &lt;a href=&quot;https://www.huffpost.com/entry/kentucky-governor-calls-for-investigation-of-breonna-taylor-killing_n_5ebc625fc5b6cdefa7e8fb38&quot; target=&quot;__blank&quot; title=&quot;Article about Taylor's tragic death&quot;&gt;&lt;strong&gt;Breonna Taylor&lt;/strong&gt;&lt;/a&gt; who had &lt;strong&gt;&lt;em&gt;zero&lt;/em&gt;&lt;/strong&gt;, literally &lt;strong&gt;&lt;em&gt;nothing&lt;/em&gt;&lt;/strong&gt; to do with the case the officers were actually investigating. Merciless, her life was taken in the comfort of her own home. We only got a drop of decency from the department who released her partner Kenneth Walker, who was defending himself and Breonna from the officers invading their home. The month before we shed tears over &lt;a href=&quot;https://www.thecut.com/2020/05/ahmaud-arbery-shooting-georgia-explainer.html&quot; target=&quot;__blank&quot;&gt;&lt;strong&gt;Ahmaud Arbery&lt;/strong&gt;&lt;/a&gt; who was killed for simply jogging in his own neighborhood while Black. The hate crime went unpunished for nearly &lt;a href=&quot;https://reason.com/2020/05/08/it-took-georgia-officials-2-months-to-arrest-and-charge-father-and-son-with-ahmaud-arberys-murder/&quot; target=&quot;__blank&quot;&gt;&lt;strong&gt;&lt;em&gt;2 full months&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, his killers living their lives as if they hadn’t ended someone’s life prematurely just because they could. The white supremacy complex so many people in this country subscribe to must come to an end.&lt;/p&gt;
+
+&lt;p&gt;When I was a teenager my dad had a close friend who lost his father. His father was a Black Vietnam War Veteran. He fell asleep on his life alert, an honest mistake. When he woke up, he called to let them know what had happened. Dispatch sent word, telling these cops that their services were no longer necessary at the scene. These white cops did not listen. They took matters into their own hands. After exchanging harsh words with our Veteran, who rightfully refused to let them into his home, they called him the n-word with hard r, entered the apartment, and tased and shot him, ultimately ending his life. I say his name, &lt;a href=&quot;https://en.wikipedia.org/wiki/Shooting_of_Kenneth_Chamberlain_Sr&quot; target=&quot;__blank&quot; title=&quot;Wiki Page on Chamberlain&quot;&gt;&lt;strong&gt;Kenneth&lt;/strong&gt; &lt;/a&gt;&lt;a href=&quot;https://www.bleausa.org/report-blasts-review-of-wppd-calls-justification-of-chamberlain-shooting-chilling/&quot; target=&quot;__blank&quot; title=&quot;Article about the incident&quot;&gt;&lt;strong&gt;Chamberlain&lt;/strong&gt; &lt;/a&gt;&lt;a href=&quot;https://www.justice.gov/usao-sdny/prus-attorney-s-office-closes-investigation-death-kenneth-chamberlain&quot; target=&quot;__blank&quot; title=&quot;Closing Chamberlain's Investigation&quot;&gt;&lt;strong&gt;Sr.&lt;/strong&gt;&lt;/a&gt; just as I say the three I mentioned earlier because this senseless killing must stop. Officers must be held accountable. The Police lied on reports, saying Chamberlain was armed, and failed to include the exchange where they called him the n-word. We later got &lt;a href=&quot;https://www.nydailynews.com/new-york/westchester-man-killed-cops-not-knife-lawyers-article-1.2850274&quot; target=&quot;__blank&quot; title=&quot;&quot;&gt;&lt;em&gt;DNA Proof&lt;/em&gt;&lt;/a&gt; that Chamberlain was unarmed and after many battles in court got audio released to us, which is how we know the incident was racially charged. In 2012 a Grand Jury decided no criminal charges would be made against these officers. Police brutatlity is law-sanctioned murder. They claim they fear for their lives when in reality they are megalomaniacs who instigate and provoke to justify unecessary use of violence. Mr. Chamberlain’s life was taken from us because of  ignorance, negligence of value for human life, racism and white supremacy. Kenneth Chamberlain Sr. deserves justice. Anthony Carelli and Steven Hart are still free walking around, and most likely still on the force. Carelli was involved in another federal case &lt;a href=&quot;https://www.nydailynews.com/new-york/sources-identify-white-plains-anthony-carelli-triggerman-fatal-shooting-retired-marine-article-1.1056394&quot; target=&quot;__blank&quot;&gt;3 years earlier&lt;/a&gt; for brutally beating two twin brothers while working on a disordlerly-conduct arrest. Too often these officers who kill people  have a track record. When I still lived in my hometown I went to protests for Mr. Chamberlian, I attended his candle vigil each year held in front of the White Plains Department of Safety, and I went to court battles to show support. I speak up about these issues because I cannot bear to see any more Black lives taken in vain. On top of it all, we are still in the midst of a global pandemic in which Black people are dying at &lt;a href=&quot; https://www.theguardian.com/world/2020/may/20/black-americans-death-rate-covid-19-coronavirus&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;&lt;strong&gt;&lt;em&gt;three times&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; the rate of White people. It is no coincidence that this statistic has come about. It is a direct result of institutionalized racism. We have a problem in this country and it needs to be addressed and fixed.&lt;/p&gt;
+
+&lt;p&gt;This plight for justice has always been something I have cared about. I am biracial, and I know we have a bad rap sometimes because some of us don’t know how to act yet (I’m looking at you &lt;a href=&quot;https://twitter.com/lucky_Shanghai/status/1217664668434604032?s=20)&quot; target=&quot;_blank&quot; title=&quot;Beware, this is some clown shit.&quot;&gt;Jeanie Reuter&lt;/a&gt;). I am Black and Chinese. The thing is, I have privilege as a light-skinned person. I am doing my community a disservice if I don’t use it to uplift Black voices— which are too often brushed off, ignored, or crushed.&lt;/p&gt;
+
+&lt;p&gt;I do not care if you are tired of hearing it: BLACK LIVES MATTER.&lt;/p&gt;
+
+&lt;p&gt;All lives cannot matter until Black Lives are treated as they truly matter. It is time for change. I am of the belief that this starts with defunding law enforcement. The system that oppresses Black people in this country cannot be reformed. It was not created with them in mind, in fact some argue &lt;a href=&quot;https://www.aclu.org/issues/juvenile-justice/school-prison-pipeline&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;it was created to keep them oppressed&lt;/a&gt;. We need to start over where everyone is truly equal.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading, until next time.&lt;/p&gt;
+
+&lt;p&gt;   &lt;/p&gt;
+
+&lt;p&gt;That is the end of this post. Below are some resources, threads of petitions, bailout funds, gofundme’s for the names above, threads of protest tips, links to therapist offering services for those who need to talk these traumatic emotions out, and resources for white allies to educate themselves as well. I will continue to add and update this post. Also, if you are feeling particularly generous, the last gofundme is for my Aunt Donna, a disabled Black woman who does not have a permanent home right now.&lt;/p&gt;
+
+&lt;p&gt;This list was last updated: 6/18/2020&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/mayarichardsun/status/1265676677549559809&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt; Therapy Thread&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/TatiannaTarot/status/1267511432394035200&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread for Energy work, healing&lt;/a&gt;. I believe priority is being taken for Black Youth.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.self.com/story/black-mental-health-resources&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Mental Health Resources for Black People&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/nxbrxth/status/1266239760248393735&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Safety Tips for Protesters&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hdenae.com/blm&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;General Resource and Education site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.blacklivesmatter.space/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Resource masterpost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blacklivesmatter.com/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Black Lives Matter Org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.joincampaignzero.org/#vision&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Campaign Zero’s website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kiwiscigarettes/status/1265767579739512833&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of Petitions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blacklivesmatters.carrd.co/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Website called “Ways To Help”.&lt;/a&gt; Petitions and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot; https://signatures.carrd.co/ &quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Petiton masterpost&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://saytheirnames.carrd.co/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;How To Help Website&lt;/a&gt;. Petitions/Places to Donate/ Text/Call Actions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.change.org/p/us-senate-hands-up-act?recruiter=186170836&amp;amp;utm_source=share_petition&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=psf_combo_share_abi&amp;amp;utm_term=psf_combo_share_initial&amp;amp;recruited_by_id=535372c0-733b-11e4-abc5-176b86b32b70&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Hands Up Act&lt;/a&gt; Petition.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sign.moveon.org/petitions/nonewyouthjails&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Petiton for No new Youth Jail&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.change.org/p/williamson-county-pd-justice-for-javier-ambler?recruiter=771678484&amp;amp;recruited_by_id=3da05e60-8ebe-11e7-a7e6-55007d82a2ca&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Petition for Javier Ambler&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/_courttnneeyy/status/1271125322080022528&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of petitions that are short on signatures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.change.org/p/allow-california-s-prisoner-firefighters-to-work-professionally-after-release?signed=true&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Petiton: Allow California’s Prisoner Firefighters to Work Professionally After Release&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/meItedhearts/status/1270212402827669507&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Another thread of petitions to sign&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pendingpetition.carrd.co/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Pending Petitions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Document of multiple resources.&lt;/a&gt; Petitions, places to donate, call and email.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/AM1R4HSCAVE/status/1267202201132265472&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of Various Resources.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/niawillie/status/1266771198777724932&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread I made of bailout funds&lt;/a&gt; for protesters. Some content is NYC specific.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bailfunds.github.io/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;An additional list of bail funds&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/sorrybythway/status/1267469168300998656&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of Places to Donate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://itch.io/b/520/bundle-for-racial-justice-and-equality&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Bundle for Racial Equality&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.humblebundle.com/fight-for-racial-justice-bundle&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Racial Justice Bundle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/iconickbeauty/status/1271584309221167104&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Crowfunding thread for Black Trans people&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/poesrogue/status/1269303523490971649&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Organizations to donate to that help Black Trans People&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bothamjeanfoundation.org/donate/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Donate to the Botham Jean Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/mobilebasic?urp=gmail_link&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Resources for Accountability and Action for Black Lives&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/u/0/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Anti Racism Resources for White people&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/photo.php?fbid=1118672045179268&amp;amp;set=pb.100011094495325.-2207520000..&amp;amp;type=3&amp;amp;theater&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Graphic about Covert White Supremacy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hpub-jkm9cLzJWqZSsETqbE6tZ13Q0UbQz--vQ2avEc/edit&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;More Anti-Racism Resources&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/dj_diabeatic/status/1266563804437110787&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Informative Anti-Racism Graphic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://padlet.com/nicolethelibrarian/nbasekqoazt336co&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Anti-Racism Resources for all ages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thebolditalic.com/where-do-i-donate-why-is-the-uprising-violent-should-i-go-protest-5cefeac37ef9&quot; target=&quot;_blank&quot;&gt; Common FAQ’s answered for White People about Black Lives Matter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.welcometostratagem.com/post/10-habits-of-someone-who-doesn-t-know-they-re-anti-black&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Article about recognizing Anti-Black habits&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gofundme.com/f/a-fund-for-blackled-mental-health-supports?utm_source=customer&amp;amp;utm_medium=copy_link&amp;amp;utm_campaign=m_pd+share-sheet&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;A Fund for Black-led Mental Health Supports&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/starstrickenSF/status/1267307734744985601&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of where to donate, petitions to sign and Anti-Racism resources&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/sorrybythway/status/1267469168300998656&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of more places to donate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gofundme.com/f/homeless-black-trans-women-fund&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Fund for Homeless Black Trans Women&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.change.org/p/louisville-mayor-greg-fischer-justice-for-david-mcatee?recruiter=862253145&amp;amp;utm_source=share_petition&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=psf_combo_share_abi&amp;amp;recruited_by_id=ca6cbd70-2414-11e8-ab29-25fa8a73a71b&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Petition for David McAtee a protester who was murdered&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://officialblackwallstreet.com/directory/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Offical Black Wall Street&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/i/lists/1198727909525131264&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Black owned Business you can support&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.buyfromablackwoman.org/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Buy From A Black Woman&lt;/a&gt;. Nonprofit Org that raises awareness to Black Women owned Business.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://webuyblack.com/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Largest Market place for Black owned Business&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/milkyapron/status/1267881192306561025&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of Black Owned Clothing/Fashion stores&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stephano.me/fashion/blog/black-owned-goth-brands-list&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;List of Black Owned Punk/Goth Brands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://themadmommy.com/black-owned-etsy-shops/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Black Owned Etsy Shops&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/couturedymond/posts/10207861202685044&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Black Owned Restaurants in NYC&lt;/a&gt; split up by bourough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/NitaTyndall/status/1269702757352701952&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of books by Trans people for children sold at Black owned bookstores&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/AriLennox/status/1271173707185127425&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Thread of Black owned Businesses&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stylishcurves.com/black-owned-plus-size-clothing-brands/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;List of Black owned plus size brands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://shoppeblack.us/2020/05/black-owned-tea-brands-you-can-purchase-online/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;List of Black owned Tea brands&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/u/0/d/12iRz-DAMLiwGrMmWlhMZRKZKQJf6lP1IE1-uJuXwvYc/mobilebasic&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Website to help support Black Content Creators&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Zk06JtFXxIHs05jRCRQ5nmUVYdVi2BgF2S6tMGdqJv0/edit&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Eye Witness accounts of Police Brutality&lt;/a&gt;. Open Google Document.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/BerniceKing/status/1269636063632527360/photo/2&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;Call/Email demanding Justice for Breonna Taylor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gofundme.com/f/help-donna-find-a-home&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;My Aunt Donna’s 
+GoFundMe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;button-post&quot;&gt;
+    &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/04/14/Daily-Check-In.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Previous Post&lt;/a&gt;
+     &lt;a href=&quot;https://niaapps.github.io/niaapps-blog/updates-personal/2020/06/05/Justice-for-Breonna-Taylor.html&quot; class=&quot;post-button&quot; id=&quot;button-nxt&quot;&gt;Next Post&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img id=&quot;vigil&quot; src=&quot;/../../images/vigil.jpg&quot; alt=&quot;Me at a Candle Lighting Vigil for Kenneth Chamberlain Sr. in 2014.&quot; oncontextmenu=&quot;alert('Please don\'t download this photo of me!');return false;&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="niaapps-blog" /><category term="updates-personal" /><summary type="html"></summary></entry></feed>
