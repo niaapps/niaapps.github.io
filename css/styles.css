@@ -550,55 +550,94 @@ footer ul {
   border-color: #7F4D92;
 }
 
-#feedback,
-#fname,
-#lname,
-#fname::placeholder,
-#lname::placeholder #feedback::placeholder {
-  font-size: 16px;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
 }
 
-.rating {
-  margin-bottom : 50px;
-  display       : flex;
-  flex-direction: row-reverse;
+.r-txt {
+  padding: 15px;
+  margin : 15px;
 }
 
-.rating input {
+.stars {
+  height: 80px;
+  width : 500px;
+
+  text-align: center;
+}
+
+.stars input {
   display: none;
 }
 
-.rating label {
-  display   : block;
-  cursor    : pointer;
-  width     : 50px;
-  background: #ccc;
+.stars label {
+  float      : right;
+  font-size  : 40px;
+  color      : lightgrey;
+  margin     : 0 5px;
+  text-shadow: 1px 1px #bbb;
 }
 
-.rating label ::before {
-  content  : '../images/star-empty.svg';
-  position : relative;
-  display  : block;
-  font-size: 30px;
-  color    : black;
+.stars label:before {
+  content: '★';
 }
 
-.rating label ::after {
-  content    : '../images/star-empty.svg';
+.stars input:checked~label {
+  color      : gold;
+  text-shadow: 1px 1px #c60;
+}
+
+.stars:not(:checked)>label:hover,
+.stars:not(:checked)>label:hover~label {
+  color: gold;
+}
+
+.stars input:checked>label:hover,
+.stars input:checked>label:hover~label {
+  color      : gold;
+  text-shadow: 1px 1px goldenrod;
+}
+
+.stars .result:before {
   position   : absolute;
-  display    : block;
+  content    : "";
+  width      : 100%;
+  left       : 50%;
+  transform  : translateX(-47%);
+  bottom     : -30px;
   font-size  : 30px;
-  color      : #fff2b3;
-  top        : 0;
-  opacity    : 1;
-  transition : 1.5s;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
-
+  font-weight: 500;
+  color      : gold;
+  font-family: 'Poppins', sans-serif;
+  display    : none;
 }
 
-.rating label :hover ::after,
-.rating input :checked~label::after {
-  opacity: 1;
+.stars input:checked~.result:before {
+  display: block;
+}
+
+.stars #five:checked~.result:before {
+  content: "5 stars ";
+}
+
+.stars #four:checked~.result:before {
+  content: "4 stars ";
+}
+
+.stars #three:checked~.result:before {
+  content: "3 stars ";
+}
+
+.stars #two:checked~.result:before {
+  content: "2 stars ";
+}
+
+.stars #one:checked~.result:before {
+  content: "1 star ";
 }
 
 /*Niaapps Blog CSS*/

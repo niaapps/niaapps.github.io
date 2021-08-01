@@ -1,4 +1,6 @@
-I"§<meta name="description" content="Post about my time at MLH INIT" />
+I",<meta property="og:description" name="description" content="Post about my time at MLH INIT" />
+
+<meta property="og:image" content="https://niaapps.github.io/images/d3.png" alt="virtual donut I made" />
 
 <link href="/css/syntax.css" rel="stylesheet" />
 
