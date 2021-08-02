@@ -112,6 +112,6 @@ Thank you for reading!
 
 <div class="button-post">
     <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/07/AI-Throughout-Time.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/08/02/Must-Have-Dev-Skills.html" class="post-button" id="button-nxt">Next Post</a>
 
 </div>
