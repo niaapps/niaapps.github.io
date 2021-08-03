@@ -106,7 +106,7 @@ nav {
 }
 
 .logo-div {
-  padding: 10px;
+  padding: 8px 0px 10px 2px;
 
 }
 
@@ -1370,6 +1370,6 @@ General */
 /*Css Debug */
 /* * {
   background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
+  color     : #0f0 !important;
+  outline   : solid #f00 1px !important;
 } */
