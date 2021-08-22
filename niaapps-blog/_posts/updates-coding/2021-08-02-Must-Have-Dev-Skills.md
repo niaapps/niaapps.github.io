@@ -5,7 +5,6 @@ date: 2021-08-02 08:00:00 -0400
 categories: updates-coding
 ---
 <!-- HTML Meta Tags -->
-<title></title>
 <meta name="description" content="Crucial skills every developer should have.">
 <div class="thumbnail">
   <img id="" src="/../../images/5.png" alt="5 Skills Every Dev Should Hone">

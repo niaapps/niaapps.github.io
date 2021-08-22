@@ -2,12 +2,8 @@
 layout: post
 title: "Template"
 date: 2021-08-31 12:00:00 -0400
-categories: updates-personal updates-coding
+categories: updates-personal
 ---
-
-<div class="thumbnail">
-  <img id="" src="/../../images/img.jpg" alt="">
-  </div>
 <!-- HTML Meta Tags -->
 <meta name="description" content="">
 
@@ -30,6 +26,20 @@ categories: updates-personal updates-coding
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 
+Hey readers.
+Today I am revisiting a topic I've <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" target="_blank" title="Growing Pains blog post">already written about</a>: growing. 
+
+
+Meditation -anger management, mindfulness, anxiety, depression, mental clarity.
+Exercise
+Self love.
+tarot.
+Asking for help.
+
+
+
+
+
 <!-- Make images responsive -->
 <div class="scale-img">
   <img id="img-id" src="/../../images/img-title.jpg" alt="alt-text" width="500px" height="auto">
@@ -39,13 +49,6 @@ categories: updates-personal updates-coding
 
 <a href="" target="_blank" title="">Link Text</a>
 
-<!-- Indent or white space -->
-
-&nbsp;&nbsp;&nbsp;
-
-<!-- ex img w/ directory to root and discourage download pop up -->
-
-  <img id="img-id" src="/../../images/img-title.jpg" alt="alt text" onContextMenu="alert('Please don\'t download this photo!');return false;">
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
@@ -53,11 +56,3 @@ categories: updates-personal updates-coding
     <a href="" class="post-button" id="button-nxt">Next Post</a>
 
   </div>
-
-For code include:
-<link href="/css/syntax.css" rel="stylesheet">
-<div class="code">
-{% highlight css linenos %} (replace css w/ language)
-{% endhighlight %}
-</div>
-

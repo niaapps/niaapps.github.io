@@ -1247,14 +1247,33 @@ General */
     font-size  : 25px;
   }
 
+  @media (min-width: 325px) and (max-width: 450px) {
+    .footer-links-left {
+      width: 40% !important;
+    }
+
+  }
+
   .footer-links-left {
     padding-left: 0;
     width       : 50%;
   }
 
   .footer-subscribe {
-    top  : 0;
-    width: 50%;
+    margin-top: 1rem;
+    width     : 50%;
+
+  }
+
+  @media (max-width: 320px) {
+    .footer-subscribe {
+      margin-right: 15px;
+    }
+
+    .footer-links-left {
+      padding-left: 0;
+      width       : 45%;
+    }
   }
 
   .projects {
