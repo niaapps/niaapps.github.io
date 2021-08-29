@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Template"
+title: "Grow where Planted"
 date: 2021-08-31 12:00:00 -0400
 categories: updates-personal
 ---
@@ -29,25 +29,25 @@ categories: updates-personal
 Hey readers.
 Today I am revisiting a topic I've <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" target="_blank" title="Growing Pains blog post">already written about</a>: growing. 
 
+I'm sure many will agree, during this pandemic we've all been forced to grow in so many different ways. If you are like me and have had a mental illness before, things like depression, anxiety, or have to tackle things like anger issues, being stuck inside probably didn't help the situation. You are not alone in this struggle of having your problems be exacerbated by Covid-19. As we saw in the beginning <a href="https://time.com/5928539/domestic-violence-covid-19/" target="_blank" title="TIME article about the rise of domestic violence during covid">domestic</a> <a href="https://journals.sagepub.com/doi/10.1177/0002764221992826" target="_blank" title="Published study about Initimate Partner Violence during Covid">abuse</a> cases (majority of victims being women) shot up because we were all forced inside (meaning victims had less time away from their abusers daily). Tons of new hate crimes arose towards the Asian American community, as well as the sustained abuse against the Black community with police brutality, and growing tension towards immigrants from our southern border. All around since this pandemic began a lot of things have changed, creating new problems for us as well as making already existing problems worse. These high-stress situations on top of the advent of an easily transmissible virus is more than our <a href="https://www.youtube.com/watch?app=desktop&v=q8rrewfLDuU" target="_blank" title="Video about how stress from covid is affecting our brains and bodies">brains were ever meant to handle.</a> Due to this we have all been forced to grow to accommodate whatever new situation we are in. Today I'll be writing about my experience and how I have grown during this challenging time, but I would love to start a greater conversation about collectively how the world has grown through this time, so feel free to comment your own experience.
 
-Meditation -anger management, mindfulness, anxiety, depression, mental clarity.
-Exercise
-Self love.
-tarot.
-Asking for help.
+This past summer I have had a few instances where I've met someone new and was told I am "intimidating". Which boggled me because I know much work I have done to get to this point, and am just doing me. The fact that anyone would see me as having my shit together is astounding, because I know how far it took to get me here. As mentioned above in the past I have been diagnosed with both depression and anxiety. I also have trouble with controlling my anger. When I am stressed I do not have a lot of mental clarity. I tunnel vision myself into whatever it is I am focused on, good or bad when stressed. I have trouble asking for help, and at the beginning of this pandemic I did not love myself nearly as much as I do today. It probably is taboo to throw all my problems out there, but I say these things so that I can accurately depict how much I have changed since the pandemic began. These are all things or areas I have had to work on, day in and day out. Despite all of it I can still be the bubbly positive person I am because I choose to do the work. 
+
+### Self-Love
+The area where I needed the most growth was self-love. Without self-love you let yourself stay in situations you shouldn't, maybe out of comfort, or apathy.  Without self-love all the other issues I outline before were that much harder on me, because I lacked compassion for myself. Treating yourself with kindness, giving yourself space to just be on your hardest days was necessary for me to even begin changing for the better. For me self-love began with simply looking in the mirror every day and saying "I love you and _." and filling the blank with something relevant to that day. I also an exercise, where I wrote a list titled "Things I like about myself" and wrote any and everything filling a page of loose-leaf. Then at the end you cross out "Like", replacing it with "Love" and recite the list in a mirror. Then I meditated, doing guided meditations on treating yourself with compassion, but more on meditation later. I left the list out in a place I'd see it daily and would re-read it when I felt I needed a boost.
+
+### Anxiety and Depression
+Anxiety and depression are mental illnesses that often afflict people my age. I was diagnosed in 2013 and I honestly don't really talk about it a lot with those I'm not close to. I talk about day to day and how to overcome it, but not the catalyst that brought it all out. Through this pandemic I have discovered through working on my anger how parts of my traumatic childhood have set the stage for my mental illness, and it has helped me approach them more easily during my "waves". On my bad days during the pandemic, especially in the beginning during lockdown I was at a loss. I used have a lot of expectations of myself and on my bad days. On them, I cannot meet what is my best on my greatest days. Realizing that my best is not linear each day was really freeing. I give myself space to just be on days that are bad. Tomorrow is going to be there, but getting through the day safely becomes the task at hand. Meditating to figure out why I'm feeling the way I'm feeling, or even to just clear out depressing thoughts was also really helpful. It helped me focus on the small steps to have a better day than I would have had. Not all of your thoughts are true and through meditating, learning how to dismiss destructive or untrue thoughts is super freeing. I still have bad days, because that is life.
+
+### Anger Management
+
+### Asking for Help
+Tarot
 
 
+### Meditation, Mindfulness and Mental Clarity
 
-
-
-<!-- Make images responsive -->
-<div class="scale-img">
-  <img id="img-id" src="/../../images/img-title.jpg" alt="alt-text" width="500px" height="auto">
-</div>
-
-<!-- Link example (opens new tab) -->
-
-<a href="" target="_blank" title="">Link Text</a>
+The one thing that helped me in every area, a habit I started but did not practice as consistently since my last <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" target="_blank" title="Growing Pains blog post">post</a> was meditation. Meditation allowed me to love myself enough to want to change, and gave me the patience to tackle these things and get through the change. It helps me stay grounded in stressful situation, through my depressive episodes and anxiety ridden moments. It helps me greatly when angry and grants me clarity and overall mindfulness. It is a habit that took months to really get into. It is hard to start, but entirely worth the results. I use the timer and guided meditations on the app <a href="https://insighttimer.com/" target="_blank" title="">Insight Timer</a>. It's free, and I am not getting paid to promote their app, I actually just really think anyone seeking to get into meditation would benefit from downloading it. Feel free to friend me on there too, to see what I'm meditating to. It also helps you track your progress. Since downloading the app (sometime in early 2019) I have meditated 1027 hours as of today and I am thankful for that time well spent. 
 
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
