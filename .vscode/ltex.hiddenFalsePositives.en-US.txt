@@ -4,3 +4,6 @@
 {"rule":"AFFORD_VB","sentence":"^\\QMachine Learning\nImagine you are trying to teach a child how to get ready for bed.\\E$"}
 {"rule":"A_LOT_OF_NN","sentence":"^\\QNLP is used in a lot of AI because the everyday user will still need to communicate with it's machine and direct it to use it.\\E$"}
 {"rule":"NUMEROUS_DIFFERENT","sentence":"^\\QI'm sure many will agree, during this pandemic we've all been forced to grow in so many different ways.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qevent → outcome → reaction\nYour reaction should be determined by the outcome you want, not the event.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QI was diagnosed in 2013 and I honestly don't really talk about it a lot with those I'm not close to.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QWithout self-love you let yourself stay in situations you shouldn't, maybe out of comfort, or apathy.\\E$"}
