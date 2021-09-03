@@ -683,7 +683,7 @@ footer ul {
 .wrapper {
   margin   : auto;
   color    : white;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .wrapper-home {
@@ -695,6 +695,10 @@ footer ul {
 
   /* margin-bottom was added so footer doesn't cover First post,
  may need to explore footer always being pushed down by content */
+}
+
+.wrapper-home li a {
+  font-size: 28px;
 }
 
 .footer-post {
@@ -802,6 +806,12 @@ footer ul {
 #post-type {
   color           : white;
   background-color: #000000;
+  font-size       : 20px;
+  font-family     : 'Work Sans', sans-serif;
+}
+
+#post-type option {
+  font-family: 'Work Sans', sans-serif;
 }
 
 .wps {
@@ -1125,6 +1135,7 @@ General */
     width  : 100%;
     padding: 20px;
   }
+
 
   /* Firefox */
   @-moz-document url-prefix() {

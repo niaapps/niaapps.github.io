@@ -78,9 +78,11 @@
     <h2 class="blog-recent">Recent Posts</h2>
     <div class="select-div">
       <select name="post-type" id="post-type" onchange="show_post_type(this)">
-        <option value="1">All Posts</option>
-        <option value="2">Coding Posts</option>
-        <option value="3">Personal Posts </option>
+        <optgroup>
+          <option value="1">All Posts</option>
+          <option value="2">Coding Posts</option>
+          <option value="3">Personal Posts </option>
+        </optgroup>
       </select>
     </div>
     <div id="all-posts">
