@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grow Where Planted"
-date: 2021-09-06 09:00:00 -0400
+date: 2021-09-06 08:00:00 -0400
 categories: updates-personal
 ---
 <!-- HTML Meta Tags -->
@@ -65,7 +65,7 @@ I used to loathe asking for help. I'd often treat asking for help as a last reso
   <img id="img-id" src="/../../images/meditation.jpg" alt="photo of me meditating with caption 'One thing that has helped me grow, especially during the pandemic is meditation.'" width="500px" height="auto">
 </div>
 
-The one thing that helped me in every area, a habit I started but did not practice as consistently since my last <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" target="_blank" title="Growing Pains blog post">post</a> was meditation. Meditation allowed me to love myself enough to want to change, and gave me the patience to tackle these things and get through the change. It helps me stay grounded in stressful situations. It carries me through my depressive episodes and anxiety ridden moments. It helps me greatly when angry and grants me clarity and overall mindfulness. Meditation is a habit that took months to really get into. It is hard to start, but entirely worth the results. I use the timer and guided meditations on the app <a href="https://insighttimer.com/" target="_blank" title="">Insight Timer</a>. It’s free, and I am not getting paid to promote their app. I actually just really think anyone seeking to get into meditation would benefit from downloading it. Feel free to friend me on there too, to see what I'm meditating to. It also helps you track your progress. Since downloading the app (sometime in early 2019) I have meditated 1027 hours as of today and I am thankful for that time well spent. 
+The one thing that helped me in every area, a habit I started but did not practice as consistently since my last <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2019/04/12/growing-pains.html" target="_blank" title="Growing Pains blog post">post</a> was meditation. Meditation allowed me to love myself enough to want to change, and gave me the patience to tackle these things and get through the change. It helps me stay grounded in stressful situations. Meditating carries me through my depressive episodes and anxiety ridden moments. It helps me greatly when angry and grants me clarity and overall mindfulness. Meditation is a habit that took months to really get into. It is hard to start, but entirely worth the results. I use the timer and guided meditations on the app <a href="https://insighttimer.com/" target="_blank" title="">Insight Timer</a>. It’s free, and I am not getting paid to promote their app. I actually just really think anyone seeking to get into meditation would benefit from downloading it. Feel free to friend me on there too, to see what I'm meditating to. It also helps you track your progress. Since downloading the app (sometime in early 2019) I have meditated 1082 hours as of today and I am thankful for that time well spent. 
 
 Your mind is somewhere you spend a lot of time, so make it a nice place to be.
 
@@ -77,6 +77,6 @@ Thanks for reading!
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/08/02/Must-Have-Dev-Skills.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> delete this and repush on 9/6-->
+    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
 
   </div>
