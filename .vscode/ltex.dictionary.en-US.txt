@@ -3,4 +3,3 @@ Old-Fashisoned
 LinkedLists
 HashTables
 Imani
-age-appropiate
