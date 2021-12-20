@@ -847,6 +847,7 @@ th {
 
 @media (min-width: 769px) and (max-width: 1280px) {
 
+
   [class*="col-"] {
     width  : 100%;
     padding: 20px;
@@ -1009,9 +1010,10 @@ th {
   /* individual portfolio pages
 General */
   .project-container {
-    margin : 0px;
-    width  : 100%;
-    padding: 0;
+    font-size: 20px;
+    margin   : 0px;
+    width    : 100%;
+    padding  : 0;
 
   }
 
@@ -1021,9 +1023,11 @@ General */
   }
 
   .img-feedback {
-    padding-top: 10px;
-    width      : 100%;
-    height     : auto;
+    margin-top   : 50px;
+    margin-bottom: 20px;
+    padding-top  : 10px;
+    width        : 100%;
+    height       : auto;
   }
 
   .img-feedback:hover {
@@ -1273,6 +1277,7 @@ General */
   @media (min-width: 325px) and (max-width: 400px) {
 
 
+
     .footer-links-left {
       width: 40% !important;
     }
@@ -1309,9 +1314,10 @@ General */
   }
 
   .project-container {
-    margin : 0px;
-    width  : 100%;
-    padding: 0;
+    font-size: 20px;
+    margin   : 0px;
+    width    : 100%;
+    padding  : 0;
   }
 
   .description {
