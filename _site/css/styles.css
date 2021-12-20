@@ -1271,6 +1271,8 @@ General */
   }
 
   @media (min-width: 325px) and (max-width: 400px) {
+
+
     .footer-links-left {
       width: 40% !important;
     }
@@ -1318,9 +1320,11 @@ General */
   }
 
   .img-feedback {
-    padding-top: 10px;
-    width      : 100%;
-    height     : auto;
+    margin-top   : 50px;
+    margin-bottom: 20px;
+    padding-top  : 10px;
+    width        : 100%;
+    height       : auto;
   }
 
   .img-feedback:hover {
