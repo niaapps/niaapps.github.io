@@ -1418,6 +1418,88 @@ General */
   }
 }
 
+/* Fake Websites styles begin */
+/* Baked Goods V1 Begin */
+
+.nav-container {
+  display: inline;
+  width  : 100%;
+}
+
+.c-v1-header {
+  max-height      : 65px;
+  background-color: #0f1638;
+  position        : relative;
+  display         : inline-block;
+  width           : 100%;
+}
+
+.c-v1-header::after {
+  content: '';
+  display: table;
+  clear  : both;
+}
+
+.c-v1-nav ul {
+  top       : 0;
+  margin    : 0 0 0 150px;
+  padding   : 0;
+  list-style: none;
+}
+
+.c-v1-nav li {
+  padding-top: 8px;
+  display    : inline-block;
+  margin-left: 25px;
+  position   : relative;
+}
+
+.c-v1-nav a:hover {
+  color: #936e94;
+}
+
+.c-v1-nav a::before {
+  content         : '';
+  display         : block;
+  height          : 4px;
+  background-color: #ffffff;
+  position        : absolute;
+  top             : 0;
+  width           : 0%;
+  transition      : all ease-in-out 250ms;
+}
+
+.c-v1-nav a:hover::before {
+  width: 100%;
+}
+
+
+.c-v1-nav a {
+  margin         : 30px;
+  text-decoration: none;
+}
+
+.c-v1-nav {
+  position : relative;
+  width    : 100%;
+  top      : 25px;
+  left     : 40%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* .cannabody-vid {
+  width : 100%;
+  height: calc(100%-65px);
+} */
+
+.cb-logo {
+  display: inline;
+  padding: 25px;
+}
+
+/* Baked Goods V1 End */
+
 
 /*Css Debug */
 /* * {

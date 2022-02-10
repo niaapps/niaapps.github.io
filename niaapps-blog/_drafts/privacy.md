@@ -20,7 +20,7 @@ It is not fun! It feels like someone is watching over your shoulder. So today I 
 
 Internet privacy is how much of your personal information remains private when you are on the internet. This can include financial information, browsing history, and personal preferences. Internet privacy can also be referred to as digital privacy or online privacy. 
 
-We are constantly sharing data about ourselves on platforms we use. Google uses your birthday to make sure you get age-appropiate ads. When you like a photo on Instagram it will suggest similar ads containing products connected to it. When you visit a website you are sharing data: your location through IP, your habits (how long you spend on a page, what you click on etc.). Similarly, search engines collect both of these in addition to search history and cookies.
+We are constantly sharing data about ourselves on platforms we use. Google uses your birthday to make sure you get age-appropriate ads. When you like a photo on Instagram it will suggest similar ads containing products connected to it. When you visit a website you are sharing data: your location through IP, your habits (how long you spend on a page, what you click on etc.). Similarly, search engines collect both of these in addition to search history and cookies.
 
 Companies collect this data and create a "profile" on all of us to give them an idea on our preferences from social media to browsing, from shopping to political stances. Sometimes this data is sold to third parties, and sometimes it is used directly by the company, for say targeted ads. 
 
