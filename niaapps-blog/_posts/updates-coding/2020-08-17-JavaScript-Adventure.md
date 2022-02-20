@@ -10,7 +10,8 @@ categories: updates-coding
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 <link href="/css/syntax.css" rel="stylesheet">
-<style>#section-1 ul, #section-2 ul, #section-3 ul{list-style:none;} 
+<style>
+#section-1 ul, #section-2 ul, #section-3 ul{list-style:none;} 
 .slider {
   -webkit-appearance: none;
   width             : 220px;
@@ -192,7 +193,7 @@ The JS:
   output.innerHTML = slider.value;  
   slider.oninput = function() {
   output.innerHTML = this.value;
-  document.getElementById("post-text").style.fontSize = output.innerHTML;}
+  document.getElementById("post-text").style.fontSize = output.innerHTML + 'px';}
 </script>
 {% endhighlight %}
 </div>
@@ -204,13 +205,16 @@ So how does this work? Begin by setting a div's id to equal "post-text"(any text
 <input type="range" min="19" max="40" value="19" class="slider" id="font-range">
  </div>
 
+
 <script>
+ 
   var slider = document.getElementById("font-range");
   var output = document.getElementById("size");
   output.innerHTML = slider.value;  
   slider.oninput = function() {
   output.innerHTML = this.value;
-  document.getElementById("post-text").style.fontSize = output.innerHTML;}
+  document.getElementById("post-text").style.fontSize = output.innerHTML + 'px';}
+  
 </script>  
 
 <div id="post-text">Hi, this text will change size!</div>

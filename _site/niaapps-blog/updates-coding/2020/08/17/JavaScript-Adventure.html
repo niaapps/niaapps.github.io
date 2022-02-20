@@ -82,7 +82,8 @@
 </div>
 <link href="/css/syntax.css" rel="stylesheet" />
 
-<style>#section-1 ul, #section-2 ul, #section-3 ul{list-style:none;} 
+<style>
+#section-1 ul, #section-2 ul, #section-3 ul{list-style:none;} 
 .slider {
   -webkit-appearance: none;
   width             : 220px;
@@ -375,7 +376,7 @@
   <span class="nx">output</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">slider</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>  
   <span class="nx">slider</span><span class="p">.</span><span class="nx">oninput</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
   <span class="nx">output</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">post-text</span><span class="dl">"</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontSize</span> <span class="o">=</span> <span class="nx">output</span><span class="p">.</span><span class="nx">innerHTML</span><span class="p">;}</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">post-text</span><span class="dl">"</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">fontSize</span> <span class="o">=</span> <span class="nx">output</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">px</span><span class="dl">'</span><span class="p">;}</span>
 <span class="nt">&lt;/script&gt;</span>
 </pre></td></tr></tbody></table></code></pre></figure>
 
@@ -389,12 +390,14 @@
  </div>
 
 <script>
+ 
   var slider = document.getElementById("font-range");
   var output = document.getElementById("size");
   output.innerHTML = slider.value;  
   slider.oninput = function() {
   output.innerHTML = this.value;
-  document.getElementById("post-text").style.fontSize = output.innerHTML;}
+  document.getElementById("post-text").style.fontSize = output.innerHTML + 'px';}
+  
 </script>
 
 <div id="post-text">Hi, this text will change size!</div>
