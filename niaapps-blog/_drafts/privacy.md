@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Internet Privacy"
-date: 2021-11-26 08:00:00 -0400
+title: "The Right to be Forgotten - Internet Privacy"
+date: 2022-09-28 08:00:00 -0400
 categories: updates-coding updates-personal
 ---
 
@@ -9,7 +9,10 @@ categories: updates-coding updates-personal
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
-Hey readers! Today I am writing about a topic that everyone should care about. If you use the internet or social media daily, this one is for you! 
+
+Hey readers! 
+
+Today I am writing about a topic that everyone should care about. If you use the internet or social media daily, this one is for you! 
 <div class="mouse-over">(Don't we all?)</div>
 
 Have you ever been on social media, minding your business, when suddenly an ad that is just a little **_too_** personal pops up on your feed? 
@@ -52,12 +55,12 @@ Let's go over an example and breakdown each step. Pretend you are shopping for a
 Your internet browser, search engines and websites all store this information for as long as you let them, so be sure to clear your cookies and data when you need to. The downside to this is having to sign in manually, as the same data, like a saved user-name or password is also stored this way. Targeted ads that feel way too personal are the culmination of websites having a large amount of information on you. The right to be forgotten, or the right to internet privacy is something we should all care about especially  given that Trump signed into law a measure that <a href="https://www.aclu.org/issues/privacy-technology/internet-privacy/status-internet-privacy-legislation-state" target="_blank" title="ACLU article about Internet privacy">allows ISPs to </a><a href="https://www.nbcnews.com/news/us-news/trump-signs-measure-let-isps-sell-your-data-without-consent-n742316" target="_blank" title="NBC article about Trump's ISP measure">sell your data without consent</a> in April 2017. 
 
 
-In addition to the above, if you are on a social media site, your searches, data,and preferences can be used to draw up ads for your friends, or vice versa. If you have friends who are about the same age, or have some other similarity in data that an algorithm can make sense of, a targeted ad can be served. Companies are not listening to you, or reading your messages, but they are taking all of our combined information, piecing it together to serve ads that will make you cringe and feel watched.
+In addition to the above, if you are on a social media site, your searches, data, and preferences can be used to draw up ads for your friends, or vice versa. If you have friends who are about the same age, or have some other similarity in data that an algorithm can make sense of, a targeted ad can be served. Companies are not listening to you, or reading your messages, but they are taking all of our combined information, piecing it together to serve ads that will make you cringe and feel watched.
 
 &nbsp;&nbsp;&nbsp;
 ### What can you do?
 
-Unfortunately the only way to 100% avoid the tracking is to go offline completely. In this digital age especially with the pandemic it is especially hard to do this. From companies that check your Facebook before hiring to potential dates needing validation through Instagram that you are not a serial killer, going completely offline is not an option. 
+Unfortunately the only way to 100% avoid the tracking is to go offline completely. In this digital age especially with the pandemic it is especially hard to do this. From companies that check your Facebook before hiring, to potential dates needing validation through Instagram that you are not a serial killer, going completely offline is not an option. 
 
 #### Here are some things that you can do:
 > #### Use an ad blocker where you can
@@ -66,11 +69,11 @@ Online on my laptop I have an adblocker on all the time. The only time I get tar
 
 > #### Use private browsing mode
 
-All modern browsers have a private browsing mode which do not keep track of web history. If you are not going somewhere you'll likely need to revisit private browsing is an option. Social media info and search history can still be tracked but taking this step cannot hurt.
+All modern browsers have a private browsing mode which do not keep track of web history. If you are not going somewhere you'll likely need to revisit, private browsing is an option. Social media info and search history can still be tracked but taking this step cannot hurt.
 
 > #### Clear your cookies on a schedule
 
-As mentioned before clearing your cookies can really help, but is a hassle, to have to log in again on all your daily sites. But if you find you get targeted ads say 2-3 months after clearing your cookies, you now know it takes about 2-3 months before the algorithm has gained enough info about you to do its job, and that is your schedule. It will vary from person to person as how much information we share varies, which leads me to my next point
+As mentioned before clearing your cookies can really help, but is a hassle, to have to log in again on all your daily sites. But if you find you get targeted ads say 2-3 months after clearing your cookies, you now know it takes about 2-3 months before the algorithm has gained enough info about you to do its job, and that is your schedule. It will vary from person to person as how much information we share varies, which leads me to my next point...
 
 > #### Share less of your info online
 
@@ -85,7 +88,7 @@ Not all of them will honor it, but it doesn't hurt to try.
 On your social media sites you can limit the location data you share, and control specific ad settings. (I do so on Facebook and Instagram)
 
 
-Thank you and safe browsing to those who read this far.
+Thank you, and safe browsing to those who read this far.
 
 
 Here are some sources:
