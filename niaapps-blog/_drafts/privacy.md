@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "The Right to be Forgotten - Internet Privacy"
-date: 2022-09-28 08:00:00 -0400
+date: 2023-03-06 08:00:00 -0400
 categories: updates-coding updates-personal
 ---
 
 
 <div class="feed" markdown="1">
- [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
+ [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 
 Hey readers! 
@@ -21,7 +21,7 @@ Have you ever been on social media, minding your business, when suddenly an ad t
 
 It is not fun! It feels like someone is watching over your shoulder. So today I am going to answer the question: _"Why and how does this happen?"_
 
-Internet privacy is how much of your personal information remains private when you are on the internet. This can include financial information, browsing history, and personal preferences. Internet privacy can also be referred to as digital privacy or online privacy. 
+Internet privacy is how much of your personal information remains private when you are on the internet. This can include financial information, browsing history, and personal preferences. Internet privacy is also known as digital privacy or online privacy. 
 
 We are constantly sharing data about ourselves on platforms we use. Google uses your birthday to make sure you get age-appropriate ads. When you like a photo on Instagram it will suggest similar ads containing products connected to it. When you visit a website you are sharing data: your location through IP, your habits (how long you spend on a page, what you click on etc.). Similarly, search engines collect both of these in addition to search history and cookies.
 
@@ -65,7 +65,7 @@ Unfortunately the only way to 100% avoid the tracking is to go offline completel
 #### Here are some things that you can do:
 > #### Use an ad blocker where you can
 
-Online on my laptop I have an adblocker on all the time. The only time I get targeted ads is when on social media ads as discussed above. You can even find specific ad blockers for sites like youtube, and on your phone, work around apps that circumvent ads (ex: YoutubeVanced by XDA developers on Android). There are developers out there who also believe in the right to be forgotten, and the right to privacy, it just takes a little searching.
+When I'm online on my laptop I have an adblocker on all the time. The only time I get targeted ads is when I'm on social media apps on my phone as discussed above. You can even find specific ad blockers for sites like youtube, and for your phone: work around apps that circumvent ads (ex: YoutubeVanced by XDA developers on Android). There are developers out there who also believe in the right to be forgotten, and the right to privacy, it just takes a little searching.
 
 > #### Use private browsing mode
 

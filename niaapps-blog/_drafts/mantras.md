@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mantra Writing"
-date: 2022-09-30 12:00:00 -0400
+date: 2023-03-05 12:00:00 -0400
 categories: updates-personal 
 ---
 
@@ -52,7 +52,25 @@ The first step (and ideally if you are reading this you've already done so) is o
 </div>
 </blockquote>
 
-These are some example thoughts, but essentially you are looking and trying to observe thoughts that aren't helpful. None of the above are in a frame where they wish to address or fix the problem at hand, whether that problem is real, or percieved through a lens of anxiety. 
+These are some example thoughts, but essentially you are looking and trying to observe thoughts that aren't helpful. None of the above are in a frame where they wish to address or fix the problem at hand. None of these challenge whether that problem is real, or percieved through a lens of anxiety. 
+
+#### Reframing your thoughts
+
+<blockquote>
+<div class = "tab">
+<p><em>I'm so bad at ___.</em> would be a helpful thought as: <em>I have room to grow in this area.</em></p>
+
+<p><em>This situation would be better without me.</em> 
+<br>
+
+This thought has no truth to it. Has someone told you a situation is better without your presence? Or are you assuming this because you cannot see your own worth and impact? This is the kind of thought I would recognize and say "I don't have any proof that this thought it true" let it go and move on, but I understand that might be hard for someone new to building a better inner voice. 
+
+So a possbile rephrasing could be: <em>I will look for feedback about my position in this situation and move forward from there.</em> </p>
+
+<p><em>Useless... Why can't I do anything right?</em></p>
+</div>
+</blockquote>
+
 
 
 ### Ask yourself: What do you need more of in your life?
@@ -63,8 +81,8 @@ When I am sitting down to update or write new mantras I ask myself this question
 
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
-<div class="button-post">
+<!-- <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/08/02/Must-Have-Dev-Skills.html" class="post-button" id="button-nxt">Previous Post</a>
     <a href="" class="post-button" id="button-nxt">Next Post</a>
 
-  </div>
+  </div> -->
