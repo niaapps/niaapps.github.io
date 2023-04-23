@@ -26,14 +26,13 @@ categories: updates-personal
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 
-<!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
 
 Hello Readers!
 
-Today's post is something I've been wanting to write for a while. I have been working on my inner voice a lot, how I speak to myself. With my upbringing this voice used to be very negative, mean, and insulting. I have realized over time that things shouted at me as a child from my abuser became my normal internal monologue over time. Changing the way I speak to myself has been really freeing. When I mess up or have a moment that I need to grow in, I can now say I often opt to treat myself with grace, patience and understanding. Being mean to myself does not serve me in any way. It does not make the situation better, and it does not make me feel better. So I simply don't do it anymore. But how was able to change this behavior? That's what we'll jump into now :)
+Today's post is something I've been wanting to write for a while. I have been working on my inner voice a lot, specifically on how I speak to myself. Given my upbringing this voice used to be very negative, mean, and insulting. I have realized over time that things shouted at me as a child from my abuser became my normal internal monologue over time. Changing the way I speak to myself has been really freeing. When I mess up or have a moment that I need to grow in, I can now say I often opt to treat myself with grace, patience and understanding. Being mean to myself does not serve me in any way. It does not make the situation better, and it does not make me feel better. So I simply don't do it anymore. But hearing that, you might wonder how was able to change this behavior? That's what we'll jump into now :)
 
 
 ### Shifting and Improving your Inner Voice
@@ -52,7 +51,7 @@ The first step (and ideally if you are reading this you've already done so) is o
 </div>
 </blockquote>
 
-These are some example thoughts, but essentially you are looking and trying to observe thoughts that aren't helpful. None of the above are in a frame where they wish to address or fix the problem at hand. None of these challenge whether that problem is real, or percieved through a lens of anxiety. 
+These are some example thoughts, but essentially you are looking and trying to observe thoughts that aren't helpful. None of the above are in a frame where they wish to address or fix the problem at hand. None of these challenge whether that problem is real, or simply perceived through a lens of anxiety. 
 
 #### Reframing your thoughts
 
@@ -60,18 +59,16 @@ These are some example thoughts, but essentially you are looking and trying to o
 <div class = "tab">
 <p><em>I'm so bad at ___.</em> would be a helpful thought as: <em>I have room to grow in this area.</em></p>
 
-<p><em>This situation would be better without me.</em> 
+<p><em>This situation would be better without me.</em> can be rephrased to <em>I bring unique gifts to the table.</em>
 <br>
 
-This thought has no truth to it. Has someone told you a situation is better without your presence? Or are you assuming this because you cannot see your own worth and impact? This is the kind of thought I would recognize and say "I don't have any proof that this thought it true" let it go and move on, but I understand that might be hard for someone new to building a better inner voice. 
+This thought has no truth to it. Has someone told you a situation is better without your presence? Or are you assuming this because you cannot see your own worth and impact? This is the kind of thought I would recognize and say "I don't have any proof that this thought it true" let it go and move on, but I understand that might be hard for someone new to building a better inner voice. Another a possible, more neutral rephrasing could be: <em>I will look for feedback about my position in this situation and move forward from there.</em> </p>
 
-So a possbile rephrasing could be: <em>I will look for feedback about my position in this situation and move forward from there.</em> </p>
-
-<p><em>Useless... Why can't I do anything right?</em></p>
+<p><em>Useless... Why can't I do anything right?</em></p> becomes <em>I make mistakes because I'm human. My job is to learn from this experience.</em>
 </div>
 </blockquote>
 
-
+Observing your thoughts, questioning if they're true is an important skill to build. In the words of my wonderful therapist, "We are often our own worst critics." Recognizing this, and then clapping back to your bad thoughts, deciding if they are true or not is the first step. The second is coming up with a rephrasing, so when this thought or a similar one comes back -- because it will, your inner voice is something that needs training, it won't change in one thought. When those thoughts come back, you have a new affirmation, new mantra in your arsenal.
 
 ### Ask yourself: What do you need more of in your life?
 When I am sitting down to update or write new mantras I ask myself this question. 

@@ -22,7 +22,7 @@ body {
   padding              : 0px;
   font-family          : 'Work Sans', sans-serif;
   font-weight          : 400;
-  font-size            : 22px;
+  font-size            : 18px;
   background-image     : url('../images/bkg.jpeg');
   background-position  : right bottom;
   background-repeat    : repeat;
@@ -72,7 +72,7 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform : uppercase;
-  font-size      : 20px;
+  font-size      : 18px;
 }
 
 nav a:hover {
@@ -190,7 +190,7 @@ input[type=submit] {
   background-color           : #60407F;
   border-radius              : 4px;
   border                     : none;
-  font-size                  : 18px;
+  font-size                  : 15px;
   padding                    : 7px;
   -webkit-transition-duration: 0.4s;
   /* Safari */
@@ -670,7 +670,7 @@ footer ul {
   padding                    : 5px 10px;
   border-radius              : 4px;
   border                     : none;
-  font-size                  : 18px;
+  font-size                  : 15px;
   margin                     : 4px 2px;
   -webkit-transition-duration: 0.4s;
   /* Safari */
@@ -698,7 +698,7 @@ footer ul {
 }
 
 .wrapper-home li a {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .footer-post {
@@ -740,8 +740,7 @@ footer ul {
 }
 
 .feed a {
-  text-decoration: none;
-  color          : transparent;
+  display: none;
 }
 
 .feed a:hover {
@@ -806,7 +805,7 @@ footer ul {
 #post-type {
   color           : white;
   background-color: #000000;
-  font-size       : 20px;
+  font-size       : 18px;
   font-family     : 'Work Sans', sans-serif;
 }
 
@@ -863,6 +862,7 @@ th {
 
   .col-2 {
     overflow-x: hidden;
+    padding   : 10px;
   }
 
   nav a {
@@ -875,7 +875,6 @@ th {
 
   /* Index only */
   .home-title {
-    font-size  : 30px;
     font-weight: bolder;
   }
 
@@ -951,7 +950,6 @@ th {
   .blog-recent {
     padding-top: 20px;
     margin-left: 40px;
-    font-size  : 25px;
   }
 
   .footer-links-left {
@@ -1010,10 +1008,9 @@ th {
   /* individual portfolio pages
 General */
   .project-container {
-    font-size: 20px;
-    margin   : 0px;
-    width    : 100%;
-    padding  : 0;
+    margin : 0px;
+    width  : 100%;
+    padding: 0;
 
   }
 
@@ -1120,6 +1117,7 @@ General */
 
   nav a {
     font-size: 12.5px;
+    /* may have to edit */
   }
 
   nav li {
@@ -1186,6 +1184,7 @@ General */
   /* Index only */
   .home-title {
     font-size  : 30px;
+    /* may have to edit */
     font-weight: bolder;
   }
 
@@ -1272,6 +1271,7 @@ General */
     padding-top: 20px;
     margin-left: 40px;
     font-size  : 25px;
+    /* may have to edit */
   }
 
   @media (min-width: 325px) and (max-width: 400px) {
@@ -1314,10 +1314,9 @@ General */
   }
 
   .project-container {
-    font-size: 20px;
-    margin   : 0px;
-    width    : 100%;
-    padding  : 0;
+    margin : 0px;
+    width  : 100%;
+    padding: 0;
   }
 
   .description {

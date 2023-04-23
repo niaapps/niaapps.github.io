@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "The Right to be Forgotten - Internet Privacy"
-date: 2023-03-06 08:00:00 -0400
+date: 2023-04-28 12:00:00 -0400
 categories: updates-coding updates-personal
 ---
-
-
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
-
 Hey readers! 
 
 Today I am writing about a topic that everyone should care about. If you use the internet or social media daily, this one is for you! 
@@ -19,7 +16,7 @@ Have you ever been on social media, minding your business, when suddenly an ad t
 
 {insert reel}
 
-It is not fun! It feels like someone is watching over your shoulder. So today I am going to answer the question: _"Why and how does this happen?"_
+It's not fun! It feels like someone is watching over your shoulder. So today I am going to answer the question: _"Why and how does this happen?"_
 
 Internet privacy is how much of your personal information remains private when you are on the internet. This can include financial information, browsing history, and personal preferences. Internet privacy is also known as digital privacy or online privacy. 
 
@@ -39,9 +36,59 @@ Sites like Amazon will use your previous purchasing habits to find the perfect a
 > #### Search Engine Advertising
 Self explanatory, but ads are based on keywords that you type into search engines.
 
+By using these sites and apps you consent to this collection. I took a look at Twitter, Google and Etsy's Privacy Policies as examples to see how transparent they were about the collection. Most of this post is been about how this information is used, in this section I'm only highlighting _what_ is collected. 
+
+#### <a href="https://twitter.com/en/privacy#twitter-privacy-1" target="_blank" title="Twitter's Privacy Policy">Twitter</a>
+<div class="scale-img">
+  <img id="img-id" src="/../../images/twt-priv.png" alt="screenshot of Twitters Privacy Policy" width="500px" height="auto">
+</div>
+Twitter breaks up the data they collect on us into 3 categories (pictured above). Relevant to this post are 1.2 and 1.3. Twitter's policy warrants them to collect data about tweets you make and other content you post. They keep track of your lists, bookmarks, and communities you are a part of. They track your interactions with other users’ content, like retweets, likes, shares, replies. This even includes if other users mention or tag you in a post + vice versa. They monitor how you interact with others users on twitter:
+<blockquote>
+Usage Information. We collect information about your activity on Twitter, including:
+Tweets and other content you post (including the date, application, and version of Twitter) and information about your broadcast activity (e.g., TwitterLive or Spaces), including broadcasts you’ve created and when you created them, your lists, bookmarks, and communities you are a part of.<br><br>
+Your interactions with other users’ content, such as retweets, likes, shares, replies, if other users mention or tag you in content or if you mention or tag them, and broadcasts you’ve participated in (including your viewing history, listening, commenting, speaking, and reacting).
+<br><br>
+How you interact with others on the platform, such as people you follow and people who follow you, and when you use Direct Messages, including the contents of the messages, the recipients, and date and time of messages.
+
+</blockquote> 
+
+They also collect Device and Location information.
+
+#### <a href="https://www.etsy.com/legal/privacy#information" target="_blank" title="Etsy's Privacy Policy">Etsy</a>
+When you create an account on etsy you need to provide certain information to make a purchase and use their service, such as a valid email, your name, billing info and address. When creating an account you might also provide things like your birthday, or gender.
+From Etsy on what they collect:
+<blockquote>
+Automated Information: Etsy automatically receives and records information from your browser or your mobile device when you visit the Site, use the Apps, or use certain features of the Services, such as your IP address or unique device identifier, cookies, and data about which pages you visit and how you interact with those pages in order to allow us to operate and provide the Services.
+<br><br>
+Data from Advertising and Marketing Partners: As described below, Etsy receives information from our advertising and marketing partners about you. This information can include attribution information via cookies and UTM tags in URLs to determine where a visit to Etsy comes from, responses to marketing emails and advertisements, responses to offers, and audience information from partners who you have given consent to share that information with us. 
+</blockquote>
+Again, Location info is also collected by Etsy. Etsy says it's both for advertising and analytics.
+
+#### <a href="https://policies.google.com/privacy?hl=en-US#whycollect" target="_blank" title="Google's Privacy Policy">Google</a>
+Google wrote their privacy policy from the view of having and being signed into a google account to access their services like gmail or youtube. Unfortunately I could not find search - specific privacy policy, but they do assert they collect the terms you search:
+<blockquote>
+We collect information to provide better services to all our users — from figuring out basic stuff like which language you speak, to more complex things like which ads you’ll find most useful, the people who matter most to you online, or which YouTube videos you might like. The information Google collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.
+<br><br>
+When you’re not signed in to a Google Account, we store the information we collect with unique identifiers tied to the browser, application, or device you’re using. This allows us to do things like maintain your preferences across browsing sessions, such as your preferred language or whether to show you more relevant search results or ads based on your activity.
+<br><br>
+We collect information about your activity in our services, which we use to do things like recommend a YouTube video you might like. The activity information we collect may include:
+<ul>
+  <li>Terms you search for</li>
+  <li>Videos you watch</li>
+  <li>Views and interactions with content and ads</li>
+  <li>Voice and audio information</li>
+  <li>Purchase activity</li>
+  <li>People with whom you communicate or share content</li>
+  <li>Activity on third-party sites and apps that use our services</li>
+  <li>Chrome browsing history you’ve synced with your Google Account</li>
+  </ul>
+</blockquote>
+There you have it, a privacy policy example of one of each: social media advertising, behavioral advertising and search engine advertising. 
+
+
 &nbsp;&nbsp;&nbsp;
 ### The "How"
-There are some misconceptions about the "how". Companies cannot listen to you through your phone and then give you an ad for the thing you verbally said (The government is a different story, but I'll save that for another post.). Nonetheless, it feels _this_ invasive when a targeted ad is shown. 
+There are some misconceptions about the "how". Companies cannot listen to you through your phone and then give you an ad for the thing you verbally said (The government is a different story, but I'll save that for another time.) Nonetheless, it feels _this_ invasive when a targeted ad is shown. 
 
 Let's go over an example and breakdown each step. Pretend you are shopping for a reusable water bottle. 
 >You go to a retail website like Walmart.com or Amazon.com and a cookie is created associated with your computer. This includes you, your personal data and your location.
@@ -87,12 +134,16 @@ Not all of them will honor it, but it doesn't hurt to try.
 
 On your social media sites you can limit the location data you share, and control specific ad settings. (I do so on Facebook and Instagram)
 
+> #### Invest in a VPN
 
-Thank you, and safe browsing to those who read this far.
+Virtual Private Networks are used to hide your online identity, and create a protected network connection to the internet. It's an added step that can protect from third parties tracking your online activity and helps prevent other's from stealing your data.
 
+I am actually doing research for myself to choose one, but I know many people who use [NordVPN](https://nordvpn.com/), and in the past I've used a free version of [Avast](https://www.avast.com/en-us/secureline-vpn).
+
+Thank you, and safe browsing to those who read this far💜
 
 Here are some sources:
 
 ["Why Targeted Ads are the most brutal owns by Vox"](https://www.vox.com/the-goods/2018/9/25/17887796/facebook-ad-targeted-algorithm)
 
-[Is FB listening to me? by PHYS.org](https://phys.org/news/2019-06-facebook-ads.html)
+[Is FB listening to me? by PHYS.org](https://phys.org/news/2019-06-facebook-ads.html) <- get rid of. 
