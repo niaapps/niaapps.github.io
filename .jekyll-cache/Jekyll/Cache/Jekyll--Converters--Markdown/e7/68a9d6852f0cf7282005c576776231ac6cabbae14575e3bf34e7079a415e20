@@ -1,52 +1,54 @@
----
-layout: post
-title: "Template"
-date: 2022-08-31 12:00:00 -0400
-categories: updates-personal updates-coding
----
-
-<div class="thumbnail">
-  <img id="" src="/../../images/img.jpg" alt="">
+I"�<div class="thumbnail">
+  <img src="/../../images/img.jpg" alt="" />
   </div>
 <!-- HTML Meta Tags -->
-<meta name="description" content="">
+<meta name="description" content="" />
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-<meta property="og:image" content="">
+<meta property="og:url" content="https://niaapps.github.io/niaapps-blog/updates-coding/2021/07/15/INIT-Hackathon.html/" />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:title" content="" />
+
+<meta property="og:description" content="" />
+
+<meta property="og:image" content="" />
 
 <!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image" />
+
 <meta name="twitter:site" content="@niawillie" />
-<meta property="twitter:url" content="">
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="">
+
+<meta property="twitter:url" content="" />
+
+<meta name="twitter:title" content="" />
+
+<meta name="twitter:description" content="" />
+
+<meta name="twitter:image" content="" />
 
 <!-- Need to copy/paste to each post: Don't forget to change updates-personal or updates-coding-->
-<div class="feed" markdown="1">
- [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
+<div class="feed">
+  <p><a href="https://niaapps.github.io/niaapps-blog/updates-personal/2022/08/31/Template.html" title="Link to this post">For my email subscribers, please click here</a></p>
 </div>
 
 <!-- Make images responsive -->
 <div class="scale-img">
-  <img id="img-id" src="/../../images/img-title.jpg" alt="alt-text" width="500px" height="auto">
+  <img id="img-id" src="/../../images/img-title.jpg" alt="alt-text" width="500px" height="auto" />
 </div>
 
 <!-- Link example (opens new tab) -->
 
-<a href="" target="_blank" title="">Link Text</a>
+<p><a href="" target="_blank" title="">Link Text</a></p>
 
 <!-- Indent or white space -->
 
-&nbsp;&nbsp;&nbsp;
+<p>   </p>
 
 <!-- ex img w/ directory to root and discourage download pop up -->
 
-  <img id="img-id" src="/../../images/img-title.jpg" alt="alt text" onContextMenu="alert('Please don\'t download this photo!');return false;">
+<p><img id="img-id" src="/../../images/img-title.jpg" alt="alt text" oncontextmenu="alert('Please don\'t download this photo!');return false;" /></p>
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
@@ -54,13 +56,17 @@ categories: updates-personal updates-coding
     <a href="" class="post-button" id="button-nxt">Next Post</a>
   </div>
 
-For code include:
-<link href="/css/syntax.css" rel="stylesheet">
-<div class="code">
-{% highlight css linenos %} (replace css w/ language)
-{% endhighlight %}
-</div>
+<p>For code include:</p>
+<link href="/css/syntax.css" rel="stylesheet" />
 
+<div class="code">
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre> <span class="o">(</span><span class="nt">replace</span> <span class="nt">css</span> <span class="nt">w</span><span class="o">/</span> <span class="nt">language</span><span class="o">)</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+</div>
 
 <!-- This topic is especially important for the tough times we are living in. The other day I listened to a podcast called The Overdose Epidemic. The episode was about how a woman Imani, a victim of addiction who lost the in-person community and support she needed when lockdown was happening and how it took not only her life but many others lives as well.  From the podcast, the online experience just was not the same for many and as mentioned before being stuck inside only exacerbated this already tough transition period. Asking for help would potentially have saved them. Imani's mother has started an organization called Imani's Safehouse that aims to aid people like Imani facing mental health issues perpetuated by the racist patriarchal system we live in.  They do so by providing housing and other resources. I recently donated and would appreciate anyone who wants to match me. You can donate <a href="https://www.paypal.com/donate/?hosted_button_id=6Q2LABFG7DG34" target="_blank" title="Donate to Imani's safehouse">here.</a> You can listen to the podcast <a href="https://www.justhumanproductions.org/podcasts/epidemic/season-1-epidemic/s1e58-an-overdose-epidemic-deaths-of-despair-part-i-sandra-lindie-will-cooke-jennifer-fecu" target="_blank" title="">here.</a>  -->
 
+:ET

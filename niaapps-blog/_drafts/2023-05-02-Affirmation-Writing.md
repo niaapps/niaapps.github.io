@@ -104,7 +104,7 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <em>Maktub</em> - from one of my favorite books The Alchemist by Paulo Coelho. Translates to "It is written"
 <br>
 <br>
-<em>My success is inevitable</em> - from the lovely Bria Jones
+<em>My success is inevitable</em> - from the lovely <a href="https://www.youtube.com/@BriaJones" target="_blank" title="Bria Jones on Youtube">Bria Jones</a>
 <br>
 <br>
 ... And that's a wrap! Thank you for reading this far and let me know in the comments down below or on my insta what your favorite affirmation is. 
@@ -112,8 +112,8 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <!-- Leaving off here - add prev button to privacy and next button on privacy to this in a comment. Add links to The Alchemist and Bria Jones -->
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
-<!-- <div class="button-post">
-   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2021/08/02/Must-Have-Dev-Skills.html" class="post-button" id="button-nxt">Previous Post</a>
-    <a href="" class="post-button" id="button-nxt">Next Post</a>
+<div class="button-post">
+   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Previous Post</a>
+    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
 
-  </div> -->
+  </div>
