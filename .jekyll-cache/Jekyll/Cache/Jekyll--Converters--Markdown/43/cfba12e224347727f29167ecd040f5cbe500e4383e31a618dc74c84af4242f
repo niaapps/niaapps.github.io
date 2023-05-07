@@ -1,4 +1,4 @@
-I"Ú!<div class="thumbnail">
+I"Ý!<div class="thumbnail">
   <img src="/../../images/journal.jpg" alt="A person journaling" />
   </div>
 <!-- HTML Meta Tags -->
@@ -114,8 +114,7 @@ The affirmation for when I notice Iâ€™m dismissive or not listening is: <em>If I
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
-   <a href="http://localhost:4000/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Previous Post</a>
+   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Previous Post</a>
     <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
-
   </div>
 :ET

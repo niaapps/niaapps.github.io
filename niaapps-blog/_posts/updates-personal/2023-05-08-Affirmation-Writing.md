@@ -1,30 +1,30 @@
 ---
 layout: post
 title: "Affirmation Writing"
-date: 2023-05-02 12:00:00 -0400
+date: 2023-05-08 08:00:00 -0400
 categories: updates-personal 
 ---
 
 <div class="thumbnail">
-  <img id="" src="/../../images/journal.jpg" alt="A person journaling">
+  <img id="" src="https://niaapps.github.io/images/journal.jpg" alt="A person journaling">
   </div>
 <!-- HTML Meta Tags -->
 <meta name="description" content="Learn to clapback at your inner critic.">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://niaapps.github.io//niaapps-blog/updates-personal/2023/05/02/Affirmation-Writing.html">
+<meta property="og:url" content="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html">
 <meta property="og:type" content="website">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-<meta property="og:image" content="">
+<meta property="og:title" content="Affirmation Writing">
+<meta property="og:description" content="Learn to clapback at your inner critic.">
+<meta property="og:image" content="https://niaapps.github.io/images/journal.jpg">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@niawillie" />
-<meta property="twitter:url" content="">
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="">
+<meta property="twitter:url" content="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html">
+<meta name="twitter:title" content="Affirmation Writing">
+<meta name="twitter:description" content="Learn to clapback at your inner critic.">
+<meta name="twitter:image" content="https://niaapps.github.io/images/journal.jpg">
 
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-personal/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
@@ -95,7 +95,7 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <em>Money comes to me easily & frequently</em>
 <br>
 <br>
-<em>I know I am loved, protected and guided by my ancestors for my highest good</em>
+<em>I know I am loved, protected, and guided by my ancestors for my highest good</em>
 <br>
 <br>
 <em>I am open to shedding limiting beliefs</em>
@@ -113,7 +113,6 @@ To end off this post I thought I'd share some affirmations I've used before or t
 
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
-   <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
-
+   <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/09/06/Grow-Where-Planted.html" class="post-button" id="button-nxt">Previous Post</a>
+    <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Next Post</a> -->
   </div>

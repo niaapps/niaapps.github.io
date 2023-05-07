@@ -1,9 +1,31 @@
 ---
 layout: post
 title: "The Right to be Forgotten - Internet Privacy"
-date: 2023-04-28 12:00:00 -0400
+date: 2023-05-12 8:00:00 -0400
 categories: updates-coding
 ---
+
+<div class="thumbnail">
+  <img id="" src="https://niaapps.github.io/images/vpn.jpg" alt="A laptop with a VPN enabled">
+  </div>
+<!-- HTML Meta Tags -->
+<meta name="description" content="The right to Internet Privacy is dying.">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://niaapps.github.io/niaapps-blog/updates-coding/2023/05/12/Internet-Privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Right to be Forgotten - Internet Privacy">
+<meta property="og:description" content="The right to Internet Privacy is dying.">
+<meta property="og:image" content="https://niaapps.github.io/images/vpn.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@niawillie" />
+<meta property="twitter:url" content="https://niaapps.github.io/niaapps-blog/updates-coding/2023/05/12/Internet-Privacy.html">
+<meta name="twitter:title" content="The Right to be Forgotten - Internet Privacy">
+<meta name="twitter:description" content="The right to Internet Privacy is dying.">
+<meta name="twitter:image" content="https://niaapps.github.io/images/vpn.jpg">
+
 <div class="feed" markdown="1">
  [For my email subscribers, please click here](https://niaapps.github.io/niaapps-blog/updates-coding/{{page.date | date:"%Y/%m/%d/"}}{{page.slug}}.html "Link to this post")
 </div>
@@ -24,7 +46,7 @@ We are constantly sharing data about ourselves on platforms we use. Google uses 
 
 Companies collect this data and create a "profile" on all of us to give them an idea on our preferences from social media to browsing, from shopping to political stances. Sometimes this data is sold to third parties, and sometimes it is used directly by the company, for say targeted ads. 
 
-In addition to all of this, if you haven't disabled virtual assistants on your phone or other devices(think Siri, being able to say "Hey Google" or Alexa) your assistant <a href="https://nordvpn.com/blog/is-my-phone-listening-to-me/" target="_blank" title="">is constantly listening for a trigger word</a>. It should be treated as like a search engine. 
+In addition to all of this, if you haven't disabled virtual assistants on your phone or other devices(think Siri, being able to say "Hey Google" or Alexa) your assistant <a href="https://nordvpn.com/blog/is-my-phone-listening-to-me/" target="_blank" title="NordVPN's Is my phone listening to me?">is constantly listening for a trigger word</a>. It should be treated as like a search engine. 
 
 &nbsp;&nbsp;&nbsp;
 ### The "What"
@@ -67,7 +89,7 @@ Data from Advertising and Marketing Partners: As described below, Etsy receives 
 Again, Location info is also collected by Etsy. Etsy says it's both for advertising and analytics.
 
 #### <a href="https://policies.google.com/privacy?hl=en-US#whycollect" target="_blank" title="Google's Privacy Policy">Google</a>
-Google wrote their privacy policy from the view of having and being signed into a google account to access their services like gmail or youtube. Unfortunately I could not find search - specific privacy policy, but they do assert they collect the terms you search:
+Google wrote their privacy policy from the view of having and being logged into a Google account to access their services like gmail or youtube. Unfortunately I could not find search - specific privacy policy, but they do assert they collect the terms you search:
 <blockquote>
 We collect information to provide better services to all our users — from figuring out basic stuff like which language you speak, to more complex things like which ads you’ll find most useful, the people who matter most to you online, or which YouTube videos you might like. The information Google collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.
 <br><br>
@@ -138,7 +160,7 @@ On your social media sites you can limit the location data you share, and contro
 
 > #### Invest in a VPN
 
-Virtual Private Networks are used to hide your online identity, and create a protected network connection to the internet. It's an added step that can protect from third parties tracking your online activity and helps prevent other's from stealing your data.
+Virtual Private Networks are used to hide your online identity, and create a protected network connection to the internet. It's an added step that can protect from third parties tracking your online activity and helps prevent others from stealing your data.
 
 I am actually doing research for myself to choose one, but I know many people who use [NordVPN](https://nordvpn.com/), and in the past I've used a free version of [Avast](https://www.avast.com/en-us/secureline-vpn).
 
@@ -151,7 +173,7 @@ Here are some sources:
 
 
 <div class="button-post">
-   <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/09/06/Grow-Where-Planted.html" class="post-button" id="button-nxt">Previous Post</a>
-    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/02/Affirmation-Writing.html" class="post-button" id="button-nxt">Next Post</a>
+   <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html" class="post-button" id="button-nxt">Previous Post</a>
+    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
 
   </div>
