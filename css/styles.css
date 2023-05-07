@@ -1398,6 +1398,7 @@ General */
 }
 
 /* End of mobile resize */
+
 /* Big screen Zoom */
 @media screen and (min-width: 1400px) {
   html {
@@ -1414,6 +1415,10 @@ General */
 @media screen and (min-width: 1900px) {
   html {
     zoom: 100%;
+  }
+
+  nav ul {
+    margin-left: 250px;
   }
 }
 
