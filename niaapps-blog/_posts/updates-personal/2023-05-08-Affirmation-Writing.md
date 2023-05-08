@@ -63,13 +63,13 @@ Even if you are bad at something, you are worthy of your own patience and grace,
 <br>
 <p><em>This situation would be better without me.</em> can be rephrased to <em>I bring unique gifts to the table.</em>
 <br>
-This thought has no truth to it. Has someone told you a situation is better without your presence? Or are you assuming this because you cannot see your own worth and impact? This is the kind of thought I would recognize and say "I don't have any proof that this thought it true" let it go and move on, but I understand that might be hard for someone new to building a better inner voice. Another a possible, more neutral rephrasing could be: <em>I will look for feedback about my position in this situation and move forward from there.</em> </p>
+This thought has no truth to it. Has someone told you a situation is better without your presence? Or are you assuming this because you cannot see your own worth and impact? This is the kind of thought I would recognize and say "I don't have any proof that this thought is true" let it go and move on. I understand that might be hard for someone new to building a better inner voice. Another a possible, more neutral rephrasing could be: <em>I will look for feedback about my position in this situation and move forward from there.</em> </p>
 
 <p><em>Useless... Why can't I do anything right? </em> becomes <em>I make mistakes because I'm human. My job is to learn from this experience.</em></p>
 </div>
 </blockquote>
 
-Observing your thoughts, questioning if they're true is an important skill to build. In the words of my wonderful new therapist, "We are often our own worst critics." Recognizing this, and then clapping back to your bad thoughts, deciding if they are true or not is the first step. The second is coming up with a rephrasing, so when this thought or a similar one comes back -- because it will, your inner voice is something that needs training, it won't change in one thought. When those thoughts come back, you have a new affirmation, in your arsenal.
+Observing your thoughts, questioning if they're true is an important skill to build. In the words of my wonderful new therapist, "We are often our own worst critics." Recognizing this, and then clapping back to your bad thoughts, deciding if they are true or not is the first step. The second is coming up with a rephrasing, so when this thought or a similar one comes back -- because it will, your inner voice is something that needs training, it won't change in one thought. When those thoughts come back, it's helpful to have a new affirmation, in your arsenal.
 
 ### Ask yourself: What do you need more of in your life?
 When I am sitting down to update or write new affirmations I ask myself this question. Let it be your compass, so to speak.
@@ -101,7 +101,7 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <em>I am open to shedding limiting beliefs</em>
 <br>
 <br>
-<em>Maktub</em> - from one of my favorite books The Alchemist by Paulo Coelho. Translates to "It is written"
+<em>Maktub</em> - from one of my favorite books, The Alchemist by Paulo Coelho. Translates to "It is written"
 <br>
 <br>
 <em>My success is inevitable</em> - from the lovely <a href="https://www.youtube.com/@BriaJones" target="_blank" title="Bria Jones on Youtube">Bria Jones</a>
@@ -114,5 +114,5 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/09/06/Grow-Where-Planted.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/04/28/Internet-Privacy.html" class="post-button" id="button-nxt">Next Post</a> -->
+    <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/05/12/Internet-Privacy.html" class="post-button" id="button-nxt">Next Post</a> -->
   </div>
