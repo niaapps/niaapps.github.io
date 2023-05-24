@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Right to be Forgotten - Internet Privacy"
-date: 2023-05-24 8:00:00 -0400
+date: 2023-05-24 7:45:00 -0400
 categories: updates-coding
 ---
 
