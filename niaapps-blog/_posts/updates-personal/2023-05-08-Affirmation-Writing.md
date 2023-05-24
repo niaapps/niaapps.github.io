@@ -114,5 +114,5 @@ To end off this post I thought I'd share some affirmations I've used before or t
 <!-- Buttons for Blog post update prev with last post regularly don't forget date and title-->
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2021/09/06/Grow-Where-Planted.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/05/12/Internet-Privacy.html" class="post-button" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-coding/2023/05/24/Internet-Privacy.html" class="post-button" id="button-nxt">Next Post</a>
   </div>
