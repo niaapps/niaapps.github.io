@@ -1,4 +1,4 @@
-I"�C<div class="thumbnail">
+I"]D<div class="thumbnail">
   <img src="https://niaapps.github.io/images/vpn.jpg" alt="A laptop with a VPN enabled" />
   </div>
 <!-- HTML Meta Tags -->
@@ -38,7 +38,7 @@
 
 <p>Have you ever been on social media, minding your business, when suddenly an ad that is just a little <strong><em>too</em></strong> personal pops up on your feed?</p>
 
-<video width="320" height="180" controls="">
+<video controls="" class="reels">
   <source src="/video/privacy.mp4" type="video/mp4" />
   <source src="/video/privacy.ogg" type="video/ogg" />
 Your browser does not support the video tag.
@@ -52,7 +52,7 @@ Your browser does not support the video tag.
 
 <p>Companies collect this data and create a “profile” on all of us to give them an idea on our preferences from social media to browsing, from shopping to political stances. Sometimes this data is sold to third parties, and sometimes it is used directly by the company, for say targeted ads.</p>
 
-<p>In addition to all of this, if you haven’t disabled virtual assistants on your phone or other devices(think Siri, being able to say “Hey Google” or Alexa) your assistant <a href="https://nordvpn.com/blog/is-my-phone-listening-to-me/" target="_blank" title="NordVPN's Is my phone listening to me?">is constantly listening for a trigger word</a>. It should be treated as like a search engine.</p>
+<p>In addition to all of this, if you haven’t disabled virtual assistants on your phone or other devices(think Siri, being able to say “Hey Google” or Alexa) your assistant <a href="https://nordvpn.com/blog/is-my-phone-listening-to-me/" target="_blank" title="NordVPN's Is my phone listening to me?">is constantly listening for a trigger word</a>. It should be treated as a search engine.</p>
 
 <p>   </p>
 <h3 id="the-what">The “What”</h3>
@@ -197,8 +197,10 @@ Not all of them will honor it, but it doesn’t hurt to try.</p>
 
 <p>Here are some sources:</p>
 
-<p><a href="https://www.vox.com/the-goods/2018/9/25/17887796/facebook-ad-targeted-algorithm" target="_blank" title="Vox Article about targeted ads">Why Targeted Ads are the most brutal owns by Vox</a>
+<p><a href="https://www.vox.com/the-goods/2018/9/25/17887796/facebook-ad-targeted-algorithm" target="_blank" title="Vox Article about targeted ads">Why Targeted Ads are the most brutal owns by Vox</a><br />
 <a href="https://phys.org/news/2019-06-facebook-ads.html" target="_blank" title="2019 article about social media &quot;listening&quot; to you">Is FB listening to me? by PHYS.org</a></p>
+
+<p>Also for possible further reading, you may be interested in learning more about how companies use <a href="https://www.deceptive.design/" target="_blank" title="">deceptive design</a>.</p>
 
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html" class="post-button" id="button-nxt">Previous Post</a>

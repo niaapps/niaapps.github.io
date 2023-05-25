@@ -147,6 +147,11 @@ nav {
   height           : auto;
 }
 
+#reels {
+  width : 800px;
+  height: 450px;
+}
+
 .content {
   position     : fixed;
   margin-top   : 150px;
@@ -1230,6 +1235,11 @@ General */
 
   }
 
+
+  #reels {
+    height: 170px;
+    width : 300px;
+  }
 
   .abt-container {
     text-align   : initial;

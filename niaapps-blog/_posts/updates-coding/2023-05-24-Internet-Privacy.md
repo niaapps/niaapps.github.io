@@ -36,7 +36,8 @@ Today I am writing about a topic that everyone should care about. If you use the
 
 Have you ever been on social media, minding your business, when suddenly an ad that is just a little **_too_** personal pops up on your feed? 
 
-<video width="800" height="450" controls>
+
+<video controls id="reels">
   <source src="/video/privacy.mp4" type="video/mp4">
   <source src="/video/privacy.ogg" type="video/ogg">
 Your browser does not support the video tag.
