@@ -7,3 +7,4 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qevent → outcome → reaction\nYour reaction should be determined by the outcome you want, not the event.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QI was diagnosed in 2013 and I honestly don't really talk about it a lot with those I'm not close to.\\E$"}
 {"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QWithout self-love you let yourself stay in situations you shouldn't, maybe out of comfort, or apathy.\\E$"}
+{"rule":"IF_WOULD_HAVE_VBN","sentence":"^\\QIf alive he would have been about 100 next year.\\E$"}

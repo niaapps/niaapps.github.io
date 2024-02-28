@@ -180,6 +180,6 @@ Also for possible further reading, you may be interested in learning more about 
 
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2024/02/28/BHM.html" class="post-button" id="button-nxt">Next Post</a>
 
   </div>
