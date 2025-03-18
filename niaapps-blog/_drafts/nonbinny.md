@@ -48,17 +48,7 @@ If it's not the clothes, the expected behaviors, or the biology what is it? I am
 x
 Touch on the idea that being non-binary is decolonized identity, other cultures often have a third+ genders, Muxes, 2S etc hjira
 
-# 5 trans and/or non-binary people you should follow.
+# 5 trans and/or non-binary people I'm grateful for
+itskemimarie
 
 
-August Tang?
-
-Emilyn?
-
-Joan?
-
-Shahnem
-
-Logan Grendel
-
-Iris
