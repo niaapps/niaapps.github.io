@@ -12,8 +12,8 @@ categories: updates-personal updates-coding
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="title">
+<meta property="og:type" content="https://niaapps.github.io/">
+<meta property="og:title" content="your title here">
 <meta property="og:description" content="Short description">
 <meta property="og:image" content="https://niaapps.github.io/images/image-name.jpg">
 
@@ -21,7 +21,7 @@ categories: updates-personal updates-coding
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@niawillie" />
 <meta property="twitter:url" content="url for this post">
-<meta name="twitter:title" content="title">
+<meta name="twitter:title" content="your title here">
 <meta name="twitter:description" content="Short description">
 <meta name="twitter:image" content="https://niaapps.github.io/images/image-name.jpg">
 

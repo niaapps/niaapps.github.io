@@ -1,4 +1,4 @@
-I"ZD<div class="thumbnail">
+I"œD<div class="thumbnail">
   <img src="https://niaapps.github.io/images/vpn.jpg" alt="A laptop with a VPN enabled" />
   </div>
 <!-- HTML Meta Tags -->
@@ -204,7 +204,7 @@ Not all of them will honor it, but it doesnâ€™t hurt to try.</p>
 
 <div class="button-post">
    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2023/05/08/Affirmation-Writing.html" class="post-button" id="button-nxt">Previous Post</a>
-    <!-- <a href="" class="post-button" id="button-nxt">Next Post</a> -->
+    <a href="https://niaapps.github.io/niaapps-blog/updates-personal/2024/02/28/BHM.html" class="post-button" id="button-nxt">Next Post</a>
 
   </div>
 :ET

@@ -219,8 +219,8 @@ input[type=submit]:hover {
 }
 
 .about-img {
-  widows       : 314px;
-  height       : 415px;
+  width        : 275px;
+  height       : auto;
   float        : left;
   margin-left  : 30px;
   margin-right : 20px;
@@ -328,6 +328,11 @@ footer ul {
 /*Any paragraph*/
 .tab {
   text-indent: 20px;
+}
+
+
+.space {
+  min-height: fit-content;
 }
 
 /*Contact Page*/
@@ -473,7 +478,6 @@ footer ul {
 .button-div {
   padding-top: 20%;
   margin-left: 30rem;
-
 }
 
 .button-div a {
